@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 public class VisionCone : MonoBehaviour
 {
-//Dit scr
     public float viewAngle = 30f;  // Hoek van de zichtkegel
     public float viewDistance = 1f; // Hoe ver de vijand kan zien
     public int segments = 10;  // Hoe gedetailleerd de mesh is
@@ -21,8 +20,8 @@ public class VisionCone : MonoBehaviour
         col = GetComponent<MeshCollider>();
 
         MeshRenderer renderer = GetComponent<MeshRenderer>();
-        renderer.material = new Material(Shader.Find("Unlit/Color"));
-        renderer.material.color = new Color(1f, 1f, 1f, 0.5f);
+        //renderer.material = new Material(Shader.Find("Unlit/Color"));
+        //renderer.material.color = new Color(1f, 1f, 1f, 0.1f);
         player = GameObject.FindWithTag("Player");
     }
 
@@ -51,6 +50,7 @@ public class VisionCone : MonoBehaviour
         mesh.vertices = vertices.ToArray();
         mesh.triangles = triangles.ToArray();
         mesh.RecalculateNormals();
+
     }
 
 
