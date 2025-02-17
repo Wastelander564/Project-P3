@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour
@@ -122,12 +121,23 @@ public class PlayerController : MonoBehaviour
         return targetPosition;
     }
 
+    // Method to set the move speed (called by SlowZone)
+    public void SetMoveSpeed(float newSpeed)
+    {
+        moveSpeed = newSpeed;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = other.transform;
             vaultPromptUI.SetActive(true); // Show prompt when near vaultable object
+        }
+        else if (other.CompareTag("SlowZone"))
+        {
+            // When entering slow zone, set the speed to slow speed
+            SetMoveSpeed(slowSpeed);
         }
     }
 
@@ -136,7 +146,12 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = null;
-            vaultPromptUI.SetActive(false); // Hide prompt when leaving
+            vaultPromptUI.SetActive(false); // Hide prompt when leaving vaultable object
+        }
+        else if (other.CompareTag("SlowZone"))
+        {
+            // When exiting slow zone, revert back to normal speed
+            SetMoveSpeed(normalSpeed);
         }
     }
 }
