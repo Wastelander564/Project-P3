@@ -15,9 +15,14 @@ public class PlayerController : MonoBehaviour
     private Transform vaultableObject;
 
     public GameObject vaultPromptUI; // Assign the VaultPrompt UI Image in the Inspector
+    private Rigidbody2D rb; // Rigidbody2D for proper physics-based movement
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>(); // Get Rigidbody2D component
+        rb.gravityScale = 0; // Make sure the player doesn't fall
+        rb.freezeRotation = true; // Prevent weird rotations
+
         moveSpeed = normalSpeed;
         vaultPromptUI.SetActive(false); // Hide at start
     }
@@ -27,12 +32,19 @@ public class PlayerController : MonoBehaviour
         if (!isVaulting)
         {
             HandleSpeedModifiers();
-            Move();
         }
 
         if (Input.GetKeyDown(KeyCode.V) && vaultableObject != null && !isVaulting)
         {
             StartCoroutine(VaultOverObject(vaultableObject));
+        }
+    }
+
+    private void FixedUpdate() // Use FixedUpdate for Rigidbody movement
+    {
+        if (!isVaulting)
+        {
+            Move();
         }
     }
 
@@ -59,10 +71,8 @@ public class PlayerController : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
 
-        Vector3 moveDirection = new Vector3(moveX, moveY, 0f).normalized;
-        Vector3 newPosition = transform.position + moveDirection * moveSpeed * Time.deltaTime;
-
-        transform.position = newPosition;
+        Vector2 moveDirection = new Vector2(moveX, moveY).normalized;
+        rb.velocity = moveDirection * moveSpeed; // Smooth movement with Rigidbody2D
     }
 
     IEnumerator VaultOverObject(Transform vaultable)
@@ -121,7 +131,6 @@ public class PlayerController : MonoBehaviour
         return targetPosition;
     }
 
-    // Method to set the move speed (called by SlowZone)
     public void SetMoveSpeed(float newSpeed)
     {
         moveSpeed = newSpeed;
@@ -136,7 +145,6 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag("SlowZone"))
         {
-            // When entering slow zone, set the speed to slow speed
             SetMoveSpeed(slowSpeed);
         }
     }
@@ -150,7 +158,6 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag("SlowZone"))
         {
-            // When exiting slow zone, revert back to normal speed
             SetMoveSpeed(normalSpeed);
         }
     }
