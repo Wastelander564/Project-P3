@@ -13,19 +13,36 @@ public class PlayerController : MonoBehaviour
     private bool isSlowWalking = false;
     private bool isVaulting = false;
     private Transform vaultableObject;
+     public float tiltSpeed = 5f; 
 
-    public GameObject vaultPromptUI; // Assign the VaultPrompt UI Image in the Inspector
-    private Rigidbody2D rb; // Rigidbody2D for proper physics-based movement
+    public GameObject vaultPromptUI; 
+    private Rigidbody2D rb; 
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // Get Rigidbody2D component
-        rb.gravityScale = 0; // Make sure the player doesn't fall
-        rb.freezeRotation = true; // Prevent weird rotations
+        rb = GetComponent<Rigidbody2D>(); 
+        rb.gravityScale = 0; 
+        rb.freezeRotation = true; 
 
         moveSpeed = normalSpeed;
-        vaultPromptUI.SetActive(false); // Hide at start
+        vaultPromptUI.SetActive(false); 
     }
+
+
+void TiltCamera()
+{
+    float targetTiltX = Input.GetAxisRaw("Horizontal") * 2f;
+    float targetTiltY = Input.GetAxisRaw("Vertical") * 2f;
+
+    Quaternion targetRotation = Quaternion.Euler(targetTiltY, targetTiltX, 0);
+    
+    Camera.main.transform.localRotation = Quaternion.Lerp(
+        Camera.main.transform.localRotation, 
+        targetRotation, 
+        Time.deltaTime * tiltSpeed
+    );
+}
+
 
     private void Update()
     {
@@ -38,9 +55,11 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(VaultOverObject(vaultableObject));
         }
+
+        TiltCamera(); 
     }
 
-    private void FixedUpdate() // Use FixedUpdate for Rigidbody movement
+    private void FixedUpdate() 
     {
         if (!isVaulting)
         {
@@ -68,17 +87,23 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        if (moveX == 0 && moveY == 0)
+        {
+            rb.velocity = Vector2.zero; 
+            return;
+        }
 
         Vector2 moveDirection = new Vector2(moveX, moveY).normalized;
-        rb.velocity = moveDirection * moveSpeed; // Smooth movement with Rigidbody2D
+        rb.velocity = moveDirection * moveSpeed; 
     }
 
     IEnumerator VaultOverObject(Transform vaultable)
     {
         isVaulting = true;
-        vaultPromptUI.SetActive(false); // Hide prompt while vaulting
+        vaultPromptUI.SetActive(false); 
 
         Vector3 startPos = transform.position;
         Vector3 vaultTarget = GetVaultTargetPosition(vaultable);
@@ -141,7 +166,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = other.transform;
-            vaultPromptUI.SetActive(true); // Show prompt when near vaultable object
+            vaultPromptUI.SetActive(true); 
         }
         else if (other.CompareTag("SlowZone"))
         {
@@ -154,7 +179,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = null;
-            vaultPromptUI.SetActive(false); // Hide prompt when leaving vaultable object
+            vaultPromptUI.SetActive(false); 
         }
         else if (other.CompareTag("SlowZone"))
         {
