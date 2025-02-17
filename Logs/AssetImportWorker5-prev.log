@@ -1,0 +1,403 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.52f1 (1120fcb54228) revision 1122556'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'nl' Physical Memory: 14198 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+58427
+Successfully changed project path to: C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [65884]  Target information:
+
+Player connection [65884]  * "[IP] 10.32.99.83 [Port] 0 [Flags] 2 [Guid] 2719877158 [EditorId] 2719877158 [Version] 1048832 [Id] WindowsEditor(7,LaptopDMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [65884] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [65884] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 15.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.52f1 (1120fcb54228)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danib/OneDrive/Documents/GitHub/Project-P3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7099 MB
+    Driver:   31.0.12044.47003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010302 seconds.
+- Loaded All Assemblies, in  0.413 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 415 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (785ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (735ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (534ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1408ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (706ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.8 KB). Loaded Objects now: 3581.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 3.831900 ms (FindLiveObjects: 0.285100 ms CreateObjectMapping: 0.274200 ms MarkObjects: 3.145000 ms  DeleteObjects: 0.126700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 587947.947299 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.c.png
+  artifactKey: Guid(d7d12530c5e857d40a0a1d85aac1e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.c.png using Guid(d7d12530c5e857d40a0a1d85aac1e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '247ab674048a731dff9743f9ef48597e') in 0.154715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 3.c.png
+  artifactKey: Guid(909faa80bdd8bc94c85233fb458ed0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 3.c.png using Guid(909faa80bdd8bc94c85233fb458ed0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72a13dba0cdf56f820bf5604de40a528') in 0.027960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Large - Lit.png
+  artifactKey: Guid(5448da3586c9afc40a4bd35884f2b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Large - Lit.png using Guid(5448da3586c9afc40a4bd35884f2b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afa7aa8bd5d37b537a1f74a0b62b48d1') in 0.028263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle - Large - Unlit.png
+  artifactKey: Guid(b0470df47ac04074384d0e919676fc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle - Large - Unlit.png using Guid(b0470df47ac04074384d0e919676fc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29bf3c97577c8ca301ca6da4f3085bec') in 0.026437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle - Small - Unlit.png
+  artifactKey: Guid(c2fa85f46e840cc438e68000ec09c913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle - Small - Unlit.png using Guid(c2fa85f46e840cc438e68000ec09c913) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93750a9d4bfa5b770c4e6e02bc211c4a') in 0.024661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 3.b.png
+  artifactKey: Guid(5fea7515543dbbc45b2ec796959fafb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 3.b.png using Guid(5fea7515543dbbc45b2ec796959fafb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd71d0abbbe7c685c126282b47d9b5d26') in 0.031882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.455700 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Telescope - Ladder - Light.png
+  artifactKey: Guid(ffbdb8ada0162024389605524cd08201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Telescope - Ladder - Light.png using Guid(ffbdb8ada0162024389605524cd08201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2fde4c9a75ec40b2eec52bd1d2080195') in 0.031565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.a.png
+  artifactKey: Guid(5a11473817274124485ebea0f7f12a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.a.png using Guid(5a11473817274124485ebea0f7f12a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e77ab7002559eb520f8fa78a068de48') in 0.024294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.875318 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Lit.png
+  artifactKey: Guid(151a0877ac7c80645ac465b609a90153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Lit.png using Guid(151a0877ac7c80645ac465b609a90153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd7d9c23f7b94600f325a4cf2bc748a6d') in 0.020480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Small - Unlit.png
+  artifactKey: Guid(f14c397a55ee62a4cbaa69a2d7daa4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Small - Unlit.png using Guid(f14c397a55ee62a4cbaa69a2d7daa4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e7ed1e1a6aa3554562da4dffe01de5e') in 0.025157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.554726 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier - Antler - Lit.png
+  artifactKey: Guid(c00621f648890ab43b998dddfa227d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier - Antler - Lit.png using Guid(c00621f648890ab43b998dddfa227d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a283e32f66ca69cb9c77b9c91d825774') in 0.029961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier - Antler - Lit.png
+  artifactKey: Guid(daa19314f1f47f64a9b8cca05c4b5cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier - Antler - Lit.png using Guid(daa19314f1f47f64a9b8cca05c4b5cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e7c6fb2e8af0d5d661d911ad228dcb98') in 0.029026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 2 - Lit - Iron.png
+  artifactKey: Guid(b3acf26e37382d647b4ffd166622dffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 2 - Lit - Iron.png using Guid(b3acf26e37382d647b4ffd166622dffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0427ee42f6c084e40cdd25b926e6fc9') in 0.031667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Lit - Iron.png
+  artifactKey: Guid(1c048757f0ab3424e9e9025452cecf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Lit - Iron.png using Guid(1c048757f0ab3424e9e9025452cecf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '377723e816feeea9879c717930648ee1') in 0.029954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 3 - Lit - Gold.png
+  artifactKey: Guid(230b642d611147242a34c098904e7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 3 - Lit - Gold.png using Guid(230b642d611147242a34c098904e7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2092e10fa393b3cd447ff052ae7590ab') in 0.029451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 3 - Lit - Gold.png
+  artifactKey: Guid(db9bcca543ec6584ba21fc1879a52b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 3 - Lit - Gold.png using Guid(db9bcca543ec6584ba21fc1879a52b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '513f4cdb8a9fb9be2e8cf1bf42b795fd') in 0.031002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Unlit - Iron.png
+  artifactKey: Guid(358673cac7ef1414a85d1db52603fc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Unlit - Iron.png using Guid(358673cac7ef1414a85d1db52603fc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16b4c36208b1c2f3944d918e00d8cddf') in 0.046418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.395271 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 4 - Unlit - Iron.png
+  artifactKey: Guid(f9a1494ce2c3aec49859d42f804518d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 4 - Unlit - Iron.png using Guid(f9a1494ce2c3aec49859d42f804518d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd03b184e18bff7184cd946351c324e61') in 0.021961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Unlit.png
+  artifactKey: Guid(9e0af6bb7d60a7048b76786bbb0816c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Unlit.png using Guid(9e0af6bb7d60a7048b76786bbb0816c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f738d42630e675f659e949db9517a97') in 0.024190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Lit.png
+  artifactKey: Guid(c9e9377136ed26142a88676767dd5763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Lit.png using Guid(c9e9377136ed26142a88676767dd5763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abe1cf86b5dd26a538d7cd48f4ec3e57') in 0.027287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.290645 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Stand - Unlit - Iron.png
+  artifactKey: Guid(b8deaca39832d5b499850cc76530529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Stand - Unlit - Iron.png using Guid(b8deaca39832d5b499850cc76530529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b788055b543e916562a118cd5998289d') in 0.024477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: De I/O-bewerking is afgebroken vanwege het afsluiten van een thread of vanwege een opdracht van een toepassing.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

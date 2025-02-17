@@ -1,0 +1,2585 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.52f1 (1120fcb54228) revision 1122556'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'nl' Physical Memory: 14198 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58427
+Successfully changed project path to: C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [76756]  Target information:
+
+Player connection [76756]  * "[IP] 10.32.99.83 [Port] 0 [Flags] 2 [Guid] 1273313313 [EditorId] 1273313313 [Version] 1048832 [Id] WindowsEditor(7,LaptopDMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [76756] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [76756] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 2861.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.52f1 (1120fcb54228)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danib/OneDrive/Documents/GitHub/Project-P3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7099 MB
+    Driver:   31.0.12044.47003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010333 seconds.
+- Loaded All Assemblies, in 11.478 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 851 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.614 seconds
+Domain Reload Profiling: 13089ms
+	BeginReloadAssembly (9448ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (559ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1374ms)
+		LoadAssemblies (9443ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1371ms)
+			TypeCache.Refresh (1368ms)
+				TypeCache.ScanAssembly (1191ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1243ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.748 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.086 seconds
+Domain Reload Profiling: 5829ms
+	BeginReloadAssembly (649ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (3947ms)
+		LoadAssemblies (3741ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (754ms)
+			TypeCache.Refresh (717ms)
+				TypeCache.ScanAssembly (568ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1086ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (808ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 14.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3581.
+Memory consumption went from 119.5 MB to 119.5 MB.
+Total: 6.738100 ms (FindLiveObjects: 0.710200 ms CreateObjectMapping: 0.222800 ms MarkObjects: 5.659400 ms  DeleteObjects: 0.143600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ec7ae33583a9aae98e38fe2f2aa5dc42 -> 5fa1293e600a6cf5a241d016103574b3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.858 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.288 seconds
+Domain Reload Profiling: 3140ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (573ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2289ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (735ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (541ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3584.
+Memory consumption went from 118.2 MB to 118.2 MB.
+Total: 6.736500 ms (FindLiveObjects: 0.629200 ms CreateObjectMapping: 0.547000 ms MarkObjects: 5.495600 ms  DeleteObjects: 0.062800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 586189.408653 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets
+  artifactKey: Guid(2987a1db9d0f8f34ba5b276f8d22fa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets using Guid(2987a1db9d0f8f34ba5b276f8d22fa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c252204177ff9a5798e16384b13cb033') in 0.004822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.464478 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Industrial Sector - Day - 22x16.jpg
+  artifactKey: Guid(69dbb6f21e85f0f4c99e79c718d98bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Industrial Sector - Day - 22x16.jpg using Guid(69dbb6f21e85f0f4c99e79c718d98bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1b36ffb9463405d28e5d29b68374e78') in 0.175721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.596801 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI
+  artifactKey: Guid(0fe5249efac88be4aac0c04051b115d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI using Guid(0fe5249efac88be4aac0c04051b115d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '497ee7b05df378d1ca3c4e3b611a76ed') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090996 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrel 1 - 1x1.png
+  artifactKey: Guid(4826c170f6958e44287c5740a5bba1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrel 1 - 1x1.png using Guid(4826c170f6958e44287c5740a5bba1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae58178971b0fd8470150b159d0476f0') in 0.024676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrels 2 - 1x1.png
+  artifactKey: Guid(68cb25f8d48abce44bfb445e41646abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrels 2 - 1x1.png using Guid(68cb25f8d48abce44bfb445e41646abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb3b1bbbcdfe093687fd42c772500a83') in 0.021095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrels 1 - Orange - 1x1.png
+  artifactKey: Guid(689a667ba98bfc241a99c6574bd56de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrels 1 - Orange - 1x1.png using Guid(689a667ba98bfc241a99c6574bd56de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc1deb16fcec068873b55c6006b06840') in 0.026241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 4 - Red - 12x3.png
+  artifactKey: Guid(85a88015d57ad784381586fcfc030804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 4 - Red - 12x3.png using Guid(85a88015d57ad784381586fcfc030804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '626b6091a2d30190f2a6933d1aaa68e6') in 0.027135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard box 2 - 1x1.png
+  artifactKey: Guid(da98037baaa4205458916a8e768706fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard box 2 - 1x1.png using Guid(da98037baaa4205458916a8e768706fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '255847dd1e0eadd4bb873e246416c82a') in 0.029974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Concrete 1 - 1x1.png
+  artifactKey: Guid(535e54de4b2cb514cb29852899e2a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Concrete 1 - 1x1.png using Guid(535e54de4b2cb514cb29852899e2a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2941de30cccff7f13b32f0b6a97314ef') in 0.026573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cinder blocks - 2x1.png
+  artifactKey: Guid(a2d5229393195e5438cea45a989d4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cinder blocks - 2x1.png using Guid(a2d5229393195e5438cea45a989d4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0e4a9b858fb12e88f297886776b5f73') in 0.028194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 4 - Yellow - 12x3.png
+  artifactKey: Guid(8eab4adf9c1a2a344b44e9a110e09f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 4 - Yellow - 12x3.png using Guid(8eab4adf9c1a2a344b44e9a110e09f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '124eaf563a23972175afb52a9f666c04') in 0.024902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Concrete ledge - 8x1.png
+  artifactKey: Guid(6f4616334e95b1642ba065adc205984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Concrete ledge - 8x1.png using Guid(6f4616334e95b1642ba065adc205984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c42730bb49f892b334f96a536a014076') in 0.027140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Metal 1 - 1x1.png
+  artifactKey: Guid(23556199615f54e43bcc229ceca9c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Metal 1 - 1x1.png using Guid(23556199615f54e43bcc229ceca9c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ffb66230cf295c8d6cdfb2a8288a504a') in 0.028573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrier - Concrete 1 - 1x1.png
+  artifactKey: Guid(6e860bbab9f16ab4a9e7b17ec8f7bcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrier - Concrete 1 - 1x1.png using Guid(6e860bbab9f16ab4a9e7b17ec8f7bcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a0e284780349efb1e5712557a3af8d01') in 0.023889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard 2 - 2x1.png
+  artifactKey: Guid(6124bfc0d023634479175230edadb214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard 2 - 2x1.png using Guid(6124bfc0d023634479175230edadb214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8078832776bb7e02d3e35ea846b781f7') in 0.030898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 5 - Red - 12x3.png
+  artifactKey: Guid(0f5b81ce3b6c21940b80e0e8c17b08e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 5 - Red - 12x3.png using Guid(0f5b81ce3b6c21940b80e0e8c17b08e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '920430c39c331db5f3bbd688be2ed849') in 0.026628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Concrete 2 - 1x1.png
+  artifactKey: Guid(820b3b497f2b87a4399e9d5aa0f86ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Concrete 2 - 1x1.png using Guid(820b3b497f2b87a4399e9d5aa0f86ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1722ee417267d469cb81e9de8d0b2af4') in 0.024799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard 3 - 2x1.png
+  artifactKey: Guid(67dfdebf48a142a4394986ae204c9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard 3 - 2x1.png using Guid(67dfdebf48a142a4394986ae204c9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32abe45454cf8c111723b29afd5e437c') in 0.021299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 1 - Blue - 2x2.png
+  artifactKey: Guid(119807fc0e16ec24abdb7601cdadcfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 1 - Blue - 2x2.png using Guid(119807fc0e16ec24abdb7601cdadcfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb536b464b1e43399c878de2d217a30b') in 0.027103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 2 - Orange - 2x2.png
+  artifactKey: Guid(4c4df8f44994d74448661e4e582a9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 2 - Orange - 2x2.png using Guid(4c4df8f44994d74448661e4e582a9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9efa6c247a5d5b4233130dacb5158a6') in 0.023467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Concrete ledge - 10x1.png
+  artifactKey: Guid(34f1544e4d1d54e489d565fcfde45cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Concrete ledge - 10x1.png using Guid(34f1544e4d1d54e489d565fcfde45cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bf45251541f35562ebcaf26525cc8d8') in 0.028340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 1 - 12x3.png
+  artifactKey: Guid(289d9934aa161474998a7b6fa6f1bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 1 - 12x3.png using Guid(289d9934aa161474998a7b6fa6f1bb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '912711c48cbb29af1f8ed13304024543') in 0.028026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 2 - Yellow - 12x3.png
+  artifactKey: Guid(7e2f99afb683dc54f9731edffd73a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 2 - Yellow - 12x3.png using Guid(7e2f99afb683dc54f9731edffd73a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cd9cf447cc9f9f7a7bdc9988aa7c047') in 0.029651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Box - Plastic 1 - 1x1.png
+  artifactKey: Guid(30c9194e911e9324994bce443806a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Box - Plastic 1 - 1x1.png using Guid(30c9194e911e9324994bce443806a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16e24d8484a67d3da5ebcf0f5272ce71') in 0.031119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Metal 3 - Blue - 2x1.png
+  artifactKey: Guid(867e7caeea597f444bf59fe171093b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bench - Metal 3 - Blue - 2x1.png using Guid(867e7caeea597f444bf59fe171093b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee0c1b66c47cb9d4be56fe6bf420e8f5') in 0.026278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrels 1 - Blue - 1x1.png
+  artifactKey: Guid(8ce5412f04cc7be4c8f5a40ca52603cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Barrels 1 - Blue - 1x1.png using Guid(8ce5412f04cc7be4c8f5a40ca52603cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f59894171085af873be2b6ce12ee424') in 0.026775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard boxes - 2x1.png
+  artifactKey: Guid(de7a6dcd5a956b8448ee1627c9df35c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cardboard boxes - 2x1.png using Guid(de7a6dcd5a956b8448ee1627c9df35c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a0d01a8dd60f57e9f7351ec9c0bb90ab') in 0.027210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 5 - Yellow - 12x3.png
+  artifactKey: Guid(c961444d5f09f95498caf46c436e6e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Building facade 5 - Yellow - 12x3.png using Guid(c961444d5f09f95498caf46c436e6e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b85d84a67c5adedb1dea269a3c4a4af4') in 0.040744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bedding - Mattress 1 - 1x2.png
+  artifactKey: Guid(802472a9e8f02374e9d4905816359e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bedding - Mattress 1 - 1x2.png using Guid(802472a9e8f02374e9d4905816359e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42211fdd8f1b89836082c744bd9304fa') in 0.024221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.079718 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheet 1 - 3x2.png
+  artifactKey: Guid(0b1e38e5c857acd4287a16a1cb99db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheet 1 - 3x2.png using Guid(0b1e38e5c857acd4287a16a1cb99db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e011d58b300997eebe37ae867d6d2e5') in 0.025864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheet 2 - 3x2.png
+  artifactKey: Guid(933786147edd214459146e4de17bca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheet 2 - 3x2.png using Guid(933786147edd214459146e4de17bca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '51497beaacc3bbacfbf9d713a67a02ca') in 0.028047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheets - Orange - 2x2.png
+  artifactKey: Guid(4c36c183b199d5e43b18f73522ab8905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheets - Orange - 2x2.png using Guid(4c36c183b199d5e43b18f73522ab8905) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b3163f1420e77583e6a3b34ede4ead6') in 0.024964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 3 - 1x1.png
+  artifactKey: Guid(281eb8f411361704bbe523b9e4828a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 3 - 1x1.png using Guid(281eb8f411361704bbe523b9e4828a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02e9f7964840e8f5f676b90c065f3e61') in 0.023459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crate 1 - Orange - 1x1.png
+  artifactKey: Guid(b31ff7a7f5440a64496c146117a11478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crate 1 - Orange - 1x1.png using Guid(b31ff7a7f5440a64496c146117a11478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb450d5ca11800b9cc4928977ea12851') in 0.028361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 3 - Blue - 1x1.png
+  artifactKey: Guid(b360cceabc941d7458eb1f8a9ba55930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 3 - Blue - 1x1.png using Guid(b360cceabc941d7458eb1f8a9ba55930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02aba52d14352d22042a93de3d79dc0f') in 0.031365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cracked floor - 3x2.png
+  artifactKey: Guid(e7461c24cad01684c8b7f5e8ed3ecfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cracked floor - 3x2.png using Guid(e7461c24cad01684c8b7f5e8ed3ecfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '97a0718f4b1d719414decb09a4f25880') in 0.029850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 1 - 2x1.png
+  artifactKey: Guid(4ea6be21c7dc1b545ad76b531f211ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 1 - 2x1.png using Guid(4ea6be21c7dc1b545ad76b531f211ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '902eb1a80d9e4c108c4a0f239eb7a749') in 0.029213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheets - Blue - 2x2.png
+  artifactKey: Guid(6c959727cfb68b841ba65c676607aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheets - Blue - 2x2.png using Guid(6c959727cfb68b841ba65c676607aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4be5e7f10cfd066ac8a3697e26546c42') in 0.026747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cracked floor - 1x2.png
+  artifactKey: Guid(5155200d3cdec5942b3a286d29e855c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Cracked floor - 1x2.png using Guid(5155200d3cdec5942b3a286d29e855c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83602efa442a904483fed119d294a02d') in 0.025863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheet 3 - Orange - 2x1.png
+  artifactKey: Guid(ce0acde083f6487498e640893c61e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheet 3 - Orange - 2x1.png using Guid(ce0acde083f6487498e640893c61e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '414d348308dae1db62202322c116c380') in 0.028354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crime scene chalk outline - 2x2.png
+  artifactKey: Guid(eef52ba58dedeac41be79878cdb96c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crime scene chalk outline - 2x2.png using Guid(eef52ba58dedeac41be79878cdb96c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f88b6d1d57145e478140547cd9a471b9') in 0.027480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 1 - Orange - 2x2.png
+  artifactKey: Guid(91f14b5c4ea8be54e958d4cedf7e9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 1 - Orange - 2x2.png using Guid(91f14b5c4ea8be54e958d4cedf7e9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39c1444676487c42395789bbeea61b47') in 0.028165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Blue - 1x1.png
+  artifactKey: Guid(cf3e0d184e6f3864c9671a1a2b539dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Blue - 1x1.png using Guid(cf3e0d184e6f3864c9671a1a2b539dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0e60f8cbeea7236ba64950d7233d0a9') in 0.024212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Post - Blue - 1x1.png
+  artifactKey: Guid(11e681bacfc7cf14b9fde25c6c1d4d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Post - Blue - 1x1.png using Guid(11e681bacfc7cf14b9fde25c6c1d4d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '576343c242806f4cf94fcb605c6694db') in 0.022006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Hologram 2 - 1x1.png
+  artifactKey: Guid(28b88b1747360d044a9a0eed579bff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Hologram 2 - 1x1.png using Guid(28b88b1747360d044a9a0eed579bff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '507019eede180d6ae76e1564d7597863') in 0.024025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Grate 1 - 1x1.png
+  artifactKey: Guid(420ff8f4da6d3b3409e4a8ed3eed3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Grate 1 - 1x1.png using Guid(420ff8f4da6d3b3409e4a8ed3eed3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bb9e580871b21db10e5b526c2ff4d3a') in 0.021663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 2 - 1x1.png
+  artifactKey: Guid(80dd05ddd69ac41499dc7a9aaebbd531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 2 - 1x1.png using Guid(80dd05ddd69ac41499dc7a9aaebbd531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c3d0119e90572f6bd965b449b739a93') in 0.023589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 4 - Blue - 2x1.png
+  artifactKey: Guid(b0e4c2a7452bfc340ae65fca0575265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 4 - Blue - 2x1.png using Guid(b0e4c2a7452bfc340ae65fca0575265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '541b4c2db38ff13a2bca9fdbd8b68046') in 0.027733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 1 - Blue - 2x2.png
+  artifactKey: Guid(7f376846f6d600540947654697e9f9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 1 - Blue - 2x2.png using Guid(7f376846f6d600540947654697e9f9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '226d21807ef187d5fcaf828b04d0f688') in 0.032481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Orange - 1x1.png
+  artifactKey: Guid(55470fea4ce6b704ab142f44fbdf9d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Orange - 1x1.png using Guid(55470fea4ce6b704ab142f44fbdf9d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c315b58f4753d986ab472f1da19a4c7') in 0.025840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Grate 3 - 1x1.png
+  artifactKey: Guid(e39438bd1a0b1584fb647276e10a4319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Grate 3 - 1x1.png using Guid(e39438bd1a0b1584fb647276e10a4319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '621deff0a8e7e9be878821c0c54c451d') in 0.027121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 3 - Blue - 2x2.png
+  artifactKey: Guid(1568ea359d3aed145b2c2b5e2ba49999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 3 - Blue - 2x2.png using Guid(1568ea359d3aed145b2c2b5e2ba49999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd0df6c1f1684d46434262038e9ba5ec') in 0.026019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 1 - 2x2.png
+  artifactKey: Guid(2852b6b564261534480e3a6ecadb5690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 1 - 2x2.png using Guid(2852b6b564261534480e3a6ecadb5690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c80efe110dd115528ee9859060dab9a2') in 0.023427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 2 - Blue - 2x2.png
+  artifactKey: Guid(4d35a0ec7f87bed4898ba6e8fa7f63cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 2 - Blue - 2x2.png using Guid(4d35a0ec7f87bed4898ba6e8fa7f63cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '645d810c6374719001dfa5a17a29ecdb') in 0.022653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 1 - 1x1.png
+  artifactKey: Guid(b4d33ce94d28f50448faca9a4d82316f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 1 - 1x1.png using Guid(b4d33ce94d28f50448faca9a4d82316f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ecb2c2e51340cee0ed2b3750e671842') in 0.021147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 3 - Orange - 2x2.png
+  artifactKey: Guid(ff2047f46afe4524d943b017917cda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Dumpster 3 - Orange - 2x2.png using Guid(ff2047f46afe4524d943b017917cda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3947289dd7c7387d0da8b4ae29f91417') in 0.025103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Manhole 1 - 1x1.png
+  artifactKey: Guid(676276b6e0798c64eb3937f814f7cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Manhole 1 - 1x1.png using Guid(676276b6e0798c64eb3937f814f7cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '670880a35aadfcd11ac45cde8873779c') in 0.024429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheets - 2x2.png
+  artifactKey: Guid(0631a0d146ac4354dbf7c63a68b29463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Corrugated sheets - 2x2.png using Guid(0631a0d146ac4354dbf7c63a68b29463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9f5b6803c9315fce0816a56bf41327db') in 0.025854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Post - Orange - 1x1.png
+  artifactKey: Guid(da87e06c33f673241b381546408a106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Fence 4 - Post - Orange - 1x1.png using Guid(da87e06c33f673241b381546408a106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cf34059eee9d70a85f593a46452b835') in 0.027198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 2 - Blue - 1x1.png
+  artifactKey: Guid(f103ce922d3072f42bce72e1d9a7232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 2 - Blue - 1x1.png using Guid(f103ce922d3072f42bce72e1d9a7232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '965cc6a6237d9c7a4f77cd2c6f666bb1') in 0.029202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 3 - Orange - 1x1.png
+  artifactKey: Guid(67f3c86399e006c4e97b16ceed709b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Crates 3 - Orange - 1x1.png using Guid(67f3c86399e006c4e97b16ceed709b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9fda7b9bb6b8995d0541941981264a78') in 0.030089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.056864 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrel 1 - Blue - 1x1.png
+  artifactKey: Guid(615634c4a8176054298e9d47244b7a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrel 1 - Blue - 1x1.png using Guid(615634c4a8176054298e9d47244b7a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3401bc0c1810d58d84910f8d79afec03') in 0.022633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrels 2 - 1x1.png
+  artifactKey: Guid(b166e9cabe2d97647b290c23df82ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrels 2 - 1x1.png using Guid(b166e9cabe2d97647b290c23df82ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84d59bbb37a29b7d0522dd84e3f66405') in 0.018387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 1 - Blue - 2x2.png
+  artifactKey: Guid(86be9e993f643154c8a2118ca52e746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 1 - Blue - 2x2.png using Guid(86be9e993f643154c8a2118ca52e746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '45b23b3ab68c83e1f638bbf4c800ce6e') in 0.026332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrier - Concrete 2 - 1x1.png
+  artifactKey: Guid(896803a66bcce7d469c2a211a3cc7b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrier - Concrete 2 - 1x1.png using Guid(896803a66bcce7d469c2a211a3cc7b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2613c545df247cb3ea417c7795d6466') in 0.025296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cinder blocks - 2x1.png
+  artifactKey: Guid(3468341a6a5cc9d45a8f53430ba859e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cinder blocks - 2x1.png using Guid(3468341a6a5cc9d45a8f53430ba859e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48d8616db50c3eb7b3ef02856ca9f5b2') in 0.027099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrier - Plastic - 1x1.png
+  artifactKey: Guid(a21602f59f1a32541b70dfa2665c4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrier - Plastic - 1x1.png using Guid(a21602f59f1a32541b70dfa2665c4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a2f6eb8a90458a6da835d5def2bd831') in 0.023582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrier - Concrete 1 - 1x1.png
+  artifactKey: Guid(f1cf8fc1cb6e9c541bbd45cdffbb6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrier - Concrete 1 - 1x1.png using Guid(f1cf8fc1cb6e9c541bbd45cdffbb6e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0b53fbb1a33c20fe187e418178695b1') in 0.022220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Box - Plastic 1 - 1x1.png
+  artifactKey: Guid(2cb289b3c92845c4abbd8ee08ca68548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Box - Plastic 1 - 1x1.png using Guid(2cb289b3c92845c4abbd8ee08ca68548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7deb22b3d9aecb1c7b67786377e2abb9') in 0.026606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrels 3 - 2x2.png
+  artifactKey: Guid(8bf258835e57817438aa238fb5cc8b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Barrels 3 - 2x2.png using Guid(8bf258835e57817438aa238fb5cc8b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc4a2f799f8a885ee7460f1d40a2a2db') in 0.024345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bench - Metal 3 - Blue - 2x1.png
+  artifactKey: Guid(1ec3b9a5af5e79649af8262ca8d1c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bench - Metal 3 - Blue - 2x1.png using Guid(1ec3b9a5af5e79649af8262ca8d1c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cee1bb9c32a905b4f64a7cc9197b9d5d') in 0.023726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Building facade 3 - Red - 12x3.png
+  artifactKey: Guid(aa0c54167684496458e79b7ab3da7ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Building facade 3 - Red - 12x3.png using Guid(aa0c54167684496458e79b7ab3da7ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec0238c3e903f132d4b3d0ade7206883') in 0.025062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cardboard 2 - 2x1.png
+  artifactKey: Guid(cbcbbbd3e8734de40b5112c841fa68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cardboard 2 - 2x1.png using Guid(cbcbbbd3e8734de40b5112c841fa68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd351b1a1fbfd023aa181dd28c4b61771') in 0.025920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cinder block - 1x1.png
+  artifactKey: Guid(2ef270b85ecb46c4c9c4c56653f5dd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cinder block - 1x1.png using Guid(2ef270b85ecb46c4c9c4c56653f5dd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '371c5a36cd6caa5641f7dfba5f079841') in 0.026011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cardboard 3 - 2x1.png
+  artifactKey: Guid(22a2f309ee869c14f9bff66c48338ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cardboard 3 - 2x1.png using Guid(22a2f309ee869c14f9bff66c48338ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1dc56c72962f549a9232a10d734ad54c') in 0.026154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 2 - Blue - 2x2.png
+  artifactKey: Guid(3b4cbd4ff7bedb54c8270ce475b870ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 2 - Blue - 2x2.png using Guid(3b4cbd4ff7bedb54c8270ce475b870ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb13d133151d7c631ea8a0d4ca4a09fc') in 0.024102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 2 - 2x2.png
+  artifactKey: Guid(4ef842ebb1a9e394f8529ce612e24eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 2 - 2x2.png using Guid(4ef842ebb1a9e394f8529ce612e24eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e7632ddab8c9ef46be05c98359690107') in 0.027942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.029521 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Merchant stall 1 - 3x2.png
+  artifactKey: Guid(68b44a10d560dbe4e8e87bf25143912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Merchant stall 1 - 3x2.png using Guid(68b44a10d560dbe4e8e87bf25143912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2ec4a05a005e07f1f6d289803ddd30fb') in 0.025701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Paint spill 1 - 1x1.png
+  artifactKey: Guid(5d65ec13d0af3fa4f8d8861078325388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Paint spill 1 - 1x1.png using Guid(5d65ec13d0af3fa4f8d8861078325388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2b2873bf14043f5e346c00f977ff1cd') in 0.023466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Painted Simba - 1x1.png
+  artifactKey: Guid(5ce41120133672741a8ad24b2d71d1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Painted Simba - 1x1.png using Guid(5ce41120133672741a8ad24b2d71d1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a971d0c22d40c4e9e7e67879d3d98070') in 0.025488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Potted plant 1 - 1x1.png
+  artifactKey: Guid(0654c3f29892a7a48adeb209826849e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Potted plant 1 - 1x1.png using Guid(0654c3f29892a7a48adeb209826849e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3834e8d4468a064ec0b3957c6df7f95e') in 0.023829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Merchant stall 2 - 3x2.png
+  artifactKey: Guid(cc3afb87551f5b84dab4c4e364b6d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Merchant stall 2 - 3x2.png using Guid(cc3afb87551f5b84dab4c4e364b6d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '90a469d144133674f494c2984795d371') in 0.025593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Painted heart - 1x1.png
+  artifactKey: Guid(d68b6f4e48a57424cabbcb9c793f560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Painted heart - 1x1.png using Guid(d68b6f4e48a57424cabbcb9c793f560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8728b8248ed40acf9df7ad1c22ab06af') in 0.023730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.121698 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Pylon - 3x1.png
+  artifactKey: Guid(3f403b4fbd7386d46be641fa88388729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Pylon - 3x1.png using Guid(3f403b4fbd7386d46be641fa88388729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '816871e99d82767d58333f84ce6dbff3') in 0.021559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Satelite dish - 1x1.png
+  artifactKey: Guid(655c5b692e8e66b4ea4deb0d1be6b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Satelite dish - 1x1.png using Guid(655c5b692e8e66b4ea4deb0d1be6b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b26b47e3bc8b900c5cae391d514e3d88') in 0.021071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Screen billboard - Yellow - 3x1.png
+  artifactKey: Guid(e7de0902a1e986a46bf0b259110ca6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Screen billboard - Yellow - 3x1.png using Guid(e7de0902a1e986a46bf0b259110ca6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57a6069518983bedc8429fc0e51376e7') in 0.020953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Trash 2 - 1x1.png
+  artifactKey: Guid(395e0a28700322e4fa40b3306156fd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Trash 2 - 1x1.png using Guid(395e0a28700322e4fa40b3306156fd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2099b1b79410e0e1182d923eb3c40dba') in 0.025947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Street sign - Blue - 1x1.png
+  artifactKey: Guid(d474ffdba6dcaeb4998f25bf2b91c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Street sign - Blue - 1x1.png using Guid(d474ffdba6dcaeb4998f25bf2b91c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '88112dac99ae207dee4056ed88530e6e') in 0.022904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Street light support beam - 4x1.png
+  artifactKey: Guid(d77e773c8cb2d374a95d30301d6d8eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Street light support beam - 4x1.png using Guid(d77e773c8cb2d374a95d30301d6d8eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fc7fb359b373b88cc6aaf153bb15d88') in 0.024868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Sign - Red - 1x1.png
+  artifactKey: Guid(a43b3ee3d1c46694f85cefd8d3cdd24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Sign - Red - 1x1.png using Guid(a43b3ee3d1c46694f85cefd8d3cdd24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '263f3fb061024e64ef6e5582d435744f') in 0.024829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Trash 1 - 1x1.png
+  artifactKey: Guid(d4a950d2c2989814ca16e84bdbb3e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Trash 1 - 1x1.png using Guid(d4a950d2c2989814ca16e84bdbb3e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da9f7e877393503fda324998ba748254') in 0.029542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Traffic cone - 1x1.png
+  artifactKey: Guid(1ccd3a0b45141a541918c89cfaf64b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Traffic cone - 1x1.png using Guid(1ccd3a0b45141a541918c89cfaf64b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bd30e55474b4c7143d1ef15fa097091') in 0.027432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Subway stairway - 2x3.png
+  artifactKey: Guid(0cbe5ea399d22ec46af18e7fd42e7b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Subway stairway - 2x3.png using Guid(0cbe5ea399d22ec46af18e7fd42e7b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c30cabe758249e0ba06ab75969842906') in 0.027841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.709076 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Trash bags 1 - 2x2.png
+  artifactKey: Guid(1aa452d0f9c6d754fa12dab6e6e2068c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Trash bags 1 - 2x2.png using Guid(1aa452d0f9c6d754fa12dab6e6e2068c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c556d2e38461664d58590c1567cf7577') in 0.024682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Vending machine 1 - Orange - 1x1.png
+  artifactKey: Guid(e00ea08e708d9424c9d2656c7d42ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Vending machine 1 - Orange - 1x1.png using Guid(e00ea08e708d9424c9d2656c7d42ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6d5af97529547119a9ff78163012376f') in 0.025772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Vending machine 1 - Blue - 1x1.png
+  artifactKey: Guid(8f5269b324b2b0848aa49e44ed5a2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Vending machine 1 - Blue - 1x1.png using Guid(8f5269b324b2b0848aa49e44ed5a2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '718157748366a876bb0ec7e68868fe26') in 0.024580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Wires 2 - Blue - 4x1.png
+  artifactKey: Guid(ae9e0f656c06ed64580f7cf4e07a297f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Wires 2 - Blue - 4x1.png using Guid(ae9e0f656c06ed64580f7cf4e07a297f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9693a605745db7509e3ccdcb9655165') in 0.025076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Wires 1 - Orange - 3x1.png
+  artifactKey: Guid(017d9a50fb722704f86e9c16b6d68113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Wires 1 - Orange - 3x1.png using Guid(017d9a50fb722704f86e9c16b6d68113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '952a0db80b53a0bc4d7d4c19db6f7ad6') in 0.025843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.254913 seconds.
+  path: Assets/Tiles/Modern Street Tiles/Street Tiles - 300 DPI/City Street Tile - Bend - 10x10.jpg
+  artifactKey: Guid(aad5f8073da734241bc227dd522f033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Modern Street Tiles/Street Tiles - 300 DPI/City Street Tile - Bend - 10x10.jpg using Guid(aad5f8073da734241bc227dd522f033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '454b2c84bc826aa9b6a7c4c80e8b6aad') in 0.091512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 42.048054 seconds.
+  path: Assets/Tiles/Cyberpunk Cars/Car - Iron Giant - 2x4.png
+  artifactKey: Guid(c8f4d361df795624dae5b5ed2b6b8f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Cars/Car - Iron Giant - 2x4.png using Guid(c8f4d361df795624dae5b5ed2b6b8f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83f2c803e3ad4971c06b0b3edfc0cbf6') in 0.034715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 190.147837 seconds.
+  path: Assets/Tiles/Modern Street Tiles/Street Tiles - 70 DPI (Roll20)/City Street Tile - Bend - 10x10.jpg
+  artifactKey: Guid(d7d6f2a7299cef147899cb7a76b943a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Modern Street Tiles/Street Tiles - 70 DPI (Roll20)/City Street Tile - Bend - 10x10.jpg using Guid(d7d6f2a7299cef147899cb7a76b943a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'feb234bf2a1634f811e84a7975e4b08a') in 0.033111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Modern Street Tiles/Street Tiles - 70 DPI (Roll20)/City Street Tile - Junction - 10x10.jpg
+  artifactKey: Guid(000a9c76b4a82d24aaa7353cf9dcf980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Modern Street Tiles/Street Tiles - 70 DPI (Roll20)/City Street Tile - Junction - 10x10.jpg using Guid(000a9c76b4a82d24aaa7353cf9dcf980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7bb5c57e373bf3f5ecab1def42d71650') in 0.037010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Modern Street Tiles/Street Tiles - 70 DPI (Roll20)/City Street Tile - Straight - 10x10.jpg
+  artifactKey: Guid(ddbf0f062126c8d4caf2a7afff136f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Modern Street Tiles/Street Tiles - 70 DPI (Roll20)/City Street Tile - Straight - 10x10.jpg using Guid(ddbf0f062126c8d4caf2a7afff136f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73cd07ab626b61563349c64e2469f3e7') in 0.030275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.803 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.576 seconds
+Domain Reload Profiling: 2376ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (569ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3613.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 7.029300 ms (FindLiveObjects: 1.024100 ms CreateObjectMapping: 0.349600 ms MarkObjects: 5.487400 ms  DeleteObjects: 0.166500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.599 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.003 seconds
+Domain Reload Profiling: 2598ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (675ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3616.
+Memory consumption went from 124.2 MB to 124.2 MB.
+Total: 6.123900 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.198400 ms MarkObjects: 5.603500 ms  DeleteObjects: 0.052900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.516 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.362 seconds
+Domain Reload Profiling: 1874ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3619.
+Memory consumption went from 124.2 MB to 124.2 MB.
+Total: 5.256600 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.236900 ms MarkObjects: 4.688600 ms  DeleteObjects: 0.048100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.425 seconds
+Domain Reload Profiling: 1935ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (329ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (682ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3622.
+Memory consumption went from 124.2 MB to 124.2 MB.
+Total: 5.611800 ms (FindLiveObjects: 0.762600 ms CreateObjectMapping: 0.539600 ms MarkObjects: 4.200100 ms  DeleteObjects: 0.107300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.468 seconds
+Domain Reload Profiling: 2006ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3625.
+Memory consumption went from 124.2 MB to 124.2 MB.
+Total: 6.204600 ms (FindLiveObjects: 0.692800 ms CreateObjectMapping: 0.412900 ms MarkObjects: 4.955900 ms  DeleteObjects: 0.140700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1458.687317 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street light 2 - 2x1.png
+  artifactKey: Guid(e18c1e9d1c693e048b1610a2f16072f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street light 2 - 2x1.png using Guid(e18c1e9d1c693e048b1610a2f16072f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d8b2c23a1e2e286f073c16b5765c863') in 0.099090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street light support beam - 4x1.png
+  artifactKey: Guid(f30fed668ba7bac4db74188b7aeac752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street light support beam - 4x1.png using Guid(f30fed668ba7bac4db74188b7aeac752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c4d42da04b95d7e6bd2e748c3e30953') in 0.026415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street sign - Blue - 1x1.png
+  artifactKey: Guid(f7a5e955f95373140bb6057c5ed0f74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street sign - Blue - 1x1.png using Guid(f7a5e955f95373140bb6057c5ed0f74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7eab66b0022838a3a353d7c24e36b0d') in 0.022853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street sign - Orange - 1x1.png
+  artifactKey: Guid(318af3f80be416d41bf27ca01c1f3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Street sign - Orange - 1x1.png using Guid(318af3f80be416d41bf27ca01c1f3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '917db20c87f468cfc6c636a54f07001b') in 0.025563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.083541 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 1.b.png
+  artifactKey: Guid(06c30e899d8157f4c859e0cab1e557ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 1.b.png using Guid(06c30e899d8157f4c859e0cab1e557ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23f45e873bcdbc7b2d98b52c52674bf2') in 0.025718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 2.c.png
+  artifactKey: Guid(a9ae26e6a9acb6544a498b582029456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 2.c.png using Guid(a9ae26e6a9acb6544a498b582029456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '960f3943db8cb50a5fc443080a32bb1d') in 0.024065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 3.b.png
+  artifactKey: Guid(c3363c99c8a64a24493cc6d10500afbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 3.b.png using Guid(c3363c99c8a64a24493cc6d10500afbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eae04574c75cfb5956ac44e57851914d') in 0.027868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 1.c.png
+  artifactKey: Guid(2480945ff48e4724590a8ebbd42e87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 1.c.png using Guid(2480945ff48e4724590a8ebbd42e87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b8d644d226353b756931dbd00499281') in 0.035397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle cluster - Lit.png
+  artifactKey: Guid(1d8f5df9a1c0d564eb8d6dc011233057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle cluster - Lit.png using Guid(1d8f5df9a1c0d564eb8d6dc011233057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd7cf6e5109ee937aeb8320754d75144f') in 0.029520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle cluster - Unlit.png
+  artifactKey: Guid(3686c0c6cc33db848bf87f629abe70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle cluster - Unlit.png using Guid(3686c0c6cc33db848bf87f629abe70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89ab13053fe13927b84d2ba555e93ed1') in 0.026054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Small - Lit.png
+  artifactKey: Guid(fd181d9915509f7499376e0fd4aa6d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Small - Lit.png using Guid(fd181d9915509f7499376e0fd4aa6d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8622170809f8f5381e1b7da15b824fdd') in 0.025507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Large - Unlit.png
+  artifactKey: Guid(d095db169ea345045b33b465db4abe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Large - Unlit.png using Guid(d095db169ea345045b33b465db4abe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '27a238728423baf04c989e578ec46db6') in 0.026737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 2.b.png
+  artifactKey: Guid(be22dfc0200be6e4284c550ade22bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 2.b.png using Guid(be22dfc0200be6e4284c550ade22bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b9dafc6b2844d805ecb08d6fccc1274') in 0.033544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 2.a.png
+  artifactKey: Guid(569f840d36b523e4e89733f9016dd4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 2.a.png using Guid(569f840d36b523e4e89733f9016dd4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cac231af2ba38a9172d6f6248e4b8d9f') in 0.027255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.467691 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Grindstone - Light.png
+  artifactKey: Guid(a84921d7f2145cd4d86dbfb87dd50048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Grindstone - Light.png using Guid(a84921d7f2145cd4d86dbfb87dd50048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e169d7e562203d55d21048de3cbb1065') in 0.029790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Telescope - Ladder - Light.png
+  artifactKey: Guid(72056bc9601495447a2c48204004f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Telescope - Ladder - Light.png using Guid(72056bc9601495447a2c48204004f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67837e1297417f950ae5aa103b78973f') in 0.025888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.875488 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Lit.png
+  artifactKey: Guid(57941add01ce0c946b72674650a345b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Lit.png using Guid(57941add01ce0c946b72674650a345b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '587441521c9353830371930466eedae9') in 0.021284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Small - Unlit.png
+  artifactKey: Guid(58e591da1509caf40912d34a704dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Small - Unlit.png using Guid(58e591da1509caf40912d34a704dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c5369541a7e420bee6e49e337dbf0dd') in 0.025449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.553412 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Unlit.png
+  artifactKey: Guid(a8bd004d9aff6a54fb6b73a943d44b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Unlit.png using Guid(a8bd004d9aff6a54fb6b73a943d44b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '011ea90e00a17b66499c9318a9a450a3') in 0.030733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier - Antler - Unlit.png
+  artifactKey: Guid(bd928fa5f52a51e40b7de8e140a0e486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier - Antler - Unlit.png using Guid(bd928fa5f52a51e40b7de8e140a0e486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc9a66233d6cb9179034bdcb20fa8a97') in 0.024952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 1 - Lit - Gold.png
+  artifactKey: Guid(a870a341608a0bc47b0d68c3fc895fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 1 - Lit - Gold.png using Guid(a870a341608a0bc47b0d68c3fc895fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '892e8cbcce815dec15c07f56d3ab57e4') in 0.034772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 1 - Unlit - Gold.png
+  artifactKey: Guid(0a5ce24454422134ba3ab74d9cec877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 1 - Unlit - Gold.png using Guid(0a5ce24454422134ba3ab74d9cec877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d05bca18a16299b99852343f6b4752d') in 0.042272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 3 - Unlit - Gold.png
+  artifactKey: Guid(cc9ee0fee8b45fe4996d46905ab57ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 3 - Unlit - Gold.png using Guid(cc9ee0fee8b45fe4996d46905ab57ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '927577906440538e2ad478da5123467e') in 0.031091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 3 - Unlit - Gold.png
+  artifactKey: Guid(d408e06748eb5d242937384e658d5ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 3 - Unlit - Gold.png using Guid(d408e06748eb5d242937384e658d5ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c3a7051590579bf8318bf245923ff0e') in 0.056292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.402645 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 4 - Unlit - Iron.png
+  artifactKey: Guid(0abae1b4797c2284fa1eeeefab02967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 4 - Unlit - Iron.png using Guid(0abae1b4797c2284fa1eeeefab02967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f75dd2c7b295879a6ff3ae1aef148411') in 0.026727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Lantern - Lit.png
+  artifactKey: Guid(b26686e67afcdf64f9cc525e137014bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Lantern - Lit.png using Guid(b26686e67afcdf64f9cc525e137014bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2c3774256fd4e84d7c104055f2d712c') in 0.027102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.311036 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Stand - Lit - Iron.png
+  artifactKey: Guid(925c642cbb64f2c49a2ff5b4ca77c88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Stand - Lit - Iron.png using Guid(925c642cbb64f2c49a2ff5b4ca77c88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb81e2f57d0244bf027821a91f83fe39') in 0.025675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.127452 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Traffic light 2 - 1x1.png
+  artifactKey: Guid(248c49086a1872543b0c4d1b54f8c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Traffic light 2 - 1x1.png using Guid(248c49086a1872543b0c4d1b54f8c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6ab95efeb526eaaf53fd3f76a60959b') in 0.022757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.376393 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Standing lamp 2 - 1x1.png
+  artifactKey: Guid(09038408e0adf4749b550b6bca21a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Standing lamp 2 - 1x1.png using Guid(09038408e0adf4749b550b6bca21a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82124253d03aec52103ff99dd65f0e1d') in 0.021076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.050 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.953 seconds
+Domain Reload Profiling: 2999ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (781ms)
+		LoadAssemblies (860ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1953ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (761ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 8.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3675.
+Memory consumption went from 124.0 MB to 124.0 MB.
+Total: 5.799200 ms (FindLiveObjects: 0.332500 ms CreateObjectMapping: 0.360200 ms MarkObjects: 5.014500 ms  DeleteObjects: 0.090100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.758 seconds
+Domain Reload Profiling: 2291ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3678.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 15.170200 ms (FindLiveObjects: 3.565300 ms CreateObjectMapping: 2.177600 ms MarkObjects: 9.185700 ms  DeleteObjects: 0.235400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.561 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.752 seconds
+Domain Reload Profiling: 2310ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (767ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (574ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3681.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 5.972100 ms (FindLiveObjects: 0.799600 ms CreateObjectMapping: 0.329900 ms MarkObjects: 4.786700 ms  DeleteObjects: 0.054100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.489 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.678 seconds
+Domain Reload Profiling: 2164ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (829ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3684.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 3.740500 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.194400 ms MarkObjects: 3.081200 ms  DeleteObjects: 0.124800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.503 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.053 seconds
+Domain Reload Profiling: 2552ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (910ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (645ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3687.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 5.566100 ms (FindLiveObjects: 0.931900 ms CreateObjectMapping: 0.534900 ms MarkObjects: 4.040400 ms  DeleteObjects: 0.056800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.766 seconds
+Domain Reload Profiling: 3287ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (886ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (631ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3690.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 8.231100 ms (FindLiveObjects: 0.903500 ms CreateObjectMapping: 0.375300 ms MarkObjects: 6.883700 ms  DeleteObjects: 0.066900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: fe0a7a1180c82483faf6ec99de852c15 -> 949eaa5cbbace5cb99a3cd3cb175e850
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: efe4917a546508cbf214152f66b562cd -> 4b60499cc4c43b7b4a7721f49f3235e7
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 8f57d6ad58855258db29de8de1bbaf85 -> 0eb351f923cdcb0d7750461aab444863
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 85ecbe8402e05a9d0992ceca555d6d4c -> 6a72fae984a5b5ba0e1cf975f6787b9a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 8c0ffd56ed4d849ee24a9d8607151675 -> 330897db6e74a178c13f23e82287a5f7
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1529.121240 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 1 - Blue - 3x2.png
+  artifactKey: Guid(28248807b2cff2541b80f23294bb2113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 1 - Blue - 3x2.png using Guid(28248807b2cff2541b80f23294bb2113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3455354764e9f547f930510b1bb99150') in 0.123642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 2 - Blue - 3x2.png
+  artifactKey: Guid(858e794ee07200f41aea329dfd2608cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 2 - Blue - 3x2.png using Guid(858e794ee07200f41aea329dfd2608cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '041426386a89c64db008216c36363838') in 0.046277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 3 - Blue - 2x1.png
+  artifactKey: Guid(0ef1e3427ce320a42a5348598ebdcab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 3 - Blue - 2x1.png using Guid(0ef1e3427ce320a42a5348598ebdcab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '56f3ebe0c05fe4f708ee61c86e1c0380') in 0.029502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 2 - Orange - 3x2.png
+  artifactKey: Guid(ebeee60d0206e994e88452da9006a492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 2 - Orange - 3x2.png using Guid(ebeee60d0206e994e88452da9006a492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca1dd30c875c9e69347c88aa964b7616') in 0.038360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cracked floor - 1x2.png
+  artifactKey: Guid(950055a751642db4eb0a56c814336322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cracked floor - 1x2.png using Guid(950055a751642db4eb0a56c814336322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4feda2bd02aa6f7122ff66cc2944397') in 0.056764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 3 - Orange - 2x1.png
+  artifactKey: Guid(e4e52fd584a65fe44a191752135288b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheet 3 - Orange - 2x1.png using Guid(e4e52fd584a65fe44a191752135288b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd83a62810bd25a8320a46eed7437bc5d') in 0.065242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheets - Blue - 2x2.png
+  artifactKey: Guid(78d339ab7d86865499ed0c2212e9d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Corrugated sheets - Blue - 2x2.png using Guid(78d339ab7d86865499ed0c2212e9d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae8b4c1a73d2fd93b7ecb1414084a7f0') in 0.091931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.300375 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cracked floor - 3x2.png
+  artifactKey: Guid(ff8a375030850e841b48b8e5b12d3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Cracked floor - 3x2.png using Guid(ff8a375030850e841b48b8e5b12d3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '815325fbb9d4728b471a8cf9e7780550') in 0.016579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007988 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crate 1 - Orange - 1x1.png
+  artifactKey: Guid(56ccfd8643ebc14449c44445e84d826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crate 1 - Orange - 1x1.png using Guid(56ccfd8643ebc14449c44445e84d826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1550daefb183e731eff3210f38740615') in 0.017438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006920 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crates 1 - Orange - 2x1.png
+  artifactKey: Guid(fa38f3641f46e634184421d84ac9eb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crates 1 - Orange - 2x1.png using Guid(fa38f3641f46e634184421d84ac9eb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0060ebad111a27c4481119078dc7d917') in 0.016812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crates 2 - Blue - 1x1.png
+  artifactKey: Guid(670df80376d159d448ef6664824de269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crates 2 - Blue - 1x1.png using Guid(670df80376d159d448ef6664824de269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc39f36f546857f8ad8d7d47b1c472d1') in 0.034229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crates 3 - 1x1.png
+  artifactKey: Guid(3cbdca4ede50dbd41a0fea8928632306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crates 3 - 1x1.png using Guid(3cbdca4ede50dbd41a0fea8928632306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4892d59ccdf30776e527c8d7213e2531') in 0.025755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.055756 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crime scene body bag - 1x2.png
+  artifactKey: Guid(d77c549cdff7a4c4ab5e6b559c39f541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crime scene body bag - 1x2.png using Guid(d77c549cdff7a4c4ab5e6b559c39f541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '61a30b843a62a48a8698b19e59b30f91') in 0.014358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006752 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crushed boxes 2 - 1x1.png
+  artifactKey: Guid(8b528147481c9d3478cc5a074f3e2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Crushed boxes 2 - 1x1.png using Guid(8b528147481c9d3478cc5a074f3e2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec01c1582accf1554c109a6b77d8cb81') in 0.021809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002333 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Dumpster 1 - Orange - 2x2.png
+  artifactKey: Guid(28d6efd143da1ad49ac7754ea7d8b199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Dumpster 1 - Orange - 2x2.png using Guid(28d6efd143da1ad49ac7754ea7d8b199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e64b18ece01372161424bcdf54f4a206') in 0.017022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007011 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Dumpster 2 - Orange - 2x2.png
+  artifactKey: Guid(d6d84fc432964e74db55f15c1e4a6a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Dumpster 2 - Orange - 2x2.png using Guid(d6d84fc432964e74db55f15c1e4a6a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8185f72598eb1432445c9b0914228f4b') in 0.019547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.698350 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Dumpster 4 - 2x1.png
+  artifactKey: Guid(32683b5c4a7adbf46be3c32000a9b574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Dumpster 4 - 2x1.png using Guid(32683b5c4a7adbf46be3c32000a9b574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '636e280d7a9624c8a1951e8abeed16c6') in 0.016810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005518 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 1 - 1x1.png
+  artifactKey: Guid(ac8a63e9e7ab84445a31cfccaf97209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 1 - 1x1.png using Guid(ac8a63e9e7ab84445a31cfccaf97209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a74a3ca0a5913947f1249062fdd69f15') in 0.015618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008775 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 2 - Post - 1x1.png
+  artifactKey: Guid(3799e5d029c3dca4f98ff474f1349890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 2 - Post - 1x1.png using Guid(3799e5d029c3dca4f98ff474f1349890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80a5f670c8a9b4e0097e68707ef010ad') in 0.014212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 4 - 1x1.png
+  artifactKey: Guid(be7d1edcbd849a248945c4c9c79f298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 4 - 1x1.png using Guid(be7d1edcbd849a248945c4c9c79f298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '793ef5fed745ac4ea2d200c912a2fa5f') in 0.013955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005778 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 4 - Post - 1x1.png
+  artifactKey: Guid(465face871522eb4cab36df639c1afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 4 - Post - 1x1.png using Guid(465face871522eb4cab36df639c1afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c775c438d35ba4f80284723c21f4b600') in 0.019032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011337 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 4 - Post - Orange - 1x1.png
+  artifactKey: Guid(6cb0c495ff60e5f4ebbaec486756cb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Fence 4 - Post - Orange - 1x1.png using Guid(6cb0c495ff60e5f4ebbaec486756cb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4eafd9ef966b544546a804f1b80becf8') in 0.013968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006366 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Grate 1 - 1x1.png
+  artifactKey: Guid(8ec40bc176bcd0f45bc2344c334a71f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Grate 1 - 1x1.png using Guid(8ec40bc176bcd0f45bc2344c334a71f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b88e616b9f3ae6f680826ed5598328c') in 0.014586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006210 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Hologram 1 - 1x1.png
+  artifactKey: Guid(e3250009c45043a47b99d4d872ea84f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Hologram 1 - 1x1.png using Guid(e3250009c45043a47b99d4d872ea84f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0214ae783bbc04caeb4cbabf5637a87') in 0.015843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005873 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Holographic tape - 1x1.png
+  artifactKey: Guid(89b68926a35909045954e28524c0205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Holographic tape - 1x1.png using Guid(89b68926a35909045954e28524c0205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4a5f00129f2bc20121283dfc3afeef7') in 0.016165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: De I/O-bewerking is afgebroken vanwege het afsluiten van een thread of vanwege een opdracht van een toepassing.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
