@@ -1,7 +1,7 @@
-/*using UnityEngine;
+using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyChase : MonoBehaviour
 {
     public float stopDistance = 1f;
     private NavMeshAgent agent;
@@ -32,4 +32,4 @@ public class EnemyMovement : MonoBehaviour
             }
         }
     }
-}*/
+}
