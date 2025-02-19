@@ -16944,7 +16944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca9e885ae4816634d818dc8f47d2ced2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadDistance: 15
+  loadDistance: 25
 --- !u!1 &1831743344
 GameObject:
   m_ObjectHideFlags: 0
@@ -20602,7 +20602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca9e885ae4816634d818dc8f47d2ced2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadDistance: 15
+  loadDistance: 25
 --- !u!1 &2097237947
 GameObject:
   m_ObjectHideFlags: 0
