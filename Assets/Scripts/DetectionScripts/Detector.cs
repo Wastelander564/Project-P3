@@ -8,7 +8,7 @@ using TMPro;
 public class Detector : MonoBehaviour
 {
     public bool isSeen;
-    public float detectionValue = 25;
+    public float detectionValue = 0;
     public Slider slider;
 
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class Detector : MonoBehaviour
         }
         if (isSeen)
         {
-            if (detectionValue < 100) IncreaseDetection(10);
+            if (detectionValue < 100) IncreaseDetection(30);
         }
         else
         {

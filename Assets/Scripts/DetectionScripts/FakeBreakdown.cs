@@ -20,13 +20,14 @@ public class FakeBreakdown : MonoBehaviour
         }
         if (isDown)
         {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 0.5f);
-            GetComponent<SimpleMovement>().enabled = false;
+            GetComponent<PlayerController>().enabled = false;
         }
         else
         {
             GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 1f);
-            GetComponent<SimpleMovement>().enabled = true;
+            GetComponent<PlayerController>().enabled = true;
 
         }
     }
