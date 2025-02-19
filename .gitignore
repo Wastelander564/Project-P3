@@ -35,3 +35,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Library/Search/transactions.db
+/Library
+*.db
+*.db
+*.db
+/Library/Search
