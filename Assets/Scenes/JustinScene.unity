@@ -2420,9 +2420,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  player: {fileID: 2009559575}
-  chaseRange: 5
   stopDistance: 1
+  detectionThreshold: 90
+  patrolThreshold: 30
+  visionCone: {fileID: 1579305036}
 --- !u!195 &223950316
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2433,7 +2434,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.22500002
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3254,12 +3255,12 @@ PrefabInstance:
     - target: {fileID: 7627250076792236627, guid: 45155823630062742a5e124c898a5f3b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.86
+      value: 30.17
       objectReference: {fileID: 0}
     - target: {fileID: 7627250076792236627, guid: 45155823630062742a5e124c898a5f3b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.57
+      value: 17.66
       objectReference: {fileID: 0}
     - target: {fileID: 7627250076792236627, guid: 45155823630062742a5e124c898a5f3b,
         type: 3}
@@ -3726,13 +3727,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380296497}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 420357208}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!60 &380296499
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4314,14 +4315,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420357207}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9987566, w: 0.04985264}
+  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 19.849762, y: 25.96484, z: -0.12441135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 380296498}
   m_Father: {fileID: 1249434915}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -174.285}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!114 &420357209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4337,9 +4338,10 @@ MonoBehaviour:
   waypoints:
   - {fileID: 500204269}
   - {fileID: 1953776254}
-  player: {fileID: 2009559575}
-  chaseRange: 5
   stopDistance: 1
+  detectionThreshold: 90
+  patrolThreshold: 30
+  visionCone: {fileID: 380296498}
 --- !u!195 &420357210
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4350,7 +4352,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.22500002
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4987,9 +4989,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  player: {fileID: 2009559575}
-  chaseRange: 5
   stopDistance: 1
+  detectionThreshold: 90
+  patrolThreshold: 30
+  visionCone: {fileID: 744073086}
 --- !u!195 &489904373
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5000,7 +5003,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.22499812
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6069,9 +6072,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  player: {fileID: 2009559575}
-  chaseRange: 5
   stopDistance: 1
+  detectionThreshold: 90
+  patrolThreshold: 30
+  visionCone: {fileID: 1705025030}
 --- !u!195 &563218728
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6082,7 +6086,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.22500193
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7072,9 +7076,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  player: {fileID: 2009559575}
-  chaseRange: 5
   stopDistance: 1
+  detectionThreshold: 90
+  patrolThreshold: 30
+  visionCone: {fileID: 21262519}
 --- !u!195 &688712578
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7085,7 +7090,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.2249991
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -13225,12 +13230,12 @@ PrefabInstance:
     - target: {fileID: 6508608582718314257, guid: 91fb86ff1f137be44bde2961c925c0fb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.15
+      value: 30.31
       objectReference: {fileID: 0}
     - target: {fileID: 6508608582718314257, guid: 91fb86ff1f137be44bde2961c925c0fb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.88
+      value: 17.89
       objectReference: {fileID: 0}
     - target: {fileID: 6508608582718314257, guid: 91fb86ff1f137be44bde2961c925c0fb,
         type: 3}
@@ -15603,9 +15608,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  player: {fileID: 2009559575}
-  chaseRange: 5
   stopDistance: 1
+  detectionThreshold: 90
+  patrolThreshold: 30
+  visionCone: {fileID: 66128994}
 --- !u!195 &1307072630
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15616,7 +15622,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.22500196
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -24287,12 +24293,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDown: 0
---- !u!4 &2009559575 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6508608582718314257, guid: 91fb86ff1f137be44bde2961c925c0fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1112896268}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2022509124
 GameObject:
   m_ObjectHideFlags: 0

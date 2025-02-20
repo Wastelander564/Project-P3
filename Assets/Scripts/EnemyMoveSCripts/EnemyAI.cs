@@ -4,19 +4,22 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     public Transform[] waypoints; // Patrol points
-    public Transform player; // Player reference
-    public float chaseRange = 5f; // Chase if path distance is <= 5
     public float stopDistance = 1f; // Stop moving when close to player
+    public float detectionThreshold = 90f; // Detection level to start chasing
+    public float patrolThreshold = 30f; // Detection level to return to patrolling
+    public Transform visionCone; // Reference to the vision cone (if you have one)
 
     private NavMeshAgent agent;
     private int currentWaypointIndex = 0;
     private bool isChasing = false;
+    private Detector detector;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false;
+        agent.updateRotation = false;  // We'll handle rotation manually
         agent.updateUpAxis = false;
+        detector = FindObjectOfType<Detector>(); // Find the player’s Detector component
 
         if (waypoints.Length > 0)
         {
@@ -26,24 +29,26 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (IsPlayerWithinNavMeshRange(chaseRange))
+        if (detector.detectionValue >= detectionThreshold)
         {
             StartChasing();
         }
-        else
+        else if (detector.detectionValue <= patrolThreshold)
         {
             Patrol();
         }
+
+        RotateTowardsDestination();
     }
 
     void StartChasing()
     {
         isChasing = true;
-        float distance = GetNavMeshPathDistance(player.position);
+        float distance = Vector3.Distance(transform.position, detector.transform.position);
 
         if (distance > stopDistance)
         {
-            agent.SetDestination(player.position);
+            agent.SetDestination(detector.transform.position);
         }
         else
         {
@@ -71,24 +76,29 @@ public class EnemyAI : MonoBehaviour
         agent.SetDestination(waypoints[currentWaypointIndex].position);
     }
 
-    bool IsPlayerWithinNavMeshRange(float maxDistance)
+    void RotateTowardsDestination()
     {
-        float pathDistance = GetNavMeshPathDistance(player.position);
-        return pathDistance > 0 && pathDistance <= maxDistance;
-    }
-
-    float GetNavMeshPathDistance(Vector3 targetPosition)
-    {
-        NavMeshPath path = new NavMeshPath();
-        if (agent.CalculatePath(targetPosition, path) && path.status == NavMeshPathStatus.PathComplete)
+        if (agent.hasPath)
         {
-            float distance = 0f;
-            for (int i = 1; i < path.corners.Length; i++)
+            // Get the direction of movement (2D rotation is based on X and Y, Z for rotation)
+            Vector3 direction = agent.steeringTarget - transform.position;
+
+            // Only rotate if the agent is moving
+            if (direction.sqrMagnitude > 0.01f)
             {
-                distance += Vector3.Distance(path.corners[i - 1], path.corners[i]);
+                // Calculate the angle for 2D rotation (Z-axis)
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+                // Smoothly rotate to the target angle
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, angle), Time.deltaTime * 5f);
+
+                // If you have a vision cone, rotate it to match the enemy's direction with a 90-degree offset
+                if (visionCone != null)
+                {
+                    // Add a 90-degree offset to the vision cone's rotation
+                    visionCone.rotation = Quaternion.Slerp(visionCone.rotation, Quaternion.Euler(0, 0, angle - 90f), Time.deltaTime * 5f);
+                }
             }
-            return distance;
         }
-        return Mathf.Infinity; // Return Infinity if path is not possible
     }
 }
