@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ee095c83f281e7b418f3b24845b58ce4
+guid: 87fb7ab7229b8fa439d642f3ac7083a2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,8 +37,8 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -134,18 +134,62 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Player-move-animation_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8663a3995be9c2546b2156cfce67ac3d
+      internalID: 1869577039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player-move-animation_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b0c1797222514fa260855cbf7cf0f
+      internalID: 1730129683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bd0ed1a5194cca24e864e9d4d53f21bb
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Player-move-animation_0: 1869577039
+      Player-move-animation_1: 1730129683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
