@@ -22,9 +22,9 @@ public class CoinBank : MonoBehaviour
         UpdateCounter(); // Ensure UI is initialized correctly
     }
 
-    public void AddCoin()
+    public void AddCoin(int worth)
     {
-        coinAmount++; // Increase coin count
+        coinAmount += worth; // Increase coin count by the coin's worth
         UpdateCounter(); // Update the counter UI
     }
 

@@ -2459,7 +2459,7 @@ GameObject:
   - component: {fileID: 223950315}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2610,7 +2610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98161875cd3265140b12517ac4ab4333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1758080917}
 --- !u!1 &266024701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,12 +3328,12 @@ PrefabInstance:
     - target: {fileID: 7627250076792236627, guid: 45155823630062742a5e124c898a5f3b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.13
+      value: 7.27
       objectReference: {fileID: 0}
     - target: {fileID: 7627250076792236627, guid: 45155823630062742a5e124c898a5f3b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.93
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 7627250076792236627, guid: 45155823630062742a5e124c898a5f3b,
         type: 3}
@@ -3801,7 +3801,7 @@ Transform:
   m_GameObject: {fileID: 380296497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4420,7 +4420,7 @@ GameObject:
   - component: {fileID: 420357209}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4573,7 +4573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98161875cd3265140b12517ac4ab4333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1758080917}
 --- !u!1 &424811058
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,7 +5073,7 @@ GameObject:
   - component: {fileID: 489904372}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5224,7 +5224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98161875cd3265140b12517ac4ab4333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1758080917}
 --- !u!1 &491870997
 GameObject:
   m_ObjectHideFlags: 0
@@ -6156,7 +6156,7 @@ GameObject:
   - component: {fileID: 563218727}
   m_Layer: 0
   m_Name: Enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6307,7 +6307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98161875cd3265140b12517ac4ab4333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1758080917}
 --- !u!1 &571474696
 GameObject:
   m_ObjectHideFlags: 0
@@ -7160,7 +7160,7 @@ GameObject:
   - component: {fileID: 688712577}
   m_Layer: 0
   m_Name: Enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7311,7 +7311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98161875cd3265140b12517ac4ab4333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1758080917}
 --- !u!1 &700463480
 GameObject:
   m_ObjectHideFlags: 0
@@ -13445,6 +13445,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2009559568}
+    - targetCorrespondingSourceObject: {fileID: 254419508583000499, guid: 91fb86ff1f137be44bde2961c925c0fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009559580}
   m_SourcePrefab: {fileID: 100100000, guid: 91fb86ff1f137be44bde2961c925c0fb, type: 3}
 --- !u!1 &1117728943
 GameObject:
@@ -15761,7 +15765,7 @@ GameObject:
   - component: {fileID: 1307072629}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15912,7 +15916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98161875cd3265140b12517ac4ab4333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1758080917}
 --- !u!1 &1359576394
 GameObject:
   m_ObjectHideFlags: 0
@@ -18290,8 +18294,8 @@ Transform:
   m_GameObject: {fileID: 1497567102}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.81, y: 8.53, z: 0.10648499}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -17.04, y: 6.85, z: 0.10648499}
+  m_LocalScale: {x: 0.7779, y: 0.7501, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 730355740}
@@ -18396,6 +18400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7a66fb1ad7b2604685ab9da0c958db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Worth: 100
 --- !u!1 &1513012018
 GameObject:
   m_ObjectHideFlags: 0
@@ -24467,7 +24472,7 @@ MonoBehaviour:
   m_LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_UseGeometry: 0
+  m_UseGeometry: 1
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
@@ -24748,6 +24753,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDown: 0
+--- !u!114 &2009559580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009559567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7d95d610b744146a7fe9d383959941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsToDecrease: 10
+  coinBank: {fileID: 0}
 --- !u!1 &2022509124
 GameObject:
   m_ObjectHideFlags: 0
