@@ -13,6 +13,8 @@ public class EnemyAI : MonoBehaviour
     private int currentWaypointIndex = 0;
     private bool isChasing = false;
     private Detector detector;
+    
+    public int Rank;
 
     void Start()
     {
@@ -72,6 +74,8 @@ public class EnemyAI : MonoBehaviour
 
     void MoveToNextWaypoint()
     {
+        if (waypoints.Length == 0) return; // Prevent division by zero when no waypoints exist
+
         currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
         agent.SetDestination(waypoints[currentWaypointIndex].position);
     }
