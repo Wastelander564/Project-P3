@@ -7,6 +7,14 @@ public class RotatePiece : MonoBehaviour
     public List<float> validRotations; // List of valid rotations for this piece
     public KeyCode rotateKey = KeyCode.R; // Customizable key in Inspector
     private bool isInsideTrigger = false;
+    private bool isLocked = false; // Flag to lock rotation after the puzzle is solved
+    private float startingRotation; // Store the starting rotation
+
+    void Start()
+    {
+        // Store the initial rotation of the piece when the game starts
+        startingRotation = transform.eulerAngles.z;
+    }
 
     // Trigger detection for the player
     private void OnTriggerEnter2D(Collider2D other)
@@ -27,6 +35,11 @@ public class RotatePiece : MonoBehaviour
 
     void Update()
     {
+        if (isLocked)
+        {
+            return; // Prevent any updates if the piece is locked
+        }
+
         // If the player is inside the trigger area and presses the rotate key, rotate the object
         if (isInsideTrigger && Input.GetKeyDown(rotateKey))
         {
@@ -59,5 +72,17 @@ public class RotatePiece : MonoBehaviour
             }
         }
         return false;
+    }
+
+    // Lock the rotation of the piece
+    public void LockRotation()
+    {
+        isLocked = true; // Set the lock flag to true
+    }
+
+    // Reset to the starting rotation
+    public void ResetRotation()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, startingRotation); // Reset to the starting rotation
     }
 }

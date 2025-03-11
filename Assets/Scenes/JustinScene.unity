@@ -2845,6 +2845,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 1579305036}
+  Rank: 0
 --- !u!195 &223950316
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2977,6 +2978,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 1579305036}
+  Rank: 0
 --- !u!1 &266024701
 GameObject:
   m_ObjectHideFlags: 0
@@ -4826,6 +4828,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 380296498}
+  Rank: 0
 --- !u!195 &420357210
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5790,6 +5793,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 744073086}
+  Rank: 0
 --- !u!195 &489904373
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6873,6 +6877,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 1705025030}
+  Rank: 0
 --- !u!195 &563218728
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8153,6 +8158,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 21262519}
+  Rank: 0
 --- !u!195 &688712578
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12031,7 +12037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1013879106
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16970,6 +16976,7 @@ MonoBehaviour:
   detectionThreshold: 90
   patrolThreshold: 30
   visionCone: {fileID: 66128994}
+  Rank: 0
 --- !u!195 &1307072630
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -20878,6 +20885,8 @@ MonoBehaviour:
   - {fileID: 63391905}
   - {fileID: 613697953}
   colorDelay: 0.35
+  HasTimer: 0
+  timeLimit: 5
 --- !u!4 &1591909852
 Transform:
   m_ObjectHideFlags: 0
