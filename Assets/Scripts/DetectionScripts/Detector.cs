@@ -10,11 +10,10 @@ public class Detector : MonoBehaviour
     public bool isSeen;
     public float detectionValue = 0;
     public Slider slider;
+    public bool isHiding;
+    public float incValue;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    public int enemyRank;
 
     // Update is called once per frame
     void Update()
@@ -34,20 +33,22 @@ public class Detector : MonoBehaviour
         }
         if (isSeen)
         {
-            if (detectionValue < 100) IncreaseDetection(30);
+            if (detectionValue < 100) IncreaseDetection(30, enemyRank);
         }
         else
         {
-            if(detectionValue > 0) IncreaseDetection(-10);
+            if(detectionValue > 0) IncreaseDetection(-10, 0);
 
         }
     }
 
 
-    private void IncreaseDetection(float x)
+    private void IncreaseDetection(float x, float rank)
     {
         float multiplier = 1;
-        if (GetComponent<FakeBreakdown>().isDown) multiplier = 0.1f;
+        //if(rank <= GetComponent<FakeBreakdown>().abilityRank) //this line will be used after i make the upgrade system for the fake breakdown ability
+            if (GetComponent<FakeBreakdown>().isDown && x >= 0) multiplier /= 3f;
+            if (isHiding && x >= 0) multiplier -= 0.5f;
         detectionValue += (x * multiplier) * Time.deltaTime;
     }
 

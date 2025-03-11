@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DanisScene.unity
+- path: Assets/Scenes/Youri.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
