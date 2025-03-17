@@ -11,24 +11,24 @@ public class SolvePuzzle : MonoBehaviour
     private float timer; // Timer to track the time remaining
     private bool puzzleSolved = false; // Flag to check if puzzle is solved
     private bool puzzleFailed = false; // Flag to check if the puzzle time limit expired
+    private bool timerActive = false; // Each puzzle has its own timer status
 
     void Start()
     {
         if (HasTimer)
         {
-            timer = timeLimit; // Set the initial timer
+            timer = timeLimit; // Set the initial timer for this puzzle
+            timerActive = false; // Timer does NOT start automatically
         }
     }
 
     void Update()
     {
-        if (HasTimer && !puzzleSolved && !puzzleFailed)
+        if (HasTimer && timerActive && !puzzleSolved && !puzzleFailed)
         {
-            // Decrease the timer if the puzzle has a timer
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {
-                // If time runs out, reset the puzzle
                 puzzleFailed = true;
                 ResetPuzzle();
             }
@@ -44,68 +44,79 @@ public class SolvePuzzle : MonoBehaviour
     {
         foreach (RotatePiece piece in puzzlePieces)
         {
-            if (!piece.IsCorrectRotation()) return; // If any piece is incorrect, stop checking
+            if (!piece.IsCorrectRotation()) return;
         }
 
-        // If all pieces are correctly rotated, lock their rotation and color them one by one
         if (!puzzleSolved)
         {
             puzzleSolved = true;
+            timerActive = false; // Stop the timer once the puzzle is solved
             LockAllPieces();
             StartCoroutine(ColorPieces());
         }
     }
 
-    // Lock all pieces so they can't be rotated anymore
     void LockAllPieces()
     {
         foreach (RotatePiece piece in puzzlePieces)
         {
-            piece.LockRotation(); // Lock each piece's rotation
+            piece.LockRotation();
         }
     }
 
-    // Color pieces one by one after the puzzle is solved
     IEnumerator ColorPieces()
     {
-        // Loop through each child and set its color to cyan (00FFFF) in order
         foreach (Transform child in transform)
         {
             SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
             if (sr != null)
             {
                 sr.color = new Color(0f, 1f, 1f); // Set color to cyan (00FFFF)
-                yield return new WaitForSeconds(colorDelay); // Wait before coloring the next piece
+                yield return new WaitForSeconds(colorDelay);
             }
         }
     }
 
-    // Reset the puzzle if time runs out
     void ResetPuzzle()
     {
-        // Reset each piece to its starting rotation
         foreach (RotatePiece piece in puzzlePieces)
         {
-            piece.ResetRotation(); // Assuming ResetRotation method is available in RotatePiece
+            piece.ResetRotation(); // Assuming ResetRotation() exists in RotatePiece
         }
 
-        // Optionally, reset the puzzle pieces' colors to the initial state
         foreach (Transform child in transform)
         {
             SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
             if (sr != null)
             {
-                sr.color = Color.white; // Reset to original color (or any other default color)
+                sr.color = Color.white;
             }
         }
 
-        // Reset timer for the next attempt
         if (HasTimer)
         {
             timer = timeLimit;
+            timerActive = false; // Ensure the timer does not restart automatically
         }
 
-        puzzleSolved = false; // Allow puzzle to be solved again
-        puzzleFailed = false; // Reset the failure flag
+        puzzleSolved = false;
+        puzzleFailed = false;
+    }
+
+    // Call this method to activate the timer for this specific puzzle
+    public void StartTimer()
+    {
+        if (HasTimer && !timerActive)
+        {
+            timerActive = true;
+        }
+    }
+
+    public void StopTimer()
+    {
+        if (HasTimer && timerActive)
+        {
+            timerActive = false;
+        }
     }
 }

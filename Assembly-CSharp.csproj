@@ -69,6 +69,7 @@
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
+    <Compile Include="Assets\Scripts\ConvertRobots\Convert.cs" />
     <Compile Include="Assets\Scripts\RotationPuzzelScripts\SolvePuzzel.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\SpeedBoost.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\Invisiblity.cs" />

@@ -1,30 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\",
+  "WorkspaceRootPath": "C:\\Users\\Justin van Vliet\\Project-P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\RotationPuzzelScripts\\SolvePuzzel.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RotationPuzzelScripts\\SolvePuzzel.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\users\\deron\\onedrive\\documenten\\github\\project-p3\\assets\\scripts\\detectionscripts\\enemydetectionstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\enemydetectionstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\RotationPuzzelScripts\\RotatePiece.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RotationPuzzelScripts\\RotatePiece.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\users\\deron\\onedrive\\documenten\\github\\project-p3\\assets\\scripts\\detectionscripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\EnemyMoveSCripts\\EnemyAI.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyMoveSCripts\\EnemyAI.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\assets\\scripts\\detectionscripts\\fakebreakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\fakebreakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PlayerController.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\assets\\scripts\\detectionscripts\\simplemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\simplemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\Invisiblity.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Power-Ups\\Invisiblity.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\SimpleMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SimpleMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\SpeedBoost.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Power-Ups\\SpeedBoost.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\CloakingDevice.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Power-Ups\\CloakingDevice.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\Detector.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DetectionScripts\\Detector.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DetectionScripts\\DetectionCone.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\CrushingWalls.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CrushingWalls.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +66,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyDetectionStates.cs",
-              "DocumentMoniker": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
-              "ToolTip": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "Title": "RotatePiece.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\RotationPuzzelScripts\\RotatePiece.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotationPuzzelScripts\\RotatePiece.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\RotationPuzzelScripts\\RotatePiece.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotationPuzzelScripts\\RotatePiece.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwv1gAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:58:33.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FakeBreakdown.cs",
-              "DocumentMoniker": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "ToolTip": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:41:22.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Detector.cs",
-              "DocumentMoniker": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\Detector.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\Detector.cs",
-              "ToolTip": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\Detector.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\Detector.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwDEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:38:19.187Z",
+              "WhenOpened": "2025-03-10T10:15:09.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DetectionCone.cs",
-              "DocumentMoniker": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "ToolTip": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Title": "SolvePuzzel.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\RotationPuzzelScripts\\SolvePuzzel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotationPuzzelScripts\\SolvePuzzel.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\RotationPuzzelScripts\\SolvePuzzel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotationPuzzelScripts\\SolvePuzzel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:52:10.279Z",
+              "WhenOpened": "2025-03-10T10:11:30.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SimpleMovement.cs",
-              "DocumentMoniker": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\SimpleMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\SimpleMovement.cs",
-              "ToolTip": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\SimpleMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\SimpleMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:51:35.254Z"
+              "WhenOpened": "2025-03-10T09:05:54.245Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SimpleMovement.cs",
-              "DocumentMoniker": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\SimpleMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SimpleMovement.cs",
-              "ToolTip": "C:\\Users\\deron\\OneDrive\\Documenten\\GitHub\\Project-P3\\Assets\\Scripts\\SimpleMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SimpleMovement.cs",
+              "Title": "SpeedBoost.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\SpeedBoost.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Power-Ups\\SpeedBoost.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\SpeedBoost.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Power-Ups\\SpeedBoost.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:46:25.79Z"
+              "WhenOpened": "2025-03-10T09:05:44.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CloakingDevice.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\CloakingDevice.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Power-Ups\\CloakingDevice.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\CloakingDevice.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Power-Ups\\CloakingDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:59:59.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Invisiblity.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\Invisiblity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Power-Ups\\Invisiblity.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\Power-Ups\\Invisiblity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Power-Ups\\Invisiblity.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:54:46.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoinCollider.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:32:59.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CoinBank.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:32:39.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrushingWalls.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\CrushingWalls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CrushingWalls.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\CrushingWalls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CrushingWalls.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T09:52:16.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\EnemyMoveSCripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMoveSCripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\EnemyMoveSCripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMoveSCripts\\EnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:33:56.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FakeBreakdown.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:33:45.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnemyDetectionStates.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:33:45.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Detector.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\Detector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\Detector.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\Detector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\Detector.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:33:45.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetectionCone.cs",
+              "DocumentMoniker": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
+              "ToolTip": "C:\\Users\\Justin van Vliet\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:33:45.548Z"
             }
           ]
         }
