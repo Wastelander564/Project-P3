@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool isSlowWalking = false;
     private bool isVaulting = false;
     private Transform vaultableObject;
-    public float tiltSpeed = 5f; 
+     public float tiltSpeed = 5f; 
 
     public GameObject vaultPromptUI; 
     private Rigidbody2D rb; 
