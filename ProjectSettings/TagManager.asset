@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Vaultable
   - SlowZone
+  - CentralHub
   layers:
   - Default
   - TransparentFX

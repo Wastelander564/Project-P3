@@ -61,16 +61,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\HackingScripts\CentralHub.cs" />
+    <Compile Include="Assets\Scripts\Test\YouriCamera.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveSCripts\EnemyPatrol2D.cs" />
+    <Compile Include="Assets\Scripts\Test\YouriGameManager.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\Detector.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\HideSpots.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\PistonGame\BarValue.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\alphabetNumberGame\PasswordChecker.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\MiniGame.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\FakeBreakdown.cs" />
     <Compile Include="Assets\Scripts\CrushingWalls.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
     <Compile Include="Assets\Scripts\MudScript.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\PistonGame\Piston.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\EnemyDetectionStates.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Test\YouriTestScript.cs" />
@@ -80,6 +86,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\MapChunkLoader.cs" />
     <Compile Include="Assets\Scripts\GridSystem.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\Interact.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveSCripts\EnemyChase.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -955,6 +962,10 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
