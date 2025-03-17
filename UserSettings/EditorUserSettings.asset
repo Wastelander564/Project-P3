@@ -14,9 +14,12 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-2:
       value: 5506525f55515f5e0b560a74407a5c44134e1d7c2e2e73332c2a1932bbb5606c
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-3:
       value: 0753055052560b5d0c560d7144730744424f4d2f752d24642b704931b7b6326e
       flags: 0
+=======
+>>>>>>> RotationPuzzel
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0

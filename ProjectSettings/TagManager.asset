@@ -6,7 +6,11 @@ TagManager:
   tags:
   - Vaultable
   - SlowZone
+<<<<<<< HEAD
   - CentralHub
+=======
+  - Enemy
+>>>>>>> RotationPuzzel
   layers:
   - Default
   - TransparentFX

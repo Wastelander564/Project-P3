@@ -25,6 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9B304522-7874-F080-DBBF-B86E856EFCA1}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualStudio.Editor", "Unity.VisualStudio.Editor.csproj", "{B00C7B27-C424-E3F0-141F-80EA77EEFA1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model", "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj", "{D50BB4C4-BAAD-0335-845A-00CADB010AA6}"
@@ -57,6 +58,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.EditorCoroutines.Edit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{103F3CB5-EAD3-34C9-EEB7-4ABA45EC9823}"
 EndProject
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshPlus", "NavMeshPlus.csproj", "{7CE4ED24-D0F0-9F93-6B71-121C694B5721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshPlusEditor", "NavMeshPlusEditor.csproj", "{922F8634-D695-F9E7-0FEC-77772E4C3897}"
+EndProject
+>>>>>>> RotationPuzzel
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +118,7 @@ Global
 		{9B304522-7874-F080-DBBF-B86E856EFCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B304522-7874-F080-DBBF-B86E856EFCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B304522-7874-F080-DBBF-B86E856EFCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{B00C7B27-C424-E3F0-141F-80EA77EEFA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B00C7B27-C424-E3F0-141F-80EA77EEFA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B00C7B27-C424-E3F0-141F-80EA77EEFA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -135,10 +143,13 @@ Global
 		{F3E21187-5E7C-8EA1-71BF-FFF555F0169C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E21187-5E7C-8EA1-71BF-FFF555F0169C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E21187-5E7C-8EA1-71BF-FFF555F0169C}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> RotationPuzzel
 		{7CE4ED24-D0F0-9F93-6B71-121C694B5721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CE4ED24-D0F0-9F93-6B71-121C694B5721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE4ED24-D0F0-9F93-6B71-121C694B5721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE4ED24-D0F0-9F93-6B71-121C694B5721}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{15934B3A-411D-55F0-D55B-DA4A4200957B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15934B3A-411D-55F0-D55B-DA4A4200957B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15934B3A-411D-55F0-D55B-DA4A4200957B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -151,10 +162,13 @@ Global
 		{EDC45CEB-36B0-81DB-F102-3246CEEED6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC45CEB-36B0-81DB-F102-3246CEEED6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC45CEB-36B0-81DB-F102-3246CEEED6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> RotationPuzzel
 		{922F8634-D695-F9E7-0FEC-77772E4C3897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{922F8634-D695-F9E7-0FEC-77772E4C3897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{922F8634-D695-F9E7-0FEC-77772E4C3897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{922F8634-D695-F9E7-0FEC-77772E4C3897}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{928376CB-6560-AE77-B879-126D6444316D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{928376CB-6560-AE77-B879-126D6444316D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{928376CB-6560-AE77-B879-126D6444316D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -175,6 +189,8 @@ Global
 		{103F3CB5-EAD3-34C9-EEB7-4ABA45EC9823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{103F3CB5-EAD3-34C9-EEB7-4ABA45EC9823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{103F3CB5-EAD3-34C9-EEB7-4ABA45EC9823}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> RotationPuzzel
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
