@@ -16,10 +16,12 @@ public class PlayerController : MonoBehaviour
      public float tiltSpeed = 5f; 
 
     public GameObject vaultPromptUI; 
-    private Rigidbody2D rb; 
+    private Rigidbody2D rb;
+    private Animator Animator;
 
     private void Start()
     {
+        Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>(); 
         rb.gravityScale = 0; 
         rb.freezeRotation = true; 
@@ -82,6 +84,13 @@ void TiltCamera()
         {
             isSlowWalking = !isSlowWalking;
             moveSpeed = isSlowWalking ? slowSpeed : normalSpeed;
+            Animator.SetBool("isSneaking", true);
+            Animator.SetBool("isntSneaking", false);
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            Animator.SetBool("isSneaking", false);
+            Animator.SetBool("isntSneaking", true);
         }
     }
 
