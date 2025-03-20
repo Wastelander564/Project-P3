@@ -28,8 +28,8 @@ public class CentralHub : MonoBehaviour
             if (interact.IsClose() && Input.GetKeyDown(KeyCode.E) && miniGame.activeSelf == false && detector.detectionValue <= detector.slider.maxValue/2 && !isDown)
             {
                 miniGame.SetActive(true);
-                miniGame.GetComponent<MiniGame>().ResetGame();
-                miniGame.GetComponent<MiniGame>().canPlay = true;
+                if(miniGame.name != "Upgrades")miniGame.GetComponent<MiniGame>().ResetGame();
+                if (miniGame.name != "Upgrades") miniGame.GetComponent<MiniGame>().canPlay = true;
                 HaltMovement();
             }
         }
