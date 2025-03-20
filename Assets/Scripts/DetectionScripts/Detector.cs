@@ -29,11 +29,10 @@ public class Detector : MonoBehaviour
         if (slider != null)
         {
             slider.value = detectionValue;
-            UpdateUI();
         }
         if (isSeen)
         {
-            if (detectionValue < 100) IncreaseDetection(30, enemyRank);
+            if (detectionValue < slider.maxValue) IncreaseDetection(30, enemyRank);
         }
         else
         {
@@ -50,10 +49,5 @@ public class Detector : MonoBehaviour
             if (GetComponent<FakeBreakdown>().isDown && x >= 0) multiplier /= 3f;
             if (isHiding && x >= 0) multiplier -= 0.5f;
         detectionValue += (x * multiplier) * Time.deltaTime;
-    }
-
-    private void UpdateUI()
-    {
-
     }
 }

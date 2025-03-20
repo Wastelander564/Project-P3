@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\projects2024school\\GitHub\\Project-P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\upgrades\\upgradesmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\upgradesmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\pistongame\\barvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\pistongame\\barvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\upgrades\\craftinglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\craftinglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\pistongame\\piston.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\pistongame\\piston.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\upgrades\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\centralhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\centralhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\upgrades\\upgradebreakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\upgradebreakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\test\\yourigamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\yourigamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\upgrades\\upgradedetectionbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\upgradedetectionbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "YouriGameManager.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Test\\YouriGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Test\\YouriGameManager.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Test\\YouriGameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Test\\YouriGameManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:29:39.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BarValue.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:39:40.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Piston.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\PistonGame\\Piston.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\PistonGame\\Piston.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\PistonGame\\Piston.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\PistonGame\\Piston.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:38:14.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MiniGame.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wCkAAABSAAAAAAAAAA==",
+              "Title": "UpgradesMain.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:57:12.023Z",
+              "WhenOpened": "2025-03-19T23:39:45.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CentralHub.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\CentralHub.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\CentralHub.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\CentralHub.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\CentralHub.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAsAAAALAAAAAAAAAA==",
+              "Title": "UpgradeBreakDown.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradeBreakDown.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\UpgradeBreakDown.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradeBreakDown.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradeBreakDown.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:35:48.728Z",
+              "WhenOpened": "2025-03-19T23:39:45.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpgradeDetectionBar.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradeDetectionBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\UpgradeDetectionBar.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradeDetectionBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradeDetectionBar.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAnwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T23:39:46.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cash.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\Cash.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\Cash.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\Cash.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\Cash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:46:56.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CraftingLog.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\CraftingLog.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\CraftingLog.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\CraftingLog.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\CraftingLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:02:08.478Z",
               "EditorCaption": ""
             }
           ]
