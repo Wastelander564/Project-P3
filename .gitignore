@@ -1,4 +1,6 @@
 [Ll]ibrary/
+[Ll]ibrary/**/*.json
+[Ll]ibrary/**/*.dag
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
