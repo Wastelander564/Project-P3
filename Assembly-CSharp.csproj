@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Menu&apos;s\Volume.cs" />
     <Compile Include="Assets\Scripts\Upgrades\UpgradeBreakDown.cs" />
     <Compile Include="Assets\Scripts\RotationPuzzelScripts\RotatePiece.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\DetectionCone.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\HideSpots.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\CloakingDevice.cs" />
+    <Compile Include="Assets\Scripts\Menu&apos;s\Brightness.cs" />
     <Compile Include="Assets\Scripts\Upgrades\UpgradesMain.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\EnemyDetectionStates.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />
@@ -85,12 +87,15 @@
     <Compile Include="Assets\Scripts\PointIncreasingItemScripts\CoinCollider.cs" />
     <Compile Include="Assets\Scripts\Upgrades\MessageLog.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
+    <Compile Include="Assets\Scripts\Menu&apos;s\Settings.cs" />
     <Compile Include="Assets\Scripts\Upgrades\Cash.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\Scripts\Upgrades\Descriptions.cs" />
     <Compile Include="Assets\Scripts\Test\YouriTestScript.cs" />
     <Compile Include="Assets\Scripts\GridSystem.cs" />
+    <Compile Include="Assets\Scripts\Menu&apos;s\InGameMenu.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\Scripts\Menu&apos;s\MainMenu.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
     <Compile Include="Assets\Scripts\RotationPuzzelScripts\SolvePuzzel.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawn.cs" />

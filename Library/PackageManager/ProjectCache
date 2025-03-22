@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638779804588457410
-    m_Hash: 307415962
+      ticks: 638780707292181892
+    m_Hash: 829330015
   m_LockFileStatus:
     m_FilePath: C:/projects2024school/GitHub/Project-P3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638779804588493253
-    m_Hash: 2015746547
+      ticks: 638780707292181892
+    m_Hash: 1427840588
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

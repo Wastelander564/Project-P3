@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LegeTestScene.unity
     guid: a8112289a071e1f46a85084166d63848
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ae7e18b5727ad014b93fb4bd7b4beda5
   m_configObjects: {}
