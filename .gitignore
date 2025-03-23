@@ -41,3 +41,14 @@ Library/Search/transactions.db
 *.db
 *.db
 /Library/Search
+Library/ArtifactDB
+*.json
+*.db
+Library/SourceAssetDB
+Library/Search/transactions.db
+Library/Bee/fullprofile.json
+Library/ArtifactDB
+Library/SourceAssetDB
+Library/Search/transactions.db
+Library/Bee/fullprofile.json
+Library/ArtifactDB
