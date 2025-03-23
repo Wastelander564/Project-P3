@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class YouriGameManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public static YouriGameManager Instance;
+    public static GameManager Instance;
     private GameObject player;
     void Awake()
     {

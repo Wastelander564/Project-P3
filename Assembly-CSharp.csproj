@@ -70,12 +70,12 @@
     <Compile Include="Assets\Scripts\Upgrades\UpgradeDetectionBar.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\FakeBreakdown.cs" />
     <Compile Include="Assets\Scripts\CrushingWalls.cs" />
-    <Compile Include="Assets\Scripts\Test\YouriGameManager.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\Detector.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\HideSpots.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\CloakingDevice.cs" />
     <Compile Include="Assets\Scripts\Menu&apos;s\Brightness.cs" />
+    <Compile Include="Assets\Scripts\Test\GameManager.cs" />
     <Compile Include="Assets\Scripts\Upgrades\UpgradesMain.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\EnemyDetectionStates.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />

@@ -12,7 +12,7 @@ public class UpgradeBreakDown : UpgradesMain
     protected override void Start()
     {
         base.Start();
-        fakeBr = YouriGameManager.Instance.Player().GetComponent<FakeBreakdown>();
+        fakeBr = GameManager.Instance.Player().GetComponent<FakeBreakdown>();
 
         upgradeName = "BreakDown";
         // Laad eerder opgeslagen waarden (standaardwaarde is 1 en 100)
