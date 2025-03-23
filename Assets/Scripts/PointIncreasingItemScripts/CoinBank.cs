@@ -15,6 +15,10 @@ public class CoinBank : MonoBehaviour
         {
             Instance = this; // Assign instance for global access
         }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     private void Start()

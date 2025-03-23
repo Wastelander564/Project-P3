@@ -24,7 +24,8 @@ public class PlayerController : MonoBehaviour
         Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>(); 
         rb.gravityScale = 0; 
-        rb.freezeRotation = true; 
+        rb.freezeRotation = true;
+        GameManager.Instance.hacked = false;
 
         moveSpeed = normalSpeed;
         vaultPromptUI.SetActive(false); 

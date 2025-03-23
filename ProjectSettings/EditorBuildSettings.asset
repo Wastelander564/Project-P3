@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LegeTestScene.unity
     guid: a8112289a071e1f46a85084166d63848
+  - enabled: 1
+    path: Assets/Scenes/ArtScene(Rose).unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/DanisScene.unity
+    guid: 8685a0e212e96774c8cdc69ad7c5afd8
+  - enabled: 1
+    path: Assets/Scenes/JustinScene.unity
+    guid: 67f90d6ef8f609c4e9e6bf5cacda9544
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 89f92be52f3b7014e8f3ba09658f7ab0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 733c1901e8019214bb3d7e157155913e
   m_configObjects: {}

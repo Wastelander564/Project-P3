@@ -39,6 +39,7 @@ public class MiniGame : MonoBehaviour
     {
         GameManager.Instance.Player().SetActive(true);
         GameObject.FindGameObjectWithTag("CentralHub").GetComponent<CentralHub>().isDown = true;
+        GameManager.Instance.hacked = true;
         gameObject.SetActive(false);
     }
 }

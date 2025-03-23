@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     private GameObject player;
+    public bool hacked;
     void Awake()
     {
         if (Instance == null)

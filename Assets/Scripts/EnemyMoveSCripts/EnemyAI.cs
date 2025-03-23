@@ -31,6 +31,15 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.hacked)
+        {
+            if (GetComponentInChildren<MeshRenderer>().enabled)
+            {
+                GetComponentInChildren<VisionCone>().enabled = false;
+                GetComponentInChildren<PolygonCollider2D>().enabled = false;
+            }
+            return;
+        }
         if (detector.detectionValue >= detectionThreshold)
         {
             StartChasing();
