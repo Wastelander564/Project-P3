@@ -5,16 +5,36 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638783427396225298
-    m_Hash: 829330015
+<<<<<<< HEAD
+      ticks: 638779804588457410
+    m_Hash: 307415962
+=======
+<<<<<<< HEAD
+      ticks: 638780688594900817
+    m_Hash: 165057931
+=======
+      ticks: 638778024029338247
+    m_Hash: 2247477956
+>>>>>>> DEV
+>>>>>>> Art
   m_LockFileStatus:
     m_FilePath: C:/projects2024school/GitHub/Project-P3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638783427396308801
-    m_Hash: 1427840588
+<<<<<<< HEAD
+      ticks: 638779804588493253
+    m_Hash: 2015746547
+=======
+<<<<<<< HEAD
+      ticks: 638780688594990804
+    m_Hash: 361915978
+=======
+      ticks: 638778024029363518
+    m_Hash: 2391246721
+>>>>>>> DEV
+>>>>>>> Art
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

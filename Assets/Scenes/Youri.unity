@@ -1838,7 +1838,7 @@ SpriteRenderer:
   m_Size: {x: 0.73, y: 0.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &312385430
@@ -1940,6 +1940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccb1a934682fe428749c420cd75e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniGame: {fileID: 980548434}
+  isDown: 0
 --- !u!114 &312385434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1952,6 +1954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 133bf85df17b02c4f97911a2e1b5328a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactButton: {fileID: 783238534}
 --- !u!1 &329417636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,6 +1964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 329417638}
+  - component: {fileID: 329417637}
   m_Layer: 0
   m_Name: CameraHolder
   m_TagString: Untagged
@@ -1968,6 +1972,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &329417637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329417636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f8cf1d915d1704b940cd4dafdd8bd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 6508608583684089127}
 --- !u!4 &329417638
 Transform:
   m_ObjectHideFlags: 0
@@ -3650,7 +3667,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 590614623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15d547a59a6f11645b76da5fbd7d2718, type: 3}
+  m_Script: {fileID: 11500000, guid: ab7a633a5d0f49c48bf284192b7f0bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isHiding: 0
@@ -4243,6 +4260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 133bf85df17b02c4f97911a2e1b5328a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactButton: {fileID: 783238534}
 --- !u!212 &657076075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4412,6 +4430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccb1a934682fe428749c420cd75e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniGame: {fileID: 473167282}
+  isDown: 0
 --- !u!1 &686241429
 GameObject:
   m_ObjectHideFlags: 0
@@ -6274,6 +6294,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed1867e622745734192229016945fc00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detector: {fileID: 0}
+  canPlay: 0
+  answerSlider: {fileID: 413517074}
+  answerMaxValue: 100
+  answerValue: 70
+  playerBar: {fileID: 1759212215}
 --- !u!1 &1006682713
 GameObject:
   m_ObjectHideFlags: 0
@@ -8025,6 +8051,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e7d6a8461429804fac6a7eb62aac6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detector: {fileID: 1316467256}
+  canPlay: 0
+  inputField: {fileID: 603261857}
+  correctCode: NOTAROBOT
 --- !u!1 &1472152679
 GameObject:
   m_ObjectHideFlags: 0
@@ -9540,6 +9570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a49d0fb6d8a4b344bcfa1a66daedf64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 1
 --- !u!1 &1750577232
 GameObject:
   m_ObjectHideFlags: 0
