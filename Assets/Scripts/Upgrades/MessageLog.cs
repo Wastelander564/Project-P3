@@ -28,6 +28,14 @@ public class MessageLog : MonoBehaviour
         StartCoroutine(RemoveMessageAfterRealtime(newMessage, 3f));
     }
 
+    public void DeleteMessages()
+    {
+        for (int i = contentTransform.childCount - 1; i >= 0; i--)
+        {
+            DestroyImmediate(contentTransform.GetChild(i).gameObject);
+        }
+    }
+
     // Coroutine om bericht te verwijderen na de opgegeven tijd, onafhankelijk van Time.timeScale
     private IEnumerator RemoveMessageAfterRealtime(GameObject messageObject, float delay)
     {

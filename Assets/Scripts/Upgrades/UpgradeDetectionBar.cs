@@ -14,7 +14,7 @@ public class UpgradeDetectionBar : UpgradesMain
     {
         base.Start();
         upgradeName = "Detection";
-        detector = YouriGameManager.Instance.Player().GetComponent<Detector>();
+        detector = GameManager.Instance.Player().GetComponent<Detector>();
 
         level = PlayerPrefs.GetInt($"{upgradeName}" + "Level", level);
         cost = PlayerPrefs.GetFloat($"{upgradeName}" + "Cost", 100f * Mathf.Pow(2, level));

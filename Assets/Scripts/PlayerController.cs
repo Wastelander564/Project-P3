@@ -175,12 +175,14 @@ void TiltCamera()
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = other.transform;
-            vaultPromptUI.SetActive(true); 
+            vaultPromptUI.SetActive(true);
         }
         else if (other.CompareTag("SlowZone"))
         {
             SetMoveSpeed(slowSpeed);
         }
+        else return;
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -188,11 +190,12 @@ void TiltCamera()
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = null;
-            vaultPromptUI.SetActive(false); 
+            vaultPromptUI.SetActive(false);
         }
         else if (other.CompareTag("SlowZone"))
         {
             SetMoveSpeed(normalSpeed);
         }
+        else return;
     }
 }

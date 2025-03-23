@@ -23,6 +23,11 @@ public class UpgradesMain : MonoBehaviour
         messageLog = GetComponentInParent<MessageLog>();
     }
 
+    private void OnEnable()
+    {
+        messageLog.DeleteMessages();
+    }
+
     public virtual void Upgrade()
     {
         level++;

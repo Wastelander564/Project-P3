@@ -11,7 +11,7 @@ public class MiniGame : MonoBehaviour
 
     private void Update()
     {
-        if(detector == null) detector = YouriGameManager.Instance.Player().GetComponent<Detector>();
+        if(detector == null) detector = GameManager.Instance.Player().GetComponent<Detector>();
 
         if (lives <= 0)
         {
@@ -26,7 +26,7 @@ public class MiniGame : MonoBehaviour
     private void GameOver()
     {
         gameObject.SetActive(false);
-        YouriGameManager.Instance.Player().SetActive(true);
+        GameManager.Instance.Player().SetActive(true);
         detector.detectionValue = detector.slider.maxValue;
     }
 
@@ -37,7 +37,7 @@ public class MiniGame : MonoBehaviour
 
     protected virtual void Win()
     {
-        YouriGameManager.Instance.Player().SetActive(true);
+        GameManager.Instance.Player().SetActive(true);
         GameObject.FindGameObjectWithTag("CentralHub").GetComponent<CentralHub>().isDown = true;
         gameObject.SetActive(false);
     }
