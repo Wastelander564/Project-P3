@@ -1,9 +1,1 @@
-<<<<<<< HEAD
 sceneSetups: []
-=======
-sceneSetups:
-- path: Assets/Scenes/Level2.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
->>>>>>> Levels
