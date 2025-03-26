@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+// Youri's most impressive script
 public class Goal : MonoBehaviour
 {
     public string sceneName;
