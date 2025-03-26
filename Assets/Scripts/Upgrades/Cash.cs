@@ -17,6 +17,6 @@ public class Cash : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(text.text != test.ToString())text.text = test++.ToString();
+        if(text.text != test.ToString())text.text = PlayerPrefs.GetFloat("coinAmount").ToString();
     }
 }

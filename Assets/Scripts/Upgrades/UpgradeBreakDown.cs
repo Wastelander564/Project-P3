@@ -11,14 +11,9 @@ public class UpgradeBreakDown : UpgradesMain
     // Start is called before the first frame update
     protected override void Start()
     {
+        upgradeName = "BreakDown";
         base.Start();
         fakeBr = GameManager.Instance.Player().GetComponent<FakeBreakdown>();
-
-        upgradeName = "BreakDown";
-        // Laad eerder opgeslagen waarden (standaardwaarde is 1 en 100)
-        level = PlayerPrefs.GetInt($"{upgradeName}" + "Level", level);
-        cost = PlayerPrefs.GetFloat($"{upgradeName}" + "Cost", 100f * Mathf.Pow(2, level));
-
         UpdateUI();
         CheckBreakdownValue();
     }
@@ -26,21 +21,12 @@ public class UpgradeBreakDown : UpgradesMain
     public override void Upgrade()
     {
         base.Upgrade();
-
-        // Sla de nieuwe waarden op
-        PlayerPrefs.SetInt($"{upgradeName}" + "Level", level);
-        PlayerPrefs.SetFloat($"{upgradeName}" + "Cost", cost);
-        PlayerPrefs.Save(); // Direct opslaan
         CheckBreakdownValue();
     }
 
     protected override void Reset()
     {
         base.Reset();
-        PlayerPrefs.SetInt($"{upgradeName}" + "Level", 0);
-        PlayerPrefs.SetFloat($"{upgradeName}" + "Cost", 100);
-        PlayerPrefs.Save(); // Direct opslaan
-        base.UpdateUI();
         CheckBreakdownValue();
     }
 
@@ -55,6 +41,6 @@ public class UpgradeBreakDown : UpgradesMain
 
     void CheckBreakdownValue()
     {
-        //fakeBr.limit = 5 + level * 2;
+        PlayerPrefs.SetFloat("breakDownLimit",3 + level);
     }
 }

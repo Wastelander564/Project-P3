@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 public class UpgradeDetectionBar : UpgradesMain
 {
 
@@ -12,13 +13,9 @@ public class UpgradeDetectionBar : UpgradesMain
     // Start is called before the first frame update
     protected override void Start()
     {
-        base.Start();
         upgradeName = "Detection";
+        base.Start();
         detector = GameManager.Instance.Player().GetComponent<Detector>();
-
-        level = PlayerPrefs.GetInt($"{upgradeName}" + "Level", level);
-        cost = PlayerPrefs.GetFloat($"{upgradeName}" + "Cost", 100f * Mathf.Pow(2, level));
-
         UpdateUI();
         CheckDetectionValue();
     }
@@ -26,15 +23,6 @@ public class UpgradeDetectionBar : UpgradesMain
     public override void Upgrade()
     {
         base.Upgrade();
-
-        /*if(cost > currentMoney)
-        {
-            return;
-        }*/
-        PlayerPrefs.SetInt($"{upgradeName}" + "Level", level);
-        PlayerPrefs.SetFloat($"{upgradeName}" + "Cost", cost);
-        PlayerPrefs.Save(); // Direct opslaan
-
         CheckDetectionValue();
 
     }
@@ -42,13 +30,7 @@ public class UpgradeDetectionBar : UpgradesMain
     protected override void Reset()
     {
         base.Reset();
-        PlayerPrefs.SetInt($"{upgradeName}" + "Level", 0);
-        PlayerPrefs.SetFloat($"{upgradeName}" + "Cost", 100);
-        PlayerPrefs.Save(); // Direct opslaan
-        base.UpdateUI();
-
         CheckDetectionValue();
-
     }
 
 
@@ -64,7 +46,8 @@ public class UpgradeDetectionBar : UpgradesMain
 
     void CheckDetectionValue()
     {
-        detector.slider.maxValue = 100 + level * 25;
-        detector.slider.transform.localScale = new Vector3 (3 + 0.5f * level, 3, 3);
+        PlayerPrefs.SetInt("DetectorLevel", level);
+        detector.slider.maxValue = 100 + PlayerPrefs.GetInt("DetectorLevel") * 25;
+        detector.slider.transform.localScale = new Vector3(3 + 0.5f * PlayerPrefs.GetInt("DetectorLevel"), 3, 3);
     }
 }

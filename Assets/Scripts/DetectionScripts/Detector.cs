@@ -15,6 +15,12 @@ public class Detector : MonoBehaviour
 
     public int enemyRank;
 
+
+    private void Start()
+    {
+        slider.maxValue = 100 + PlayerPrefs.GetInt("DetectorLevel") * 25;
+        slider.transform.localScale = new Vector3(3 + 0.5f * PlayerPrefs.GetInt("DetectorLevel"), 3, 3);
+    }
     // Update is called once per frame
     void Update()
     {

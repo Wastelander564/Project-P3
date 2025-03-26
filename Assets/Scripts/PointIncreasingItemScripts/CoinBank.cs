@@ -5,35 +5,37 @@ using TMPro; // Import TextMeshPro namespace
 
 public class CoinBank : MonoBehaviour
 {
-    public static CoinBank Instance; // Singleton pattern to access from CoinCollider
-    private int coinAmount = 0; // Tracks the number of collected coins
+    private float coinAmount = 0; // Tracks the number of collected coins
     [SerializeField] private TextMeshProUGUI counter; // UI Text for displaying the coin count
-
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this; // Assign instance for global access
-        }
-        else
-        {
-            Destroy(this);
-        }
-    }
 
     private void Start()
     {
+        coinAmount = PlayerPrefs.GetFloat("coinAmount");
         UpdateCounter(); // Ensure UI is initialized correctly
     }
 
-    public void AddCoin(int worth)
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            AddCoin(100000);
+        }
+    }
+
+    public void AddCoin(float worth)
     {
         coinAmount += worth; // Increase coin count by the coin's worth
+        PlayerPrefs.SetFloat("coinAmount", coinAmount);
         UpdateCounter(); // Update the counter UI
+    }
+
+    public float CoinAmount()
+    {
+        return coinAmount;
     }
 
     private void UpdateCounter()
     {
-        counter.text = coinAmount.ToString("D9"); // Format as 000000000
+        counter.text = $"{coinAmount}"; // Format as 000000000
     }
 }

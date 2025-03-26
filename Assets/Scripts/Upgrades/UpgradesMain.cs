@@ -9,18 +9,25 @@ public class UpgradesMain : MonoBehaviour
     [SerializeField]
     protected int level;
     [SerializeField]
-    protected float cost;  // Beginwaarde
-    protected string upgradeName;
-    public GameObject levels;
-    public Button button;
+    protected float cost;  // start value
+
+    protected string upgradeName; // Unique name for each upgrade. PlayerPrefs use this for their values
+    public GameObject levels; // the blocks that indicate the levels
+    public Button button; // click here for the upgrade
+
     [SerializeField]
-    protected MessageLog messageLog;
+    protected MessageLog messageLog; // box with feedback text messages
+
+    private CoinBank coinBank;
 
 
     protected virtual void Start()
     {
         button.GetComponentInChildren<TextMeshProUGUI>().text = cost.ToString();
         messageLog = GetComponentInParent<MessageLog>();
+        coinBank = GameManager.Instance.Player().GetComponentInChildren<CoinBank>();
+        level = PlayerPrefs.GetInt($"{upgradeName}" + "Level", level);
+        cost = PlayerPrefs.GetFloat($"{upgradeName}" + "Cost", 100f * Mathf.Pow(2, level));
     }
 
     private void OnEnable()
@@ -30,7 +37,17 @@ public class UpgradesMain : MonoBehaviour
 
     public virtual void Upgrade()
     {
+        if (PlayerPrefs.GetInt($"{upgradeName}" + "Level") == 4)
+        {
+            messageLog.AddCraftingMessage("All Max level", "#00FF00");
+            return;
+        }
+        if (cost > coinBank.CoinAmount()) return;
+        coinBank.AddCoin(-cost);
         level++;
+        PlayerPrefs.SetInt($"{upgradeName}" + "Level", level);
+        PlayerPrefs.SetFloat($"{upgradeName}" + "Cost", cost);
+        PlayerPrefs.Save(); // Direct opslaan
         messageLog.AddCraftingMessage("Upgrade succesfull", "#00FF00");
         IncreaseCost();
         UpdateUI();
@@ -41,6 +58,10 @@ public class UpgradesMain : MonoBehaviour
         messageLog.AddCraftingMessage("Reset succesfull", "#00FF00");
         level = 0;
         cost = 100;
+        PlayerPrefs.SetInt($"{upgradeName}" + "Level", 0);
+        PlayerPrefs.SetFloat($"{upgradeName}" + "Cost", 100);
+        PlayerPrefs.Save(); // Direct opslaan
+        UpdateUI();
     }
 
 
