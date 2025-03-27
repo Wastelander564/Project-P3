@@ -1,0 +1,2098 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.52f1 (1120fcb54228) revision 1122556'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'nl' Physical Memory: 14198 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50396
+Successfully changed project path to: C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+C:/Users/danib/OneDrive/Documents/GitHub/Project-P3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4788]  Target information:
+
+Player connection [4788]  * "[IP] 10.32.98.79 [Port] 0 [Flags] 2 [Guid] 944439805 [EditorId] 944439805 [Version] 1048832 [Id] WindowsEditor(7,LaptopDMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 46.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.52f1 (1120fcb54228)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danib/OneDrive/Documents/GitHub/Project-P3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7099 MB
+    Driver:   31.0.12044.47003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.716868 seconds.
+- Loaded All Assemblies, in 16.189 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 449 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.339 seconds
+Domain Reload Profiling: 17524ms
+	BeginReloadAssembly (12622ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (602ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (781ms)
+	LoadAllAssembliesAndSetupDomain (2151ms)
+		LoadAssemblies (12616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2147ms)
+			TypeCache.Refresh (2145ms)
+				TypeCache.ScanAssembly (1885ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (967ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.870 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.988 seconds
+Domain Reload Profiling: 11848ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (10446ms)
+		LoadAssemblies (9211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1389ms)
+			TypeCache.Refresh (1366ms)
+				TypeCache.ScanAssembly (1208ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (988ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (759ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3637.
+Memory consumption went from 126.4 MB to 126.4 MB.
+Total: 5.187000 ms (FindLiveObjects: 1.442500 ms CreateObjectMapping: 0.175700 ms MarkObjects: 3.404800 ms  DeleteObjects: 0.160500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79136.148797 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Unlit - Iron.png
+  artifactKey: Guid(358673cac7ef1414a85d1db52603fc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Unlit - Iron.png using Guid(358673cac7ef1414a85d1db52603fc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0cb6189363d5a0c10e5f48c3e9a76920') in 0.157193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Deer.png
+  artifactKey: Guid(b797d2f13f44fd44e8beb3352068a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Deer.png using Guid(b797d2f13f44fd44e8beb3352068a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1ce62c001cc388f007ead2286207175') in 0.039531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Weapon - Sword 2.png
+  artifactKey: Guid(b3799326e3e52084685ae5bfd542723d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Weapon - Sword 2.png using Guid(b3799326e3e52084685ae5bfd542723d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '958753b0d6f8fcd737bad5eb4fd1b07d') in 0.025345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Simple 3 - Dark.png
+  artifactKey: Guid(aeaf189bad67c124b99170b111db06ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Simple 3 - Dark.png using Guid(aeaf189bad67c124b99170b111db06ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7b9586a035c1c090b80101c6c7484cc') in 0.022526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Shelf 2 - Dark.png
+  artifactKey: Guid(8205a6ee998be5c42a952476b567d91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Shelf 2 - Dark.png using Guid(8205a6ee998be5c42a952476b567d91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bcbcab3b48503c16f4e65df34ed15522') in 0.043739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Crystal ball.png
+  artifactKey: Guid(1d6d1b339f1cd2546aeecf9cf6556b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Crystal ball.png using Guid(1d6d1b339f1cd2546aeecf9cf6556b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2eb8b49eeb17fbba9f12204c5e8ecf5c') in 0.027018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Weapon - Axe  1.png
+  artifactKey: Guid(ef09fecae97031f49a9933e8330f455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Weapon - Axe  1.png using Guid(ef09fecae97031f49a9933e8330f455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1a16cf9cc98cec84d23ae7b5abd3aa7') in 0.041635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Stand - Unlit - Iron.png
+  artifactKey: Guid(17c7a10ee63cb724cafeade3bbe1ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Stand - Unlit - Iron.png using Guid(17c7a10ee63cb724cafeade3bbe1ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbf13e275e8607c4f3ea9f988cf590dc') in 0.019837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Crate 1 - Dark.png
+  artifactKey: Guid(ee0f73424ee72ac40a000ace2f92fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Crate 1 - Dark.png using Guid(ee0f73424ee72ac40a000ace2f92fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89fe523382001500a043b2a3baf7ba57') in 0.044697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.c.png
+  artifactKey: Guid(eca2853e95a9b7749a32b68b13bb92d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.c.png using Guid(eca2853e95a9b7749a32b68b13bb92d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '88756cab22f84f0f2541bdf67795c209') in 0.033034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Rectangle 2 - Dark.png
+  artifactKey: Guid(b243a61aced3c5f4d878e50743a73664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Rectangle 2 - Dark.png using Guid(b243a61aced3c5f4d878e50743a73664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '007f5d2db515238e11bf209fe4659d11') in 0.040748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 2 - Orange - 2x2.png
+  artifactKey: Guid(f551d24a3b622934e81fc183f41286be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 70 DPI (Roll20)/Bus stop 2 - Orange - 2x2.png using Guid(f551d24a3b622934e81fc183f41286be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc78ec5f9626d968798c1dc47874382b') in 0.028951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle cluster - Lit.png
+  artifactKey: Guid(1d8f5df9a1c0d564eb8d6dc011233057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle cluster - Lit.png using Guid(1d8f5df9a1c0d564eb8d6dc011233057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2afe17ea041ade490d9c281f798ab47c') in 0.043696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Sofa 1.b.png
+  artifactKey: Guid(3ab8923ba3b686a46b8fd3f0a90af8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Sofa 1.b.png using Guid(3ab8923ba3b686a46b8fd3f0a90af8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ab921d6056dd367063fda7e88b3830d') in 0.028075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Large - Lit.png
+  artifactKey: Guid(5448da3586c9afc40a4bd35884f2b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle - Large - Lit.png using Guid(5448da3586c9afc40a4bd35884f2b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1082772312d34693b5ae8c731e51cd3b') in 0.039295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Box - Plastic 1 - 1x1.png
+  artifactKey: Guid(30c9194e911e9324994bce443806a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Box - Plastic 1 - 1x1.png using Guid(30c9194e911e9324994bce443806a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86dea07fc77ab2a53a9e932f7bb15232') in 0.022413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cooking - Oven 1.png
+  artifactKey: Guid(e7ad576831406ae428a803b3f1d3e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cooking - Oven 1.png using Guid(e7ad576831406ae428a803b3f1d3e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8641ac6a0132fc524007efcb9d23130d') in 0.041785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pictures 3.png
+  artifactKey: Guid(bb003cc51b7a6cc40a881a2ca0ce79fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pictures 3.png using Guid(bb003cc51b7a6cc40a881a2ca0ce79fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce1772d15d3f095e8427add58ed76c2d') in 0.031196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Scrolls.png
+  artifactKey: Guid(c8431f47cf302cb45b635f087da7ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Scrolls.png using Guid(c8431f47cf302cb45b635f087da7ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '279211d5428c74a59fd08f8da841d45e') in 0.044223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Small - Unlit.png
+  artifactKey: Guid(f14c397a55ee62a4cbaa69a2d7daa4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Candle stand - Small - Unlit.png using Guid(f14c397a55ee62a4cbaa69a2d7daa4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6549b28f9645581e4deb8f5ca1cafb41') in 0.031537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Barrel 5.a - Dark.png
+  artifactKey: Guid(befec37cbee67934cbaabdc1be91a2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Barrel 5.a - Dark.png using Guid(befec37cbee67934cbaabdc1be91a2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aac1a1135de68d12d63dee6dd842c20f') in 0.028969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Table - Rectangle 2 - Dark.png
+  artifactKey: Guid(a9354f1908f1a544d9852eb4e77eb011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Table - Rectangle 2 - Dark.png using Guid(a9354f1908f1a544d9852eb4e77eb011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b96e527c700da723bf3f85f49d0a36de') in 0.026441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Billiards balls 1.png
+  artifactKey: Guid(f3155c0e305896542a7686dc0feadc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Billiards balls 1.png using Guid(f3155c0e305896542a7686dc0feadc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f52d46b1cc3fb567d4f3ea84ded6061') in 0.022298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle - Large - Lit.png
+  artifactKey: Guid(2e370c98a91b1124f83456811253934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle - Large - Lit.png using Guid(2e370c98a91b1124f83456811253934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cd5c28e0065a99abac96514cb9d6549') in 0.022053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Weapon - Sword 3.png
+  artifactKey: Guid(1e9fc262d0441864f95d6bcbaf5d9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Weapon - Sword 3.png using Guid(1e9fc262d0441864f95d6bcbaf5d9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6461fe1ec0c86e6300b48f01c4eb96d') in 0.028224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 11 - Full.png
+  artifactKey: Guid(f412ffcac16301749a6ae4984676faa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 11 - Full.png using Guid(f412ffcac16301749a6ae4984676faa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80b80daf796929c0e7e3bfdcd1c7b29f') in 0.043788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Chest 1 - Steel.png
+  artifactKey: Guid(a211461afdd14fc4dba5e5db99aeab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Chest 1 - Steel.png using Guid(a211461afdd14fc4dba5e5db99aeab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f96796d2050b94990cf50eaa65ad8575') in 0.023888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Lion.png
+  artifactKey: Guid(7a0569123492aa4468462ff16e7895df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Lion.png using Guid(7a0569123492aa4468462ff16e7895df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '88010add36d68a84a7c57e967e19b1c7') in 0.024753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Canvas bundle.png
+  artifactKey: Guid(649e4fe3d68690b4ea99660bf92fce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Canvas bundle.png using Guid(649e4fe3d68690b4ea99660bf92fce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ced031507d8b52af1d87f92816ab46a') in 0.034101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Bath tub - Large - Empty - Dark.png
+  artifactKey: Guid(1be7e94bb9a9bcc4185ad4544c00d469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Bath tub - Large - Empty - Dark.png using Guid(1be7e94bb9a9bcc4185ad4544c00d469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18deed74e7850d5ccfac8bc4bc23cc48') in 0.028455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crates 1 - Dark.png
+  artifactKey: Guid(12b1789ad3405c04c8d2963dceab2ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crates 1 - Dark.png using Guid(12b1789ad3405c04c8d2963dceab2ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '06a4185e38f45438f12e8c89a9247c08') in 0.024045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 16 - Thin.png
+  artifactKey: Guid(db4844e67be66744f98c8efd6a9b0006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 16 - Thin.png using Guid(db4844e67be66744f98c8efd6a9b0006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '896d0fc622fbfbac9a43a603140eb481') in 0.026211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.d.png
+  artifactKey: Guid(acf11166397f82c4e9981cab9830462b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.d.png using Guid(acf11166397f82c4e9981cab9830462b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1b8cf34d89eefc1dbb5fc7beb010313') in 0.045991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Crate 8 - Dark.png
+  artifactKey: Guid(9ddb9893ea107dc4ba40cae48eede92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Crate 8 - Dark.png using Guid(9ddb9893ea107dc4ba40cae48eede92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7862b1e0beb72e8e2dbdeba0c88a4388') in 0.028205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 1 - Unlit - Gold.png
+  artifactKey: Guid(a6cbbea9c7152694c887fd8e331905ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 1 - Unlit - Gold.png using Guid(a6cbbea9c7152694c887fd8e331905ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fca5a7d84891484c1fe00dacd8fbca43') in 0.047023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cat 2.e.png
+  artifactKey: Guid(ebdc5c85cbbe8da4696cc2009c0e4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cat 2.e.png using Guid(ebdc5c85cbbe8da4696cc2009c0e4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d8b75b55fcee7e73c8d161f8e7ca67b') in 0.025829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 12 - Thin.png
+  artifactKey: Guid(e203d32522907934e813bd75d53eaf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 12 - Thin.png using Guid(e203d32522907934e813bd75d53eaf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4b99332a082606f993d02412d294292') in 0.028948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Simple - Broken 1 - Dark.png
+  artifactKey: Guid(ad49aa0a6acb20c4d90dc1a3b4a31fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Simple - Broken 1 - Dark.png using Guid(ad49aa0a6acb20c4d90dc1a3b4a31fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ed54fbb32b16f99282185081b71ee78') in 0.032199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Rectangle 4 - Dark.png
+  artifactKey: Guid(7afca6508457b8b42b73f5dacd99d167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Rectangle 4 - Dark.png using Guid(7afca6508457b8b42b73f5dacd99d167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5750b150e5d7844eb1af579964517134') in 0.029510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Bookshelf 3 - Dark.png
+  artifactKey: Guid(6918d0676809cd74ea47de024f0daaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Bookshelf 3 - Dark.png using Guid(6918d0676809cd74ea47de024f0daaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84830dc2ac2b4eb81deb646f61e55c1d') in 0.026236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Round 2 - Dark.png
+  artifactKey: Guid(6399c264ffff0864086b8fabdfe09691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Round 2 - Dark.png using Guid(6399c264ffff0864086b8fabdfe09691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5cc1fec0fbaa39c25891318c818235fe') in 0.043321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 4 - Full.png
+  artifactKey: Guid(34675578be711e946b63111884687d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 4 - Full.png using Guid(34675578be711e946b63111884687d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '22ceb3b03254b5a6779286eff09dcda8') in 0.024399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cat 1.a.png
+  artifactKey: Guid(a29fccbbdc0cc944ebe9425ce78da0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cat 1.a.png using Guid(a29fccbbdc0cc944ebe9425ce78da0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6bff474bc2ba9dc751efbf29b846d8f') in 0.050836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Yeti.png
+  artifactKey: Guid(af6f85352a705cd46a4a15b4ec7e62f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Yeti.png using Guid(af6f85352a705cd46a4a15b4ec7e62f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1675c92ec2fe0cf354601d477a3f3d7') in 0.025277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards table.png
+  artifactKey: Guid(44ea3dcf3ad7b7f4f808351f7affdd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards table.png using Guid(44ea3dcf3ad7b7f4f808351f7affdd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b8ae1b87b4f07f15480ab005334a35e') in 0.024822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Unlit.png
+  artifactKey: Guid(9e0af6bb7d60a7048b76786bbb0816c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Unlit.png using Guid(9e0af6bb7d60a7048b76786bbb0816c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '15bf33b0d553dab5bb0fb69d3cb1ec7f') in 0.023960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Firewood 1.png
+  artifactKey: Guid(25d4b3325921a704c9b487c7b098db47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Firewood 1.png using Guid(25d4b3325921a704c9b487c7b098db47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6d4591a33a33dbeeba844b27245b6ae') in 0.040221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Chair - Stool 1 - Dark.png
+  artifactKey: Guid(41e76f556a6dffc40916a42afff91fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Chair - Stool 1 - Dark.png using Guid(41e76f556a6dffc40916a42afff91fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '45b39bec10d195daa756ca350ec31762') in 0.023716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Cutlery.png
+  artifactKey: Guid(dff49e4cd92fb8f4da417166a10c9ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Cutlery.png using Guid(dff49e4cd92fb8f4da417166a10c9ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '69291d48992e2316c1daa6309c035db4') in 0.024793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Tankards - Empty.png
+  artifactKey: Guid(c5dd1f4c88cbb0749abe68cbaea6a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Tankards - Empty.png using Guid(c5dd1f4c88cbb0749abe68cbaea6a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdd4ae7dc72d925a208c2f4284864049') in 0.025410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 8 - Thin.png
+  artifactKey: Guid(462f219e41a75614ab0111e5c867dc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 8 - Thin.png using Guid(462f219e41a75614ab0111e5c867dc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16323c97867af21268a2ee338eaacfc4') in 0.021326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Round 3 - Dark.png
+  artifactKey: Guid(53313b3acae262747ad4d968e8c98a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Round 3 - Dark.png using Guid(53313b3acae262747ad4d968e8c98a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08a739e821827c42ae9ba33ebb914796') in 0.045246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.c.png
+  artifactKey: Guid(d7d12530c5e857d40a0a1d85aac1e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.c.png using Guid(d7d12530c5e857d40a0a1d85aac1e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '812ac7b340a3203dfd422668d91e264f') in 0.024949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Writing.png
+  artifactKey: Guid(4ca1f644ee0ec174aae72adc96123f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Writing.png using Guid(4ca1f644ee0ec174aae72adc96123f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6c20f38df45ab2ea2323df5bab34856') in 0.039413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Loom 2.png
+  artifactKey: Guid(e8b6e78b2c7150342a68cd07b1646373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Loom 2.png using Guid(e8b6e78b2c7150342a68cd07b1646373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef8c32d22e2be122cd3e31dabf8a3c80') in 0.029626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Skull - Human.png
+  artifactKey: Guid(29a61ad2552bb6b409159ecb41099c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Skull - Human.png using Guid(29a61ad2552bb6b409159ecb41099c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a5b8d0aa3ae00cbf77d51e08adb66b0') in 0.027124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 3 - Dark.png
+  artifactKey: Guid(d4c7756980ca37144b102d1d19d9e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 3 - Dark.png using Guid(d4c7756980ca37144b102d1d19d9e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f2f515ad428f78ccfa041168024f8cff') in 0.039736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Shelf 1 - Dark.png
+  artifactKey: Guid(57d6bfc1eb60623419b6b39809f81f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Shelf 1 - Dark.png using Guid(57d6bfc1eb60623419b6b39809f81f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '788d619239636525bc1a3527f05381d4') in 0.037332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Shelf 2 - Dark.png
+  artifactKey: Guid(b93ab85064cc0aa40928495117cb190e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Shelf 2 - Dark.png using Guid(b93ab85064cc0aa40928495117cb190e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e0b1f183cf3ccc824f6782e6f21d41ee') in 0.033410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 9 - Thin.png
+  artifactKey: Guid(569e4360f37d33442a949be8610579f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 9 - Thin.png using Guid(569e4360f37d33442a949be8610579f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b97a22c73f3627287eb61a6a9ffac12a') in 0.022416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Rug - Wrinkled 1.png
+  artifactKey: Guid(fd43beb95638c1e4a93b4109717d2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Rug - Wrinkled 1.png using Guid(fd43beb95638c1e4a93b4109717d2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b23e088f549f66a6bc90f2be9f678750') in 0.043574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 3 - Thin.png
+  artifactKey: Guid(a064c03822c49bd41872ced58bd15285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 3 - Thin.png using Guid(a064c03822c49bd41872ced58bd15285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a90fa92b822d9978715478938f252fea') in 0.028625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Food 2.png
+  artifactKey: Guid(b643e7558b7fdc640a0e4c01f36f61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Food 2.png using Guid(b643e7558b7fdc640a0e4c01f36f61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6cf802fa7ed4c2395d303a472e67830f') in 0.023813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Flowers 1.c.png
+  artifactKey: Guid(6e160ca3e088d1a46861fc6d5e337333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Flowers 1.c.png using Guid(6e160ca3e088d1a46861fc6d5e337333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '319bbfb9c4fc65151c7d0e2c4a988da2') in 0.020205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Cushion 1.b.png
+  artifactKey: Guid(40bf7cc1a14b12a4882ee58bc7942df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Cushion 1.b.png using Guid(40bf7cc1a14b12a4882ee58bc7942df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2bdb06a4052fe58782150ac413e37017') in 0.040489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Cushion 1.c.png
+  artifactKey: Guid(a539de031ab72764ab38fbf3357c258f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Cushion 1.c.png using Guid(a539de031ab72764ab38fbf3357c258f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff272d816d2f858599eccd9e51e16e22') in 0.025873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Large - Full - Dark.png
+  artifactKey: Guid(6064e20ae1fac494986f37df5a49c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Large - Full - Dark.png using Guid(6064e20ae1fac494986f37df5a49c4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb80304cc1a3e3c13b16c52968ebf3f1') in 0.041070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Stand - Unlit - Iron.png
+  artifactKey: Guid(b8deaca39832d5b499850cc76530529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Stand - Unlit - Iron.png using Guid(b8deaca39832d5b499850cc76530529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd491e679939704f7f943f61cde5dd8f') in 0.027095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Pumpkin.png
+  artifactKey: Guid(a0f1483c99805c64ab597b1ffe0c6de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Pumpkin.png using Guid(a0f1483c99805c64ab597b1ffe0c6de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82aea153fed2c4300fd8e8ea0b221532') in 0.045437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Piano 2.b.png
+  artifactKey: Guid(4228c7c125e607145a938fc46109be1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Piano 2.b.png using Guid(4228c7c125e607145a938fc46109be1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ccf35d17066ebf876d9c8f6e530662e') in 0.027900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 8 - Dark.png
+  artifactKey: Guid(6131232304e275e4ebb22eaa4f4181f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 8 - Dark.png using Guid(6131232304e275e4ebb22eaa4f4181f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8cda73bf65696e378a39ac4d452007c') in 0.041791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 13 - Thin.png
+  artifactKey: Guid(ec2ba5ccc4cecf149b4a8b0794c3d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 13 - Thin.png using Guid(ec2ba5ccc4cecf149b4a8b0794c3d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '222e2eacd7f8b8c202d7af1105fde05f') in 0.023457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 2 - Lit - Iron.png
+  artifactKey: Guid(b3acf26e37382d647b4ffd166622dffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 2 - Lit - Iron.png using Guid(b3acf26e37382d647b4ffd166622dffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6448e59ab3eaa1887172a42eb8aece5') in 0.034551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 12 - Full.png
+  artifactKey: Guid(f052082f8c7ae884fbacbd569c5c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 12 - Full.png using Guid(f052082f8c7ae884fbacbd569c5c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '85dfd0f787a196fc5d56ca373717a9fd') in 0.022666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Barrel 1 - Dark.png
+  artifactKey: Guid(65130a4f1556ace4484c0020a485a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Barrel 1 - Dark.png using Guid(65130a4f1556ace4484c0020a485a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67c331d1d08f5aee4241b9df9e93c9ac') in 0.044331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Pictures 1.png
+  artifactKey: Guid(4e810a55cdc01e242852c15c7bb7dca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Pictures 1.png using Guid(4e810a55cdc01e242852c15c7bb7dca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78656cd631d470579fe72f21ed170020') in 0.024715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 1 - Dark.png
+  artifactKey: Guid(cdd297cce5a89b343b69a97907bc7cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 1 - Dark.png using Guid(cdd297cce5a89b343b69a97907bc7cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0bb1d26985d14d77bc1c656b8992a8a7') in 0.040882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 13 - Full.png
+  artifactKey: Guid(5b9cf756aab120f418314dc576f651fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 13 - Full.png using Guid(5b9cf756aab120f418314dc576f651fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c23b9c988c85c0cd9d95cbdbeb994ff9') in 0.025995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chest - Lockbox 1 - Iron.png
+  artifactKey: Guid(af84328245d883f4d8d3422cb99cb585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chest - Lockbox 1 - Iron.png using Guid(af84328245d883f4d8d3422cb99cb585) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89967777f857dbaf7d8e534837539a15') in 0.043964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pumpkin - Jack-o-lantern.png
+  artifactKey: Guid(55c8e257e23f4cd4299ff26803daa668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pumpkin - Jack-o-lantern.png using Guid(55c8e257e23f4cd4299ff26803daa668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6d99ebf69632adffe505cf86fbcb799') in 0.021092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Altar - Gold.png
+  artifactKey: Guid(9d924de6f1c6f564d8a37aabfbea8ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Altar - Gold.png using Guid(9d924de6f1c6f564d8a37aabfbea8ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cca08adf519c1b26c94e38fd0c470cc7') in 0.045710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Small - Lit.png
+  artifactKey: Guid(3cde42b9127aedb439d8cd725687e455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Small - Lit.png using Guid(3cde42b9127aedb439d8cd725687e455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfd4fbad99e74ce0fb502938c8b30117') in 0.029527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Suit of armor 2 - Gold.png
+  artifactKey: Guid(aca5fbfeab779b04d9a98cca57ad8b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Suit of armor 2 - Gold.png using Guid(aca5fbfeab779b04d9a98cca57ad8b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4ec6909c292907ad9aac76b8bb4f778') in 0.041482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.b.png
+  artifactKey: Guid(e143f6cf114f44641aaeaca292e89122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.b.png using Guid(e143f6cf114f44641aaeaca292e89122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a133ed86b324e4eb03ccfe7e2d622f1d') in 0.030517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 3 - Lit - Gold.png
+  artifactKey: Guid(230b642d611147242a34c098904e7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 3 - Lit - Gold.png using Guid(230b642d611147242a34c098904e7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48b0901ba2f26e36e59f4ab30c6201a3') in 0.062494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Weapon rack 2 - Dark.png
+  artifactKey: Guid(69756788c09712f46b52e511dc1d54b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Weapon rack 2 - Dark.png using Guid(69756788c09712f46b52e511dc1d54b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac579042cd5c33059ab794e3f5e5ff3f') in 0.040618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Barrel 3 - Dark.png
+  artifactKey: Guid(a0436616b5b278a4f8518dcf832e89b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Barrel 3 - Dark.png using Guid(a0436616b5b278a4f8518dcf832e89b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '92b39debc01901389804d300050799f8') in 0.028829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Armchair 1.a.png
+  artifactKey: Guid(cee1c3349d4aebd40b82f1951ca41125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Armchair 1.a.png using Guid(cee1c3349d4aebd40b82f1951ca41125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dd4f63c2fea32ca0f8076fb456d66bd') in 0.027992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Dragon - Small 1.png
+  artifactKey: Guid(c254e9759ebf01f4eae97a601a651e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Dragon - Small 1.png using Guid(c254e9759ebf01f4eae97a601a651e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8b0c584452e4aa25343e609d339a9c4') in 0.049937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Oval - Empty - Dark.png
+  artifactKey: Guid(4db20846e74409941b00f7cc21e9df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Oval - Empty - Dark.png using Guid(4db20846e74409941b00f7cc21e9df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f60da3d151f3c63e03c6bdc09628023') in 0.020939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Sacks 2.png
+  artifactKey: Guid(5df1c9e9f524fec4780a4a9db1150700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Sacks 2.png using Guid(5df1c9e9f524fec4780a4a9db1150700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd844e793039a393188f479aa0caa976e') in 0.043784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Cooking - Cauldron - Empty.png
+  artifactKey: Guid(f7a6ae154f37cff4f817d50ab461927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Cooking - Cauldron - Empty.png using Guid(f7a6ae154f37cff4f817d50ab461927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ed5955c539140a8d6e7a8612bc8ea33') in 0.029948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Suit of armor 2 - Gold.png
+  artifactKey: Guid(0ae0560318510c54f82d33a4f1bc736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Suit of armor 2 - Gold.png using Guid(0ae0560318510c54f82d33a4f1bc736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ce2a1b33c583c2483129cee34b126b4') in 0.058304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Unlit.png
+  artifactKey: Guid(1c0edd8f1f225654f99739e10b01ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Candle stand - Unlit.png using Guid(1c0edd8f1f225654f99739e10b01ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44f4a89ee03e120b7726a6e00b895475') in 0.045236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Billiards balls 2.png
+  artifactKey: Guid(aaf9667a1e7dcd24283d13fe92fc718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Billiards balls 2.png using Guid(aaf9667a1e7dcd24283d13fe92fc718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6b7cfc396b22ecb46e63a836f652456') in 0.023513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 14 - Full.png
+  artifactKey: Guid(c66fd0ab0546d954f803c093023de3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 14 - Full.png using Guid(c66fd0ab0546d954f803c093023de3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e48d3349cd8f110f994b339b35bfdc83') in 0.025526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 5 - Covered.png
+  artifactKey: Guid(7b763812ed9421144bd68c515daa4b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 5 - Covered.png using Guid(7b763812ed9421144bd68c515daa4b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ba443383168584b1b38684279ed451b') in 0.044835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Wicker basket.png
+  artifactKey: Guid(15d130dfaa8a7434f958821cac5dad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Wicker basket.png using Guid(15d130dfaa8a7434f958821cac5dad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '261055f0a7bd7c1b7cc18cc3eb986291') in 0.045038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Latrine toilet 2 - Dark.png
+  artifactKey: Guid(ddac17d6a88af6045804ac1263243960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Latrine toilet 2 - Dark.png using Guid(ddac17d6a88af6045804ac1263243960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e8817f08bc30ac4022aaf4262658d25') in 0.023638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 12 - Thin.png
+  artifactKey: Guid(feb470622eb957140b0cc713cfc3e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 12 - Thin.png using Guid(feb470622eb957140b0cc713cfc3e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0db94ca7e1dcc9f40dd1ba8123d63d82') in 0.021664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 4 - Dark.png
+  artifactKey: Guid(f2503c43b663d754f93cd262c4b1e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Crate 4 - Dark.png using Guid(f2503c43b663d754f93cd262c4b1e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fad0ba8898a4254863d341ec9b6175df') in 0.052473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Firewood 1.png
+  artifactKey: Guid(0109ae5f8a670fa4387864ab336f6203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Firewood 1.png using Guid(0109ae5f8a670fa4387864ab336f6203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72d828f3915dd518c14675d9a9ca80f5') in 0.057497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bedframe - Dark.png
+  artifactKey: Guid(aedec0be09f4a4146a51e59366d4f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bedframe - Dark.png using Guid(aedec0be09f4a4146a51e59366d4f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fcaf4fdda5891835597afee78128a8bf') in 0.028153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Cushion 1.a.png
+  artifactKey: Guid(97b11130a5b544e469012f3477082ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Cushion 1.a.png using Guid(97b11130a5b544e469012f3477082ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43536ab0d6e40906abb177e16e61ee59') in 0.044380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 2.b.png
+  artifactKey: Guid(9794604d3dbad574cb08e6bb5fedf076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 2.b.png using Guid(9794604d3dbad574cb08e6bb5fedf076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f26240d66e0c1c6a121201e37edcf5e8') in 0.020089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Scroll 4.png
+  artifactKey: Guid(1137a07242d25914cabc0d41c72892a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Scroll 4.png using Guid(1137a07242d25914cabc0d41c72892a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aea31901737f63eb8ced7e75b37adb2c') in 0.023902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Armillary sphere - Brass.png
+  artifactKey: Guid(9f72b7887508b1c448568b4feaefd084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Armillary sphere - Brass.png using Guid(9f72b7887508b1c448568b4feaefd084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49cc4c6bfdcdf19a67c0e845a4061cbd') in 0.057677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 13 - Full.png
+  artifactKey: Guid(a0715b00ff2446548a3859fb9b7d4324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 13 - Full.png using Guid(a0715b00ff2446548a3859fb9b7d4324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6df78c0894bde993147ff1829cec7a59') in 0.026278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pumpkin.png
+  artifactKey: Guid(b34eba7f446217f4e8e6d42c74420bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pumpkin.png using Guid(b34eba7f446217f4e8e6d42c74420bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ccfa421377eb95eb70ffbc982baa17ca') in 0.035116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Deer.png
+  artifactKey: Guid(448fddc54530e4c4190c3e90ecb67d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Deer.png using Guid(448fddc54530e4c4190c3e90ecb67d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ad24a3f0d8715d5eb2b5cac59bc62b6') in 0.037446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Simple 5 - Dark.png
+  artifactKey: Guid(4d3be840fc357fa44bb4011fd8868e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Simple 5 - Dark.png using Guid(4d3be840fc357fa44bb4011fd8868e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2445843c29e9df28b632392bc12296d') in 0.023965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Rug 6.d.png
+  artifactKey: Guid(ccb74c4bf445f0d46916bc38320a5a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Rug 6.d.png using Guid(ccb74c4bf445f0d46916bc38320a5a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e47b983f47fce9cb42b566db8d2026ec') in 0.052032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 3.c.png
+  artifactKey: Guid(16959d6831d8836478fdbfc54bd2fbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 3.c.png using Guid(16959d6831d8836478fdbfc54bd2fbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6722f8bd2f5c30a725011f3ac87a008b') in 0.031013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Weapon - Shield 2.png
+  artifactKey: Guid(3b00cb584be5f5f4da1847ab17892559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Weapon - Shield 2.png using Guid(3b00cb584be5f5f4da1847ab17892559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd00568ca31ab80411d65508040295f62') in 0.052206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Book pile 5.a.png
+  artifactKey: Guid(8816cc29e82410142b56a27bbbe604a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Book pile 5.a.png using Guid(8816cc29e82410142b56a27bbbe604a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93fe87cd7408b3dcbe8305fc09d0e66d') in 0.047488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Lit.png
+  artifactKey: Guid(c9e9377136ed26142a88676767dd5763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Lantern - Lit.png using Guid(c9e9377136ed26142a88676767dd5763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5afa289cfb66f03265af59d9e10f34f') in 0.027511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Book pile 3.a.png
+  artifactKey: Guid(4ddd45ea959167c43b968239083a9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Book pile 3.a.png using Guid(4ddd45ea959167c43b968239083a9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c24e210b1c9ee317219600c85987ab87') in 0.063327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Wolf 1.png
+  artifactKey: Guid(2b0ebfaa03e0e42498a3d789d64869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Wolf 1.png using Guid(2b0ebfaa03e0e42498a3d789d64869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23ebf98ff3064531d33609f024e8b7fd') in 0.035071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Bear 1.png
+  artifactKey: Guid(5e85dc0e5f873524dad481339a300c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Bear 1.png using Guid(5e85dc0e5f873524dad481339a300c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a00e3d26989338be64b3a96861934492') in 0.026836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Telescope - Small - Gold.png
+  artifactKey: Guid(f9e0c43a6e821224cbcc9b5fc983822c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Telescope - Small - Gold.png using Guid(f9e0c43a6e821224cbcc9b5fc983822c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23d22fcf901bda175e2448710d594d90') in 0.033761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Telescope - Huge - Gold.png
+  artifactKey: Guid(b9cbc17213c894245994bcb461e6557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Telescope - Huge - Gold.png using Guid(b9cbc17213c894245994bcb461e6557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c6a4ede29a2a8af2414849e0eb3a765') in 0.040034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Dresser 1 - Dark.png
+  artifactKey: Guid(1ef9a8815dbbc8f47a15d8dec5eb39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Dresser 1 - Dark.png using Guid(1ef9a8815dbbc8f47a15d8dec5eb39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ddb4e0a722ee51ce728b034812c7ac15') in 0.030576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Small - Empty - Dark.png
+  artifactKey: Guid(738b46910f1b7ec4cb4f5f1ee3486996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Small - Empty - Dark.png using Guid(738b46910f1b7ec4cb4f5f1ee3486996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46c8714099620f87a6480f2822cb333f') in 0.023620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Spinning wheel.png
+  artifactKey: Guid(26ae05786a5b33941b5863d757a2cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Spinning wheel.png using Guid(26ae05786a5b33941b5863d757a2cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e158def6721ea044ce6b3a18b7479c8a') in 0.027750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Skull - Human.png
+  artifactKey: Guid(ffbd8fa9b742d4b4193197dae141412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Skull - Human.png using Guid(ffbd8fa9b742d4b4193197dae141412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40503b2177c29bac8ca20bd0bb4e8a78') in 0.049532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.f.png
+  artifactKey: Guid(83401ba9712869140a76898b71f6dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.f.png using Guid(83401ba9712869140a76898b71f6dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '378193198ed1a954aaedb0b8105ca6b6') in 0.026557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 13 - Thin.png
+  artifactKey: Guid(c071d9d957b72254d94e380700d3f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 13 - Thin.png using Guid(c071d9d957b72254d94e380700d3f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e82532c37d41d5aad3c9ad620b125e6') in 0.029233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pictures 4.png
+  artifactKey: Guid(2a6d6d4d0644db3468c94c8c4cbcea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pictures 4.png using Guid(2a6d6d4d0644db3468c94c8c4cbcea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b958a1ba3849be824aac952c762add48') in 0.039865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 3 - Lit - Gold.png
+  artifactKey: Guid(db9bcca543ec6584ba21fc1879a52b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 3 - Lit - Gold.png using Guid(db9bcca543ec6584ba21fc1879a52b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '967cf1b6b707df6fa8a010e1c5abaae6') in 0.029632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards cue.png
+  artifactKey: Guid(f2b19b394a6321f458ca817b1d5c0603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards cue.png using Guid(f2b19b394a6321f458ca817b1d5c0603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce45f1988e02565e82d8a5515c8735b5') in 0.039452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Stool 1 - Dark.png
+  artifactKey: Guid(80f057d45ad4db94894e83c47bb69255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Stool 1 - Dark.png using Guid(80f057d45ad4db94894e83c47bb69255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4251ca217b0826bc4e960a4fab0d2c5') in 0.019299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 1 - Blue - 2x2.png
+  artifactKey: Guid(119807fc0e16ec24abdb7601cdadcfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 1 - Blue - 2x2.png using Guid(119807fc0e16ec24abdb7601cdadcfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48eb21eccf9875a7d99d87947a23686b') in 0.044903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 7.i.png
+  artifactKey: Guid(3cdd5ad6c2e31a54489ba3c7668f6ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 7.i.png using Guid(3cdd5ad6c2e31a54489ba3c7668f6ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5af6411bfe9372320e3f9000c5e584d3') in 0.028927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 2 - Blue - 2x2.png
+  artifactKey: Guid(e7b0014d5625c1546847f902794235f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Cyberpunk Street Assets/Assets - 300 DPI/Bus stop 2 - Blue - 2x2.png using Guid(e7b0014d5625c1546847f902794235f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19e12db9f1330cbb460dac75f2adf5c7') in 0.045942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Moose.png
+  artifactKey: Guid(35d8ede50c3f86245b6ce834554df096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Moose.png using Guid(35d8ede50c3f86245b6ce834554df096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e6f7e1ba32657e525c9dd93f73ea11d') in 0.020568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Statue 2 - Stone.png
+  artifactKey: Guid(bc6505938f4c80a42a85f45aa13d7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Statue 2 - Stone.png using Guid(bc6505938f4c80a42a85f45aa13d7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc07ca273877a21166f156be196a1207') in 0.040886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 8 - Thin.png
+  artifactKey: Guid(e74cd3f2f0041a247bc751ca915eb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Webs 8 - Thin.png using Guid(e74cd3f2f0041a247bc751ca915eb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '369309186e067ae04e5cc08d0f93a2af') in 0.026251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pictures 1.png
+  artifactKey: Guid(c01f0ce332dad94489c33b694765499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Pictures 1.png using Guid(c01f0ce332dad94489c33b694765499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a3339a048d361d9ed3e2f73e3c7514c2') in 0.047640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Rug - Doormat 7.png
+  artifactKey: Guid(b756efdb2a009954b8ea82049d06785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Rug - Doormat 7.png using Guid(b756efdb2a009954b8ea82049d06785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94aca64bf5c4cd85dae1a4242bb69e05') in 0.026564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Orrery - Small - Gold.png
+  artifactKey: Guid(cc88b4ba7d4253841b6fdbf5051d49f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Orrery - Small - Gold.png using Guid(cc88b4ba7d4253841b6fdbf5051d49f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4369097464d4df7ac6e582589a92c284') in 0.045218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Lit - Iron.png
+  artifactKey: Guid(1c048757f0ab3424e9e9025452cecf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier 2 - Lit - Iron.png using Guid(1c048757f0ab3424e9e9025452cecf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0272b0d7073c6294175211d639778e21') in 0.026010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 3 - Thin.png
+  artifactKey: Guid(83cab017e72f30247917253430fe864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 3 - Thin.png using Guid(83cab017e72f30247917253430fe864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e459528d7ce65f37ea2cdb03126cdf11') in 0.042904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - End 5.1.png
+  artifactKey: Guid(3be01addd5acd1f478f382a634d65d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - End 5.1.png using Guid(3be01addd5acd1f478f382a634d65d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe429d2147c414d96bfa85a0a1b0f950') in 0.022417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Armchair 1.d.png
+  artifactKey: Guid(f8cc094babd07ba4d9624ff143165804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Armchair 1.d.png using Guid(f8cc094babd07ba4d9624ff143165804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '14b8e43abdea98c61f0a3363c0e5b4fa') in 0.033993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 5 - Full.png
+  artifactKey: Guid(6b4c6341bfce9f142ac9b6b352d2ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 5 - Full.png using Guid(6b4c6341bfce9f142ac9b6b352d2ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bb7cdc9f8d848953b548a54e764e395') in 0.022075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Loom 2.png
+  artifactKey: Guid(6ed862296e37a4846aa51454b519e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Feature - Loom 2.png using Guid(6ed862296e37a4846aa51454b519e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f094fbc2d0c445aee790890952a2ae87') in 0.023611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Modular shelf - Straight - Dark.png
+  artifactKey: Guid(12536ec7b2e682b43b56b674a17eca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Modular shelf - Straight - Dark.png using Guid(12536ec7b2e682b43b56b674a17eca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4141f7d73ea9a4131cbb6f5cf25c2da') in 0.040274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 2.b.png
+  artifactKey: Guid(be22dfc0200be6e4284c550ade22bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 2.b.png using Guid(be22dfc0200be6e4284c550ade22bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5eb5b6f34138a2f991947769ab282465') in 0.025761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Dresser 2 - Dark.png
+  artifactKey: Guid(6818639aa1f5b3b42acb394ac90ad677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Dresser 2 - Dark.png using Guid(6818639aa1f5b3b42acb394ac90ad677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '640769078243cd29f343e2981d2da82c') in 0.042541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Telescope - Ladder - Light.png
+  artifactKey: Guid(72056bc9601495447a2c48204004f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Telescope - Ladder - Light.png using Guid(72056bc9601495447a2c48204004f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '869442bc6c5cb1f9945c3f83439f8da3') in 0.024133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Scroll 2.png
+  artifactKey: Guid(5b2d97fd21b0e0e479271b5cf8a4d7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Scroll 2.png using Guid(5b2d97fd21b0e0e479271b5cf8a4d7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d0e69ff452e6a35a8ceb7add3006692') in 0.042548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier - Antler - Lit.png
+  artifactKey: Guid(daa19314f1f47f64a9b8cca05c4b5cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Chandelier - Antler - Lit.png using Guid(daa19314f1f47f64a9b8cca05c4b5cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e36d00df472ec3048a4b3f78fb88c69a') in 0.026325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Lion.png
+  artifactKey: Guid(a03bcc5c6ad91cc43a5e35f03b58f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Lion.png using Guid(a03bcc5c6ad91cc43a5e35f03b58f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34f1b8ca3cef1fc6c8118b2c9560e83e') in 0.046271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Table - Round 2 - Dark.png
+  artifactKey: Guid(dc0ffcc61c6b1724fa6a8a79c90b3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Table - Round 2 - Dark.png using Guid(dc0ffcc61c6b1724fa6a8a79c90b3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd84e035abffa79037bab79faf70a5b47') in 0.029708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Fish 2.b.png
+  artifactKey: Guid(5fab088a1a86c604584dab786a85e844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Fish 2.b.png using Guid(5fab088a1a86c604584dab786a85e844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2671abd7bdb51604f495348d2716ca0d') in 0.049936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Crate - Broken 2 - Dark.png
+  artifactKey: Guid(f0cf070cad5ed0f4e9712684ccc6248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Crate - Broken 2 - Dark.png using Guid(f0cf070cad5ed0f4e9712684ccc6248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04ce72079cf9962103c5b3ed7745072a') in 0.026242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 16 - Full.png
+  artifactKey: Guid(bd310f717243a9641ab50c44c656a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 16 - Full.png using Guid(bd310f717243a9641ab50c44c656a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7f8e7ef628a70b0ad69b84e8ddc8999') in 0.044140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Stool - Cushioned 1.png
+  artifactKey: Guid(08a5289164892b94da2a51eec387b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Stool - Cushioned 1.png using Guid(08a5289164892b94da2a51eec387b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7a455248683b395099cb525fd28917f') in 0.022379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 8 - Full.png
+  artifactKey: Guid(baab520bf5fff9f4ba4fc9167a67ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 8 - Full.png using Guid(baab520bf5fff9f4ba4fc9167a67ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa2e9fa163546afcfbd6564af0f1e4ce') in 0.044212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cooking - Oven 2.png
+  artifactKey: Guid(480d36bf5778c484ea5dd28961477004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Cooking - Oven 2.png using Guid(480d36bf5778c484ea5dd28961477004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29c92f30ad3438248e5bdc65ad933a00') in 0.023436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Piano 1.a.png
+  artifactKey: Guid(158d6beaad2a9b94db9740e6ba208395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Piano 1.a.png using Guid(158d6beaad2a9b94db9740e6ba208395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32126a52581a398e4f61804647ead102') in 0.035972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Scroll 3.png
+  artifactKey: Guid(1fed638a2a2fc5e4c8cfa8b76f151159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Scroll 3.png using Guid(1fed638a2a2fc5e4c8cfa8b76f151159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '692e0c40ef2dcd1c08d5a9ed0fc9bcc0') in 0.021446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Broken 2 - Dark.png
+  artifactKey: Guid(87378ca2e1271ce469ebadba906052a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Broken 2 - Dark.png using Guid(87378ca2e1271ce469ebadba906052a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da7705c6ce24e6846523fd02f60eb74e') in 0.024671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 1 - Lit - Gold.png
+  artifactKey: Guid(ddc5cd73cb102c04d95e2eae86720a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Chandelier 1 - Lit - Gold.png using Guid(ddc5cd73cb102c04d95e2eae86720a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1327e199d02fa78f00c0e4ea0a84d417') in 0.042751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 6 - Thin.png
+  artifactKey: Guid(ed9cba3df12950247bf545f73ced305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 6 - Thin.png using Guid(ed9cba3df12950247bf545f73ced305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '15ae741d58fa0f9bec6e41ccffbccdd4') in 0.024538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Rug - Animal skin.png
+  artifactKey: Guid(fdbcd8a675e3c5e4aa7bf2b1d61b43dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Rug - Animal skin.png using Guid(fdbcd8a675e3c5e4aa7bf2b1d61b43dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '866dac1b709a31ff413ecf5bcdd42590') in 0.045396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 11 - Thin.png
+  artifactKey: Guid(dda486812345d424284e078aa654d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Webs 11 - Thin.png using Guid(dda486812345d424284e078aa654d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5eb32529dbdde50c54c142c12c042a17') in 0.024259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Anvil 2.png
+  artifactKey: Guid(629cdf0900e7d9d48b5892c3510d195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Anvil 2.png using Guid(629cdf0900e7d9d48b5892c3510d195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '352762e661eba67bf192debb7ff53b71') in 0.045261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Papers.png
+  artifactKey: Guid(bf8361902c407e149b24118a08ecb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Papers.png using Guid(bf8361902c407e149b24118a08ecb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8a2b28cb23f688f36828edbb6fdd88a') in 0.048276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 7.g.png
+  artifactKey: Guid(83c22a99f93fd7e41ac26fe07ea97397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 7.g.png using Guid(83c22a99f93fd7e41ac26fe07ea97397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0976471df2a761ccaa8a8fd51ada047') in 0.026575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Grindstone - Light.png
+  artifactKey: Guid(a84921d7f2145cd4d86dbfb87dd50048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Grindstone - Light.png using Guid(a84921d7f2145cd4d86dbfb87dd50048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32abd299759844dc06ac06bde338cba6') in 0.041057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards balls 3.png
+  artifactKey: Guid(7b6c0941250db4b469dc26d32213d480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards balls 3.png using Guid(7b6c0941250db4b469dc26d32213d480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d1b5265d60e3353dae006b0573dfe69') in 0.023628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Shelf - Dark.png
+  artifactKey: Guid(b2c366dba82138f49ba031c70072ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Storage - Shelf - Dark.png using Guid(b2c366dba82138f49ba031c70072ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bb70d10748ff3caabc09b0f7f172721') in 0.024909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Wolf 1.png
+  artifactKey: Guid(a5f01a565115bcf44ab80041744be854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Trophy - Wolf 1.png using Guid(a5f01a565115bcf44ab80041744be854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc9857a7863b6a471f2a1c01c2888e4b') in 0.022965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Suit of armor 1 - Silver.png
+  artifactKey: Guid(5afdf9e7cd288e34793ac017877cdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Suit of armor 1 - Silver.png using Guid(5afdf9e7cd288e34793ac017877cdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dc0d8509e01090d1f17e31a6c49b74a') in 0.020432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Cooking - Stove.png
+  artifactKey: Guid(aaaa895f4c5a640448843bf7dbe8eff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Cooking - Stove.png using Guid(aaaa895f4c5a640448843bf7dbe8eff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '936fa5f65f6427b6598d1024612dc4e0') in 0.021076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.a.png
+  artifactKey: Guid(5a11473817274124485ebea0f7f12a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 1.a.png using Guid(5a11473817274124485ebea0f7f12a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9de241dd636f96414dfd10307a2344bf') in 0.024840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 2.a.png
+  artifactKey: Guid(bf9e90e4165ef2943bd1c517b6f8302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Light - Brazier 2.a.png using Guid(bf9e90e4165ef2943bd1c517b6f8302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a6c25d8f50d0c65ad0353d5ed4dbf76') in 0.023374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 1.c.png
+  artifactKey: Guid(2480945ff48e4724590a8ebbd42e87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Light - Brazier 1.c.png using Guid(2480945ff48e4724590a8ebbd42e87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4e0e4d3863a8197261ebb4a8f13916a') in 0.025518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Scroll 2.png
+  artifactKey: Guid(913ae4c6bb5accb4f84917f836e46e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Scroll 2.png using Guid(913ae4c6bb5accb4f84917f836e46e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b91a125cdaa4b32c1ac81b732419fd3c') in 0.025881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Grindstone - Dark.png
+  artifactKey: Guid(80af6a049395f3e499a04b8f81cc24df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Clutter - Grindstone - Dark.png using Guid(80af6a049395f3e499a04b8f81cc24df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8e6e77168a7b5932fbf166015d3cdee') in 0.044606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Wicker basket lid.png
+  artifactKey: Guid(dd539f81530cc734fbff2671a202e85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Storage - Wicker basket lid.png using Guid(dd539f81530cc734fbff2671a202e85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5119c9aa1e2300db6c82486e7baf319') in 0.039530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Fish 1.a.png
+  artifactKey: Guid(37b22ddca5a9b634188e1bef789901e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Trophy - Fish 1.a.png using Guid(37b22ddca5a9b634188e1bef789901e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b45d6ee750f14e0981949104aef6cb02') in 0.025764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Broken 1 - Dark.png
+  artifactKey: Guid(3d8d38eab6e4fa946af3c86ebf2ab915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 300 DPI (Print)/Table - Broken 1 - Dark.png using Guid(3d8d38eab6e4fa946af3c86ebf2ab915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '189c62ef8a145cb64d787ac4f48b7847') in 0.036905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Curtain 1.png
+  artifactKey: Guid(390f65c57a7c6484585ae3aa0db24441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Curtain 1.png using Guid(390f65c57a7c6484585ae3aa0db24441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86b85fa723947ed5ba82d7cdeaff42b0') in 0.028729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Bench 2 - Dark.png
+  artifactKey: Guid(0ef83498764d0ca47adfd235a8aedc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Chair - Bench 2 - Dark.png using Guid(0ef83498764d0ca47adfd235a8aedc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bc12fc2555a17520982f193c9f7c37e') in 0.015250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.e.png
+  artifactKey: Guid(5abff24ec00a759478f77837b3e80a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Bed - Pattern 1.e.png using Guid(5abff24ec00a759478f77837b3e80a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebe0ccc448fcab40fb34cbecdbabe444') in 0.028396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Small - Full - Dark.png
+  artifactKey: Guid(24cfb96111b5f4444b100087939ecef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Bath tub - Small - Full - Dark.png using Guid(24cfb96111b5f4444b100087939ecef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d9ed0fa27213debc4189b6f3983d42c') in 0.026199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards ball.png
+  artifactKey: Guid(ccfd8a8b5fc200845b25d3d2740eb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Billiards ball.png using Guid(ccfd8a8b5fc200845b25d3d2740eb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a02f7394a8b3472d47b9302898c8b8a9') in 0.038085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Statue 2 - Stone.png
+  artifactKey: Guid(638cd1fcbc1a82440a9116ab3b620b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Feature - Statue 2 - Stone.png using Guid(638cd1fcbc1a82440a9116ab3b620b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5dce8fb19c4bdb101be8bee5c2d0db8c') in 0.027502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Grindstone - Dark.png
+  artifactKey: Guid(4966c3b93f7507d4e89fa0acbd3534eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Furniture Map Assets/Assets - 70 DPI (VTT)/Clutter - Grindstone - Dark.png using Guid(4966c3b93f7507d4e89fa0acbd3534eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3d4ca92bd4d7e6bdb048dc7349190aa') in 0.040933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: De I/O-bewerking is afgebroken vanwege het afsluiten van een thread of vanwege een opdracht van een toepassing.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

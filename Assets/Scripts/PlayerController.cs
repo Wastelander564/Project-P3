@@ -13,39 +13,42 @@ public class PlayerController : MonoBehaviour
     private bool isSlowWalking = false;
     private bool isVaulting = false;
     private Transform vaultableObject;
-     public float tiltSpeed = 5f; 
+    public GameObject vaultPromptUI;
 
-    public GameObject vaultPromptUI; 
-    private Rigidbody2D rb; 
+    private Rigidbody2D rb;
+
+    // Camera follow variables
+    public Transform cameraTransform; // The camera's transform
+    public float followSpeed = 5f; // How quickly the camera follows the player
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
-        rb.gravityScale = 0; 
-        rb.freezeRotation = true; 
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+        rb.freezeRotation = true;
 
         moveSpeed = normalSpeed;
-        vaultPromptUI.SetActive(false); 
+        vaultPromptUI.SetActive(false);
     }
 
+    // Camera follow method
+    void FollowCamera()
+    {
+        if (cameraTransform == null) return;
 
-void TiltCamera()
-{
-    float targetTiltX = Input.GetAxisRaw("Horizontal") * 2f;
-    float targetTiltY = Input.GetAxisRaw("Vertical") * 2f;
-
-    Quaternion targetRotation = Quaternion.Euler(targetTiltY, targetTiltX, 0);
-    
-    Camera.main.transform.localRotation = Quaternion.Lerp(
-        Camera.main.transform.localRotation, 
-        targetRotation, 
-        Time.deltaTime * tiltSpeed
-    );
-}
-
+        // Follow the player's position smoothly with the camera
+        Vector3 targetPosition = new Vector3(rb.position.x, rb.position.y, cameraTransform.position.z);
+        cameraTransform.position = Vector3.Lerp(cameraTransform.position, targetPosition, Time.deltaTime * followSpeed);
+    }
 
     private void Update()
     {
+
+        if (!isVaulting)
+        {
+            Move();
+        }
+
         if (!isVaulting)
         {
             HandleSpeedModifiers();
@@ -55,16 +58,11 @@ void TiltCamera()
         {
             StartCoroutine(VaultOverObject(vaultableObject));
         }
-
-        TiltCamera(); 
     }
 
-    private void FixedUpdate() 
+    private void FixedUpdate()
     {
-        if (!isVaulting)
-        {
-            Move();
-        }
+       FollowCamera();
     }
 
     void HandleSpeedModifiers()
@@ -92,22 +90,21 @@ void TiltCamera()
 
         if (moveX == 0 && moveY == 0)
         {
-            rb.velocity = Vector2.zero; 
+            rb.velocity = Vector2.zero;
             return;
         }
 
         Vector2 moveDirection = new Vector2(moveX, moveY).normalized;
-        rb.velocity = moveDirection * moveSpeed; 
+        rb.velocity = moveDirection * moveSpeed;
     }
 
     IEnumerator VaultOverObject(Transform vaultable)
     {
         isVaulting = true;
-        vaultPromptUI.SetActive(false); 
+        vaultPromptUI.SetActive(false);
 
         Vector3 startPos = transform.position;
         Vector3 vaultTarget = GetVaultTargetPosition(vaultable);
-
         float elapsedTime = 0f;
 
         while (elapsedTime < vaultDuration)
@@ -129,7 +126,6 @@ void TiltCamera()
         Vector3 vaultPosition = vaultable.position;
         float objectWidth = vaultCollider.bounds.size.x;
         float objectHeight = vaultCollider.bounds.size.y;
-
         Vector3 targetPosition = transform.position;
 
         if (transform.position.x < vaultPosition.x)
@@ -166,7 +162,7 @@ void TiltCamera()
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = other.transform;
-            vaultPromptUI.SetActive(true); 
+            vaultPromptUI.SetActive(true);
         }
         else if (other.CompareTag("SlowZone"))
         {
@@ -179,7 +175,7 @@ void TiltCamera()
         if (other.CompareTag("Vaultable"))
         {
             vaultableObject = null;
-            vaultPromptUI.SetActive(false); 
+            vaultPromptUI.SetActive(false);
         }
         else if (other.CompareTag("SlowZone"))
         {
