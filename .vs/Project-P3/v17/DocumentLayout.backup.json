@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\projects2024school\\GitHub\\Project-P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
               "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAB0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T12:34:49.638Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T12:34:35.636Z",
               "EditorCaption": ""
@@ -60,7 +60,8 @@
               "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:42:16.438Z"
+              "WhenOpened": "2025-03-27T12:42:16.438Z",
+              "EditorCaption": ""
             }
           ]
         }
