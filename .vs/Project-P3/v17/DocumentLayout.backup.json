@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\projects2024school\\GitHub\\Project-P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\pointincreasingitemscripts\\coinbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pointincreasingitemscripts\\coinbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\upgrades\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\upgrades\\upgradesmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgrades\\upgradesmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\pointincreasingitemscripts\\coincollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pointincreasingitemscripts\\coincollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\test\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpgradesMain.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwCMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Wire.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T12:16:33.574Z",
+              "WhenOpened": "2025-03-27T12:34:49.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CoinBank.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "WireGame.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T12:16:58.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CoinCollider.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinCollider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T12:25:55.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Test\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Test\\GameManager.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Test\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Test\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T12:36:59.268Z",
+              "WhenOpened": "2025-03-27T12:34:35.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Cash.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\Cash.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Upgrades\\Cash.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\Cash.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Upgrades\\Cash.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABhAAAAAAAAAA==",
+              "Title": "MiniGame.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T12:39:23.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetectionCone.cs",
-              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T12:48:34.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T12:42:16.438Z"
             }
           ]
         }

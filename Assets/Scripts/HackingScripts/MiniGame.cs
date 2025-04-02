@@ -9,7 +9,7 @@ public class MiniGame : MonoBehaviour
     protected Detector detector;
     public bool canPlay;
 
-    private void Update()
+    protected void Update()
     {
         if(detector == null) detector = GameManager.Instance.Player().GetComponent<Detector>();
 
@@ -21,13 +21,16 @@ public class MiniGame : MonoBehaviour
     public void LoseLife()
     {
         lives--;
+        Debug.Log(lives);
     }
 
     private void GameOver()
     {
+        Debug.Log("Ik werk");
         gameObject.SetActive(false);
         GameManager.Instance.Player().SetActive(true);
         detector.detectionValue = detector.slider.maxValue;
+        Debug.Log("Ik niet");
     }
 
     public virtual void ResetGame()
