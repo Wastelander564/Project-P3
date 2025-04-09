@@ -300,4 +300,44 @@ Library/PackageManager/ProjectCache.md5
 Library/SceneVisibilityState.asset
 Library/Search/transactions.db
 Library/SourceAssetDB
+<<<<<<< HEAD
 >>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
+=======
+Library/APIUpdater/project-dependencies.graph
+Library/ArtifactDB
+Library/ArtifactDB-lock
+Library/Bee/1900b0aE-inputdata.json
+Library/Bee/1900b0aE.dag
+Library/Bee/1900b0aE.dag.json
+Library/Bee/1900b0aE.dag.payloads
+Library/Bee/1900b0aE.dag_derived
+Library/Bee/backend2.traceevents
+Library/Bee/buildprogram0.traceevents
+Library/Bee/fullprofile.json
+Library/Bee/tundra.digestcache
+Library/Bee/tundra.log.json
+Library/Bee/TundraBuildState.state
+Library/Bee/TundraBuildState.state.map
+Library/EditorUserBuildSettings.asset
+Library/expandedItems
+Library/ilpp.pid
+Library/InspectorExpandedItems.asset
+Library/LastSceneManagerSetup.txt
+Library/PackageManager/ProjectCache
+Library/PackageManager/ProjectCache.md5
+Library/SceneVisibilityState.asset
+Library/ScriptMapper
+Library/Search/transactions.db
+Library/ShaderCache/EditorEncounteredVariants
+Library/ShaderCache/shader/ProfileAnalyzerShader493b/00/3feb9809c432e693f3cec46c6dc91ded.bin
+Library/ShaderCache/shader/ProfileAnalyzerShader493b/00/4d8599ebe7097f478454a9ac79d6f50c.bin
+Library/SourceAssetDB
+Library/SourceAssetDB-lock
+Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
+Logs/AssetImportWorker2-prev.log
+Logs/AssetImportWorker3-prev.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+>>>>>>> parent of a9f54b7c (Revert "gitignore update")
