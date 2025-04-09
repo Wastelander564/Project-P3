@@ -23,8 +23,9 @@ public class WireGame : MiniGame
         correctWires++;
     }
 
-    private void Update()
+    private new void Update()
     {
+        base.Update();
         if(correctWires == 4)
         {
             Win();

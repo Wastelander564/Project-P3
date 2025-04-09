@@ -26,8 +26,9 @@ public class BarValue : MiniGame
         }
     }
 
-    private void Update()
+    private new void Update()
     {
+        base.Update();
         if (Mathf.Abs(playerBar.value - answerSlider.value) < 1f) // Tolerantie van 1
         {
             playerBar.value = answerMaxValue;
