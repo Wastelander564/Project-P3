@@ -16663,7 +16663,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1150908,
+=======
+      "PayloadOffset": 1150296,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 34653,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -16676,7 +16680,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1185648,
+=======
+      "PayloadOffset": 1185036,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -17189,7 +17197,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1185744,
+=======
+      "PayloadOffset": 1185132,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 9210,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -17434,7 +17446,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp",
       "DisplayName": "Writing 4747638433968585886.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1195043,
+=======
+      "PayloadOffset": 1194431,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 44305,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -17824,7 +17840,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13686715218353603589.rsp",
       "DisplayName": "Writing 13686715218353603589.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1239438,
+=======
+      "PayloadOffset": 1238826,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29314,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -18792,7 +18812,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12812556936427222528.rsp",
       "DisplayName": "Writing 12812556936427222528.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1268842,
+=======
+      "PayloadOffset": 1268230,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30580,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -19890,7 +19914,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11399202204774354758.rsp",
       "DisplayName": "Writing 11399202204774354758.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1299512,
+=======
+      "PayloadOffset": 1298900,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29345,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -20990,7 +21018,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12697856024727907050.rsp",
       "DisplayName": "Writing 12697856024727907050.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1328947,
+=======
+      "PayloadOffset": 1328335,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30591,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -22090,7 +22122,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3648465134513896125.rsp",
       "DisplayName": "Writing 3648465134513896125.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1359627,
+=======
+      "PayloadOffset": 1359015,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30586,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -23190,7 +23226,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/16285879237017002407.rsp",
       "DisplayName": "Writing 16285879237017002407.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1390303,
+=======
+      "PayloadOffset": 1389691,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30607,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -24290,7 +24330,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/14832617886295879631.rsp",
       "DisplayName": "Writing 14832617886295879631.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1421000,
+=======
+      "PayloadOffset": 1420388,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29360,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -25390,7 +25434,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1418726328684876121.rsp",
       "DisplayName": "Writing 1418726328684876121.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1450449,
+=======
+      "PayloadOffset": 1449837,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29396,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -26490,7 +26538,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11344994280883157806.rsp",
       "DisplayName": "Writing 11344994280883157806.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1479935,
+=======
+      "PayloadOffset": 1479323,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29349,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -27590,7 +27642,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5916180605834378387.rsp",
       "DisplayName": "Writing 5916180605834378387.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1509373,
+=======
+      "PayloadOffset": 1508761,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29333,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -28690,7 +28746,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5546506141355401238.rsp",
       "DisplayName": "Writing 5546506141355401238.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1538795,
+=======
+      "PayloadOffset": 1538183,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29363,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -29790,7 +29850,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/16830984227833555321.rsp",
       "DisplayName": "Writing 16830984227833555321.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1568248,
+=======
+      "PayloadOffset": 1567636,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30634,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -30892,7 +30956,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5521740788080646575.rsp",
       "DisplayName": "Writing 5521740788080646575.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1598971,
+=======
+      "PayloadOffset": 1598359,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30764,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -31998,7 +32066,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3258459190130463912.rsp",
       "DisplayName": "Writing 3258459190130463912.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1629824,
+=======
+      "PayloadOffset": 1629212,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 29398,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -33100,7 +33172,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/14402696373757716438.rsp",
       "DisplayName": "Writing 14402696373757716438.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1659312,
+=======
+      "PayloadOffset": 1658700,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30736,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -34204,7 +34280,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12248871281822510316.rsp",
       "DisplayName": "Writing 12248871281822510316.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1690138,
+=======
+      "PayloadOffset": 1689526,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30635,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -35306,7 +35386,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11295897478892413411.rsp",
       "DisplayName": "Writing 11295897478892413411.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1720863,
+=======
+      "PayloadOffset": 1720251,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30661,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -36408,7 +36492,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/14814235663552238418.rsp",
       "DisplayName": "Writing 14814235663552238418.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1751614,
+=======
+      "PayloadOffset": 1751002,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30647,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -37510,7 +37598,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10292501669419677951.rsp",
       "DisplayName": "Writing 10292501669419677951.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1782351,
+=======
+      "PayloadOffset": 1781739,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30647,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -38612,7 +38704,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6210570011482043853.rsp",
       "DisplayName": "Writing 6210570011482043853.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1813087,
+=======
+      "PayloadOffset": 1812475,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30905,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -39722,7 +39818,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8336928665352126947.rsp",
       "DisplayName": "Writing 8336928665352126947.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1844081,
+=======
+      "PayloadOffset": 1843469,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30827,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -40830,7 +40930,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2400031028012695012.rsp",
       "DisplayName": "Writing 2400031028012695012.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1874997,
+=======
+      "PayloadOffset": 1874385,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30805,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],
@@ -41936,7 +42040,11 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10678863128556690338.rsp",
       "DisplayName": "Writing 10678863128556690338.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1905892,
+=======
+      "PayloadOffset": 1905280,
+>>>>>>> parent of a2af218c (Extra minigame is done)
       "PayloadLength": 30338,
       "PayloadDebugContentSnippet": "\"unity-ilpp-899e3905794ebdf952",
       "Inputs": [],

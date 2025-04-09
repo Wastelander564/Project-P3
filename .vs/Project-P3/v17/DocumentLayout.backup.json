@@ -5,6 +5,7 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +22,14 @@
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\pointincreasingitemscripts\\coinbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pointincreasingitemscripts\\coinbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of a2af218c (Extra minigame is done)
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\upgrades\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,6 +60,9 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
               "DocumentIndex": 3,
               "Title": "UpgradesMain.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
@@ -58,6 +70,7 @@
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
               "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwCMAAAAJAAAAAAAAAA==",
+<<<<<<< HEAD
 =======
               "DocumentIndex": 0,
               "Title": "Wire.cs",
@@ -70,6 +83,8 @@
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:16:33.574Z",
               "EditorCaption": ""
@@ -78,12 +93,16 @@
               "$type": "Document",
               "DocumentIndex": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
               "Title": "CoinBank.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
               "RelativeToolTip": "Assets\\Scripts\\PointIncreasingItemScripts\\CoinBank.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+<<<<<<< HEAD
 =======
               "Title": "WireGame.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
@@ -95,6 +114,8 @@
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:16:58.818Z",
               "EditorCaption": ""
@@ -137,6 +158,9 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
               "WhenOpened": "2025-03-26T12:39:23.13Z",
               "EditorCaption": ""
             },
@@ -152,12 +176,15 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:48:34.189Z",
               "EditorCaption": ""
+<<<<<<< HEAD
 =======
               "WhenOpened": "2025-03-27T12:42:16.438Z"
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
               "WhenOpened": "2025-03-27T12:42:16.438Z"
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
             }
           ]
         }

@@ -606,6 +606,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 1919823898}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &84978265
 GameObject:
@@ -866,6 +867,8 @@ MonoBehaviour:
   m_Constraint: 1
   m_ConstraintCount: 1
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &97770319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,6 +2105,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 369100812}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &383536069
 GameObject:
@@ -2160,6 +2164,8 @@ MonoBehaviour:
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &409541366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,6 +3885,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 687718211}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &690373685
 GameObject:
@@ -4075,6 +4082,8 @@ LineRenderer:
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &697349072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,6 +4202,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722941673}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 --- !u!1 &727924032
@@ -4390,6 +4400,8 @@ LineRenderer:
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &730887656
 GameObject:
   m_ObjectHideFlags: 0
@@ -4894,6 +4906,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 818488764}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &822072309
 GameObject:
@@ -5090,6 +5103,8 @@ LineRenderer:
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &832726844
 GameObject:
   m_ObjectHideFlags: 0
@@ -6520,6 +6535,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1087137139}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &1095097956
 GameObject:
@@ -6716,6 +6732,8 @@ LineRenderer:
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &1131678001
 GameObject:
   m_ObjectHideFlags: 0
@@ -6977,6 +6995,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149581904}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 --- !u!1 &1169551163
@@ -7368,6 +7387,8 @@ LineRenderer:
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!224 &1187993036 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7677738585484010353, guid: 06c03341983eb744b8f93af4b357df14,
@@ -8663,6 +8684,7 @@ RectTransform:
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &1704209504
 GameObject:
@@ -8859,6 +8881,8 @@ LineRenderer:
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+>>>>>>> parent of a2af218c (Extra minigame is done)
 --- !u!1 &1704514546
 GameObject:
   m_ObjectHideFlags: 0
