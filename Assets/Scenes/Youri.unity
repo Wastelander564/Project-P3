@@ -2156,6 +2156,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detector: {fileID: 0}
   canPlay: 0
+<<<<<<< HEAD
+>>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 --- !u!1 &409541366
 GameObject:
