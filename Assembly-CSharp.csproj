@@ -88,8 +88,8 @@
     <Compile Include="Assets\Scripts\PointIncreasingItemScripts\CoinCollider.cs" />
     <Compile Include="Assets\Scripts\Upgrades\MessageLog.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
-    <Compile Include="Assets\Scripts\Menu&apos;s\Settings.cs" />
     <Compile Include="Assets\Scripts\Upgrades\Cash.cs" />
+    <Compile Include="Assets\Scripts\Menu&apos;s\Settings.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\Scripts\Upgrades\Descriptions.cs" />
     <Compile Include="Assets\Scripts\Test\YouriTestScript.cs" />
@@ -1034,21 +1034,21 @@
       <Project>{91FF1950-97C0-F90D-0E91-51729DD7E8DD}</Project>
       <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
-      <Project>{A48F7796-99EC-CA95-A91A-29CE58C6D553}</Project>
-      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.Aseprite.Editor.csproj">
       <Project>{BB88B30F-CE25-1D63-DCBA-848DBFB75EF1}</Project>
       <Name>Unity.2D.Aseprite.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="NavMeshPlus.csproj">
-      <Project>{7CE4ED24-D0F0-9F93-6B71-121C694B5721}</Project>
-      <Name>NavMeshPlus</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.Aseprite.Common.csproj">
       <Project>{96C002BC-8F83-13B8-69B6-46505C7599F6}</Project>
       <Name>Unity.2D.Aseprite.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{A48F7796-99EC-CA95-A91A-29CE58C6D553}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshPlus.csproj">
+      <Project>{7CE4ED24-D0F0-9F93-6B71-121C694B5721}</Project>
+      <Name>NavMeshPlus</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
       <Project>{92340F6F-F4C3-942D-878C-ADD093AC2D11}</Project>
