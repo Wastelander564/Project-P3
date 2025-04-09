@@ -3,14 +3,20 @@
   "WorkspaceRootPath": "C:\\projects2024school\\GitHub\\Project-P3\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\detectionscripts\\enemydetectionstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\enemydetectionstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of e399e7fb (now the push with everything closed)
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\detectioncone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\pointincreasingitemscripts\\coinbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pointincreasingitemscripts\\coinbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +35,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\test\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of e399e7fb (now the push with everything closed)
     }
   ],
   "DocumentGroupContainers": [
@@ -38,6 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -49,6 +60,19 @@
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
               "RelativeToolTip": "Assets\\Scripts\\Upgrades\\UpgradesMain.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwCMAAAAJAAAAAAAAAA==",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wire.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
+>>>>>>> parent of e399e7fb (now the push with everything closed)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:16:33.574Z"
             },
@@ -103,24 +127,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "DetectionCone.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
               "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\DetectionCone.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+=======
+              "Title": "WireGame.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+>>>>>>> parent of e399e7fb (now the push with everything closed)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:48:34.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "EnemyDetectionStates.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
               "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
+=======
+              "DocumentIndex": 2,
+              "Title": "MiniGame.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
+>>>>>>> parent of e399e7fb (now the push with everything closed)
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:51:41.519Z",
