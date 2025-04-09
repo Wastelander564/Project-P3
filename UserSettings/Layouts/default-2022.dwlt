@@ -21,6 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
@@ -29,6 +30,9 @@ MonoBehaviour:
 =======
   m_Title: Game
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+  m_Title: Hierarchy
+>>>>>>> parent of e399e7fb (now the push with everything closed)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
 >>>>>>> parent of e399e7fb (now the push with everything closed)
@@ -236,7 +240,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 630
+=======
+  controlID: 49
+>>>>>>> parent of e399e7fb (now the push with everything closed)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -262,7 +270,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 544
+=======
+  controlID: 50
+>>>>>>> parent of e399e7fb (now the push with everything closed)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -347,8 +359,8 @@ MonoBehaviour:
 =======
     width: 232
     height: 352.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -381,6 +393,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 39
 =======
   controlID: 51
@@ -388,6 +401,9 @@ MonoBehaviour:
 =======
   controlID: 545
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+  controlID: 51
+>>>>>>> parent of e399e7fb (now the push with everything closed)
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -1219,10 +1235,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 137.20001}
       m_SelectedIDs: ae460000
       m_LastClickedID: 0
       m_ExpandedIDs: 40bbfeff9ebdfefff8bdfeff8adffeff50e5fefff8eafeffeaeefeff58f4feff46f5feff88f5feffdcfffeffe61fffffae23fffffa23ffff3024ffff5224ffff8824ffffc824ffffe024fffff824ffff3225ffff3425ffff0a3effff5c40ffffb640ffff9e51ffffe8a50000fea5000056aa0000ec150100e81b01003e1c010086cf0100d6d2010088f30100fc120200
+=======
+      scrollPos: {x: 0, y: 140.70001}
+      m_SelectedIDs: 20520000
+      m_LastClickedID: 21024
+      m_ExpandedIDs: eee6fcff2cfbffff425000006a5000008c500000a6500000fe51000064520000f2520000
+>>>>>>> parent of e399e7fb (now the push with everything closed)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1395,7 +1418,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scripts/DetectionScripts
+=======
+    - Assets/Materials
+>>>>>>> parent of e399e7fb (now the push with everything closed)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1412,7 +1439,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: d0410000
     m_LastClickedID: 16848
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000184100006041000068410000a0410000d441000008420000104200001c420000244200003042000040420000784200008c420000bc420000f6790000
+=======
+    m_ExpandedIDs: 00000000c4540000c6540000c8540000ca540000cc540000ce540000d0540000d2540000d4540000
+>>>>>>> parent of e399e7fb (now the push with everything closed)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1437,24 +1468,31 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 589.5}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff0000000018410000604100006841000088410000a0410000d441000008420000104200001c420000244200003042000040420000784200008c420000bc420000f6790000
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a8a0ffffffffffff00000000c4540000c6540000c8540000ca540000cc540000ce540000d0540000d2540000d4540000f6540000
+>>>>>>> parent of e399e7fb (now the push with everything closed)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Wires
+      m_OriginalName: Wires
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -4804
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -1541,7 +1579,11 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
+<<<<<<< HEAD
   m_LastVerticalScrollValue: 0
+=======
+  m_LastVerticalScrollValue: 637.2
+>>>>>>> parent of e399e7fb (now the push with everything closed)
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

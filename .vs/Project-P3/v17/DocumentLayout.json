@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\detectionscripts\\enemydetectionstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\enemydetectionstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
@@ -78,6 +79,18 @@
       "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\test\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of e399e7fb (now the push with everything closed)
     }
   ],
   "DocumentGroupContainers": [
@@ -87,6 +100,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +126,12 @@
             {
               "$type": "Document",
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+>>>>>>> parent of e399e7fb (now the push with everything closed)
               "DocumentIndex": 0,
               "Title": "Wire.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
@@ -120,6 +140,9 @@
               "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
@@ -192,6 +215,9 @@
               "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
@@ -218,6 +244,7 @@
               "$type": "Document",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "EnemyDetectionStates.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\DetectionScripts\\EnemyDetectionStates.cs",
@@ -229,12 +256,18 @@
 >>>>>>> parent of e399e7fb (now the push with everything closed)
               "DocumentIndex": 2,
 <<<<<<< HEAD
+=======
+              "DocumentIndex": 2,
+>>>>>>> parent of e399e7fb (now the push with everything closed)
               "Title": "MiniGame.cs",
               "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
               "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)

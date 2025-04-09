@@ -2161,11 +2161,14 @@ MonoBehaviour:
   detector: {fileID: 0}
   canPlay: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of e399e7fb (now the push with everything closed)
 --- !u!1 &409541366
 GameObject:
   m_ObjectHideFlags: 0
