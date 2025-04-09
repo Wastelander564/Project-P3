@@ -14,7 +14,7 @@ public class FakeBreakdown : MonoBehaviour
     void Start()
     {
         timeLimit = PlayerPrefs.GetFloat("breakDownLimit");
-        if (timeLimit == 0) timeLimit = 3;
+        if (timeLimit == 0) timeLimit = 30;
         Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         playerController = GetComponent<PlayerController>();
