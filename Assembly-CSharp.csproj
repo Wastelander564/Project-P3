@@ -101,9 +101,11 @@
     <Compile Include="Assets\Scripts\Test\Goal.cs" />
     <Compile Include="Assets\Scripts\RotationPuzzelScripts\SolvePuzzel.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\Wires\WireGame.cs" />
     <Compile Include="Assets\Scripts\HackingScripts\MiniGame.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveSCripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\SpeedBoost.cs" />
+    <Compile Include="Assets\Scripts\HackingScripts\Wires\Wire.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveSCripts\EnemyChase.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\Invisiblity.cs" />
     <Compile Include="Assets\Scripts\MudScript.cs" />

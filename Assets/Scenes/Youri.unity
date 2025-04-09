@@ -607,7 +607,10 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &84978265
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,10 +645,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1783226978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -250}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &84978267
 MonoBehaviour:
@@ -659,7 +669,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &84978268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -866,9 +880,12 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 100}
   m_Constraint: 1
   m_ConstraintCount: 1
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &97770319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +1833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ccb1a934682fe428749c420cd75e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miniGame: {fileID: 980548434}
+  miniGame: {fileID: 383536069}
   isDown: 0
 --- !u!114 &312385434
 MonoBehaviour:
@@ -2106,7 +2123,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &383536069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,7 +2143,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 1
+=======
+  m_IsActive: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!224 &383536070
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2162,6 +2186,7 @@ MonoBehaviour:
   canPlay: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
@@ -2169,6 +2194,10 @@ MonoBehaviour:
 >>>>>>> parent of a2af218c (Extra minigame is done)
 =======
 >>>>>>> parent of e399e7fb (now the push with everything closed)
+=======
+  currentDrag: {fileID: 0}
+  Hoverd: {fileID: 0}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &409541366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3889,7 +3918,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &690373685
 GameObject:
   m_ObjectHideFlags: 0
@@ -3924,10 +3956,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 91620743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -250}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690373687
 MonoBehaviour:
@@ -3941,7 +3980,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &690373688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4084,9 +4127,12 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &697349072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4130,6 +4176,108 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2043594286}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &709776553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709776554}
+  - component: {fileID: 709776557}
+  - component: {fileID: 709776556}
+  - component: {fileID: 709776555}
+  m_Layer: 5
+  m_Name: CanvasForLineRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &709776554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709776553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 383536070}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &709776555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709776553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &709776556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709776553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &709776557
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709776553}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 6243811075955814951}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
 --- !u!1 &722941673
 GameObject:
   m_ObjectHideFlags: 0
@@ -4207,7 +4355,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &727924032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,10 +4393,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1783226978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -650}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &727924034
 MonoBehaviour:
@@ -4259,7 +4417,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &727924035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4402,9 +4564,12 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &730887656
 GameObject:
   m_ObjectHideFlags: 0
@@ -4910,7 +5075,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &822072309
 GameObject:
   m_ObjectHideFlags: 0
@@ -4945,10 +5113,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1783226978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -450}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &822072311
 MonoBehaviour:
@@ -4962,7 +5137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &822072312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4976,7 +5155,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_Color: {r: 0.05274439, g: 0, b: 1, a: 1}
+=======
+  m_Color: {r: 0.050980397, g: 0, b: 1, a: 1}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5105,9 +5288,12 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &832726844
 GameObject:
   m_ObjectHideFlags: 0
@@ -6539,7 +6725,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &1095097956
 GameObject:
   m_ObjectHideFlags: 0
@@ -6574,10 +6763,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1783226978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -850}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095097958
 MonoBehaviour:
@@ -6591,7 +6787,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &1095097959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6734,9 +6934,12 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &1131678001
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,7 +7203,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &1169551163
 GameObject:
   m_ObjectHideFlags: 0
@@ -7035,10 +7241,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 91620743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -450}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169551165
 MonoBehaviour:
@@ -7052,7 +7265,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &1169551166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7066,7 +7283,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_Color: {r: 0.05274439, g: 0, b: 1, a: 1}
+=======
+  m_Color: {r: 0.050980397, g: 0, b: 1, a: 1}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7229,10 +7450,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 91620743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -850}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1182617665
 MonoBehaviour:
@@ -7246,7 +7474,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &1182617666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7389,9 +7621,12 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!224 &1187993036 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7677738585484010353, guid: 06c03341983eb744b8f93af4b357df14,
@@ -7613,7 +7848,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 1664242249536777184, guid: d608aff57ebd0d046929e83a5b94bb5b,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7987,6 +8223,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477693490}
+  m_CullTransparentMesh: 1
+--- !u!1 &1492274005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492274006}
+  - component: {fileID: 1492274008}
+  - component: {fileID: 1492274007}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1492274006
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492274005}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 383536070}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1492274007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492274005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 096608b524ec93343a1f4eebd77d8011, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1492274008
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492274005}
   m_CullTransparentMesh: 1
 --- !u!1 &1524828546
 GameObject:
@@ -8688,7 +8999,10 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &1704209504
 GameObject:
   m_ObjectHideFlags: 0
@@ -8723,10 +9037,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 91620743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 250, y: -650}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704209506
 MonoBehaviour:
@@ -8740,7 +9061,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 846dc78f1be3cbc4e86761a0fc07888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   lineColor: {r: 1, g: 0, b: 0, a: 1}
+=======
+  isSucces: 0
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!114 &1704209507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8883,9 +9208,12 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
+<<<<<<< HEAD
 >>>>>>> parent of e399e7fb (now the push with everything closed)
 =======
 >>>>>>> parent of a2af218c (Extra minigame is done)
+=======
+>>>>>>> parent of 3dcd761c (Revert "Merge branch 'connectWires+Bugs' into DEV")
 --- !u!1 &1704514546
 GameObject:
   m_ObjectHideFlags: 0
@@ -9622,6 +9950,70 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1783226977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1783226978}
+  - component: {fileID: 1783226979}
+  m_Layer: 5
+  m_Name: Left wires
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1783226978
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783226977}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 84978266}
+  - {fileID: 822072310}
+  - {fileID: 727924033}
+  - {fileID: 1095097957}
+  m_Father: {fileID: 383536070}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 500, y: 0}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1783226979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783226977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 200
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 0, y: 100}
+  m_Constraint: 1
+  m_ConstraintCount: 1
 --- !u!1 &1816955542
 GameObject:
   m_ObjectHideFlags: 0
@@ -11138,18 +11530,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005009651, y: -0.0041747987}
+  m_Offset: {x: -0.025782809, y: -0.032289654}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 0.36, y: 0.36}
     newSize: {x: 0.7, y: 0.7}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14835048, y: 0.15670007}
+  m_Size: {x: 0.24742189, y: 0.21292979}
   m_EdgeRadius: 0
 --- !u!4 &3410252619936451200
 Transform:
@@ -11193,7 +11585,7 @@ Animator:
   m_GameObject: {fileID: 254419507751377797}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1932a4c5a6d98f3448f2acc27d6a3463, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11265,7 +11657,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 0.4850938}
+  m_LocalScale: {x: 2, y: 2, z: 0.4850938}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11278,6 +11670,7 @@ SceneRoots:
   - {fileID: 6508608583684089127}
   - {fileID: 597645475}
   - {fileID: 287052169}
+  - {fileID: 709776554}
   - {fileID: 1749679349}
   - {fileID: 1136866263218690378}
   - {fileID: 1909998556}
