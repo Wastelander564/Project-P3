@@ -168,6 +168,10 @@ public class PlayerController : MonoBehaviour
         {
             SetMoveSpeed(slowSpeed);
         }
+        else
+        {
+            return;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -180,6 +184,10 @@ public class PlayerController : MonoBehaviour
         else if (other.CompareTag("SlowZone"))
         {
             SetMoveSpeed(normalSpeed);
+        }
+        else
+        {
+            return;
         }
     }
 }
