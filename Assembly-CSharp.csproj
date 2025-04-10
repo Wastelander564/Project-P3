@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Test\YouriCamera.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveSCripts\EnemyPatrol2D.cs" />
     <Compile Include="Assets\Scripts\Test\Doors.cs" />
+    <Compile Include="Assets\Scripts\Ending.cs" />
     <Compile Include="Assets\Scripts\Upgrades\UpgradeDetectionBar.cs" />
     <Compile Include="Assets\Scripts\DetectionScripts\FakeBreakdown.cs" />
     <Compile Include="Assets\Scripts\CrushingWalls.cs" />
