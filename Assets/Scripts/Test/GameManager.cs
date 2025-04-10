@@ -26,9 +26,9 @@ public class GameManager : MonoBehaviour
     }
 
     // Hier kun je je game-logica toevoegen
-    void Update()
+    public int Karma()
     {
-        
+        return karma;
     }
 
     public void KarmaUp()
