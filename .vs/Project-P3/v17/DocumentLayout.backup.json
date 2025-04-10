@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\School\\jaar 2\\P3\\Project-P3\\",
+  "WorkspaceRootPath": "C:\\projects2024school\\GitHub\\Project-P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|d:\\school\\jaar 2\\p3\\project-p3\\assets\\scripts\\detectionscripts\\fakebreakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionscripts\\fakebreakdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|d:\\school\\jaar 2\\p3\\project-p3\\assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wiregame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|c:\\projects2024school\\github\\project-p3\\assets\\scripts\\obstacles\\pitfall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacles\\pitfall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|D:\\School\\jaar 2\\P3\\Project-P3\\assets\\scripts\\hackingscripts\\pistongame\\barvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\pistongame\\barvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|D:\\School\\jaar 2\\P3\\Project-P3\\assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|D:\\School\\jaar 2\\P3\\Project-P3\\assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hackingscripts\\wires\\wire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|C:\\projects2024school\\GitHub\\Project-P3\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B304522-7874-F080-DBBF-B86E856EFCA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,64 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FakeBreakdown.cs",
-              "DocumentMoniker": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "ToolTip": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DetectionScripts\\FakeBreakdown.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Title": "Dash.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Dash.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dash.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Dash.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dash.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:04:13.738Z",
+              "WhenOpened": "2025-04-10T18:03:34.67Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Wire.cs",
-              "DocumentMoniker": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
-              "ToolTip": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\Wire.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAuwEgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:04:12.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WireGame.cs",
-              "DocumentMoniker": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
-              "ToolTip": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\Wires\\WireGame.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:04:12.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MiniGame.cs",
-              "DocumentMoniker": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "ToolTip": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\MiniGame.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCQAAAAFAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALQSURBVDhP7ZNNSBtBFMff7maTmGSNSUyseKgS2GhoRSGVUhovBttSPBQ8iR9QoV7FSOtFMPSkIBGhIL1ZSqVgD1orDfHQekvYQ02irVFbFWvduNGkSY352N3upNtC8dBCoSd/MLPMvD9v3vzfDpzzzxDyFyJsRNdyt8VEXiUp0klS\u002Bht6qu5OHdXU1aRcm13LIE0ikTDobukMB5cPlDFfLDs4OGjmHFzpafMpHC4e5pAGRxOikC30YQWMEUiBKSgKDA88gxM4owCFV5aAtOdVikqGJ3hvOp0uzwrZ1wIIDF/g\u002B2QJYGgK7YaG/Z/8nSvsCq1SqMButoOW1AIv8pDjcws9l3q6UbLJ4OTN5d3lip3kDivpQg0XGpybR5vq48xxFMfxp9H\u002B6MNihcEvwSsfEx9pQRSgtaY1XV9RP95Y0eihjbTHorHM6PX6vBQLV1KVSbPWDBiGJUsUJaFaU22eUlJSVdi\u002BNLZQriLtM\u002B3zHc87RI/fw6ZSqSeSV0Y59Bvxr/H5sbdjIu2lX8bSscp4Mv6590WvaPPaRmTJDw834hugIlRgKDEEKYrqLisrOypGZURRxKWDLNw3Tn2SO0Fb6qnAlIVNs0SWz4IIos4\u002Bbi8WUUyowCXrpUHiJFqe4WcDJgITztn3s5AX8ten3037uua6ypl9Bnl9DzUKaYsJq6gqyBQyEIqF0PIMWq02KZXxoI1uCzVfbAYCI8JWk/X\u002B0LWhpM1kQx4uCLzwCGkVaHLVuGD1cBVdnXa/co\u002B4ql2gU\u002BuAO\u002BGATbGog88kmT\u002BeiJeH2bCNwImor8c3zyU48\u002BLWIiUd8GZ9YD2IchV/m8B2YNi36euMxCK0UWMEqXugITXoaiB5tDDgHGhDur\u002BhmBCxtL7k3k5su\u002Bc\u002BzMFeag\u002BkKsBqsEJ1afXS6O3Rbln2R369FLWgfgx5cGB5zCH55eB53oGJmCNH5PplyTn/BYDvQ\u002BM1Z9USxwoAAAAASUVORK5CYII=",
-              "WhenOpened": "2025-04-09T11:04:12.787Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BarValue.cs",
-              "DocumentMoniker": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "ToolTip": "D:\\School\\jaar 2\\P3\\Project-P3\\Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HackingScripts\\PistonGame\\BarValue.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAQAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALQSURBVDhP7ZNNSBtBFMff7maTmGSNSUyseKgS2GhoRSGVUhovBttSPBQ8iR9QoV7FSOtFMPSkIBGhIL1ZSqVgD1orDfHQekvYQ02irVFbFWvduNGkSY352N3upNtC8dBCoSd/MLPMvD9v3vzfDpzzzxDyFyJsRNdyt8VEXiUp0klS\u002Bht6qu5OHdXU1aRcm13LIE0ikTDobukMB5cPlDFfLDs4OGjmHFzpafMpHC4e5pAGRxOikC30YQWMEUiBKSgKDA88gxM4owCFV5aAtOdVikqGJ3hvOp0uzwrZ1wIIDF/g\u002B2QJYGgK7YaG/Z/8nSvsCq1SqMButoOW1AIv8pDjcws9l3q6UbLJ4OTN5d3lip3kDivpQg0XGpybR5vq48xxFMfxp9H\u002B6MNihcEvwSsfEx9pQRSgtaY1XV9RP95Y0eihjbTHorHM6PX6vBQLV1KVSbPWDBiGJUsUJaFaU22eUlJSVdi\u002BNLZQriLtM\u002B3zHc87RI/fw6ZSqSeSV0Y59Bvxr/H5sbdjIu2lX8bSscp4Mv6590WvaPPaRmTJDw834hugIlRgKDEEKYrqLisrOypGZURRxKWDLNw3Tn2SO0Fb6qnAlIVNs0SWz4IIos4\u002Bbi8WUUyowCXrpUHiJFqe4WcDJgITztn3s5AX8ten3037uua6ypl9Bnl9DzUKaYsJq6gqyBQyEIqF0PIMWq02KZXxoI1uCzVfbAYCI8JWk/X\u002B0LWhpM1kQx4uCLzwCGkVaHLVuGD1cBVdnXa/co\u002B4ql2gU\u002BuAO\u002BGATbGog88kmT\u002BeiJeH2bCNwImor8c3zyU48\u002BLWIiUd8GZ9YD2IchV/m8B2YNi36euMxCK0UWMEqXugITXoaiB5tDDgHGhDur\u002BhmBCxtL7k3k5su\u002Bc\u002BzMFeag\u002BkKsBqsEJ1afXS6O3Rbln2R369FLWgfgx5cGB5zCH55eB53oGJmCNH5PplyTn/BYDvQ\u002BM1Z9USxwoAAAAASUVORK5CYII=",
-              "WhenOpened": "2025-04-09T11:04:12.788Z"
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:13:43.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pitfall.cs",
+              "DocumentMoniker": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Obstacles\\Pitfall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacles\\Pitfall.cs",
+              "ToolTip": "C:\\projects2024school\\GitHub\\Project-P3\\Assets\\Scripts\\Obstacles\\Pitfall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacles\\Pitfall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:33:38.867Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public GameObject vaultPromptUI;
 
     private Rigidbody2D rb;
+    private Dash dash;
 
     // Camera follow variables
     public Transform cameraTransform; // The camera's transform
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
 
         moveSpeed = normalSpeed;
         vaultPromptUI.SetActive(false);
+        dash = GetComponent<Dash>();
     }
 
     // Camera follow method
@@ -44,12 +46,12 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
 
-        if (!isVaulting)
+        if (!isVaulting && !dash.IsDashing())
         {
             Move();
         }
 
-        if (!isVaulting)
+        if (!isVaulting && !dash.IsDashing())
         {
             HandleSpeedModifiers();
         }
@@ -69,17 +71,17 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift) && !isSlowWalking)
         {
-            moveSpeed = runSpeed;
+            moveSpeed = runSpeed + (PlayerPrefs.GetFloat("speed") * 2.5f);
         }
         else if (!isSlowWalking)
         {
-            moveSpeed = normalSpeed;
+            moveSpeed = normalSpeed + (PlayerPrefs.GetFloat("speed") * 1.5f);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             isSlowWalking = !isSlowWalking;
-            moveSpeed = isSlowWalking ? slowSpeed : normalSpeed;
+            moveSpeed = isSlowWalking ? slowSpeed + (PlayerPrefs.GetFloat("speed") * 1.5f) : normalSpeed + (PlayerPrefs.GetFloat("speed") * 1.5f);
         }
     }
 

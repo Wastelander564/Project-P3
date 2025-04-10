@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     private GameObject player;
     public bool hacked;
+
+    private int karma;
     void Awake()
     {
         if (Instance == null)
@@ -29,6 +31,10 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void KarmaUp()
+    {
+        karma++;
+    }
     public GameObject Player()
     {
         return player;

@@ -85,6 +85,8 @@
     <Compile Include="Assets\Scripts\HackingScripts\PistonGame\BarValue.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\HackingScripts\alphabetNumberGame\PasswordChecker.cs" />
+    <Compile Include="Assets\Scripts\Power-Ups\DashUnlock.cs" />
+    <Compile Include="Assets\Scripts\Upgrades\UpgradeSpeed.cs" />
     <Compile Include="Assets\Scripts\PointIncreasingItemScripts\CoinCollider.cs" />
     <Compile Include="Assets\Scripts\Upgrades\MessageLog.cs" />
     <Compile Include="Assets\ASSETS SHOP\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
@@ -107,6 +109,8 @@
     <Compile Include="Assets\Scripts\Power-Ups\SpeedBoost.cs" />
     <Compile Include="Assets\Scripts\HackingScripts\Wires\Wire.cs" />
     <Compile Include="Assets\Scripts\EnemyMoveSCripts\EnemyChase.cs" />
+    <Compile Include="Assets\Scripts\Obstacles\Pitfall.cs" />
+    <Compile Include="Assets\Scripts\Dash.cs" />
     <Compile Include="Assets\Scripts\Power-Ups\Invisiblity.cs" />
     <Compile Include="Assets\Scripts\MudScript.cs" />
     <Compile Include="Assets\Scripts\HackingScripts\PistonGame\Piston.cs" />

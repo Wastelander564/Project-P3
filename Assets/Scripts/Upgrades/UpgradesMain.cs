@@ -26,6 +26,7 @@ public class UpgradesMain : MonoBehaviour
         button.GetComponentInChildren<TextMeshProUGUI>().text = cost.ToString();
         messageLog = GetComponentInParent<MessageLog>();
         coinBank = GameManager.Instance.Player().GetComponentInChildren<CoinBank>();
+        Debug.Log(coinBank);
         level = PlayerPrefs.GetInt($"{upgradeName}" + "Level", level);
         cost = PlayerPrefs.GetFloat($"{upgradeName}" + "Cost", 100f * Mathf.Pow(2, level));
     }
